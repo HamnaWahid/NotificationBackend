@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "mongodb": "mongodb://localhost:27017/notificationManagerDevdb",
+  "postgresql": {
+    "database": "notificationManagerdb",
+    "host": "localhost"
+  }
+}

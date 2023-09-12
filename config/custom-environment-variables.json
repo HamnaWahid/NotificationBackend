@@ -1,0 +1,7 @@
+{
+  "db": "DATABASE",
+  "postgresql": {
+    "username": "NM_USER",
+    "password": "NM_PASSWORD"
+  }
+}
