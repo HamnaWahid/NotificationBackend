@@ -304,9 +304,10 @@ describe('listApplication', () => {
 
     expect(mockCountDocuments).toHaveBeenCalledWith({
       isActive: true,
+      isDeleted: false,
     });
 
-    expect(mockFind.sort).toHaveBeenCalledWith('name');
+    expect(mockFind.sort).toHaveBeenCalledWith({ appName: 1 });
 
     expect(mockFind.skip).toHaveBeenCalledWith(0);
 
@@ -341,9 +342,9 @@ describe('listApplication', () => {
 
     await listApplication(reqWithoutFilters, res);
 
-    expect(mockCountDocuments).toHaveBeenCalledWith({});
+    expect(mockCountDocuments).toHaveBeenCalledWith({ isDeleted: false });
 
-    expect(mockFind.sort).toHaveBeenCalledWith('name');
+    expect(mockFind.sort).toHaveBeenCalledWith({ appName: 1 });
 
     expect(mockFind.skip).toHaveBeenCalledWith(5); // Skip the first 5 items for page 2
 

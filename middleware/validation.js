@@ -2,24 +2,24 @@
 const Joi = require('joi');
 const status = require('http-status');
 
-const validateGetApp = (req, res, next) => {
-  const querySchema = Joi.object({
-    appName: Joi.string().min(3).max(50),
-    appDescription: Joi.string().min(3).max(50),
-    isActive: Joi.boolean(),
-    isDeleted: Joi.boolean(),
-    page: Joi.number().integer().min(1), // Page number, minimum 1
-    pageSize: Joi.number().integer().min(1),
-  });
+// const validateGetApp = (req, res, next) => {
+//   const querySchema = Joi.object({
+//     appName: Joi.string().min(3).max(50),
+//     appDescription: Joi.string().min(3).max(50),
+//     isActive: Joi.boolean(),
+//     isDeleted: Joi.boolean(),
+//     page: Joi.number().integer().min(1), // Page number, minimum 1
+//     pageSize: Joi.number().integer().min(1),
+//   });
 
-  const { error: queryError } = querySchema.validate(req.query);
-  if (queryError) {
-    return res
-      .status(status.BAD_REQUEST)
-      .json({ error: queryError.details[0].message });
-  }
-  next();
-};
+//   const { error: queryError } = querySchema.validate(req.query);
+//   if (queryError) {
+//     return res
+//       .status(status.BAD_REQUEST)
+//       .json({ error: queryError.details[0].message });
+//   }
+//   next();
+// };
 
 const validateApp = (req, res, next) => {
   const schema = Joi.object({
@@ -370,7 +370,7 @@ module.exports = {
   validateAppPatch,
   validateDeleteEvent,
   validateDeleteNotification,
-  validateGetApp,
+  // validateGetApp,
   validateGetEvent,
   validateGetNotifications,
   validateGetMessages,

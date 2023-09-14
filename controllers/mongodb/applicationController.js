@@ -41,7 +41,7 @@ async function listApplication(req, res) {
     if (key !== 'page' && key !== 'pageSize') {
       if (key === 'isActive' || key === 'isDeleted') {
         queryFilters[key] = value === 'true';
-      } else if (key === 'name') {
+      } else if (key === 'appName') {
         queryFilters[key] = { $regex: value, $options: 'i' };
       } else {
         queryFilters[key] = value;
@@ -57,13 +57,13 @@ async function listApplication(req, res) {
   if (Object.keys(queryFilters).length === 0) {
     totalApplications = await Application.countDocuments(queryFilters);
     applications = await Application.find({})
-      .sort('name')
+      .sort({ appName: 1 })
       .skip((page - 1) * pageSize)
       .limit(pageSize);
   } else {
     totalApplications = await Application.countDocuments(queryFilters);
     applications = await Application.find(queryFilters)
-      .sort('name')
+      .sort({ appName: 1 })
       .skip((page - 1) * pageSize)
       .limit(pageSize);
   }

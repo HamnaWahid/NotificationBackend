@@ -20,7 +20,7 @@ const {
   deactivateApplication,
 } = require(`../controllers/${dbName}/applicationController`);
 
-router.get('/', validateGetApp, listApplication);
+router.get('/', listApplication);
 
 router.post('/', validateApp, addApplication);
 

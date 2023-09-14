@@ -133,50 +133,6 @@ describe('Validation Middleware', () => {
     });
   });
 
-  describe('validateGetApp', () => {
-    beforeEach(() => {
-      req = {
-        query: {}, // Initialize an empty query object for each test
-      };
-    });
-
-    it('should pass validation for a valid query', () => {
-      req.query = {
-        appName: 'Test App',
-        appDescription: 'Test Description',
-        isActive: true,
-        isDeleted: false,
-        page: 1,
-        pageSize: 10,
-      };
-
-      validateGetApp(req, res, next);
-
-      expect(next).toHaveBeenCalled();
-      expect(res.status).not.toHaveBeenCalled();
-      expect(res.json).not.toHaveBeenCalled();
-    });
-
-    it('should return a 400 error for invalid query parameters', () => {
-      req.query = {
-        appName: 'T', // Invalid: less than minimum length
-        appDescription: 'Test Description',
-        isActive: 'not-a-boolean', // Invalid: not a boolean
-        isDeleted: true,
-        page: 0, // Invalid: less than minimum value
-        pageSize: -5, // Invalid: less than minimum value
-      };
-
-      validateGetApp(req, res, next);
-
-      expect(next).not.toHaveBeenCalled();
-      expect(res.status).toHaveBeenCalledWith(status.BAD_REQUEST);
-      expect(res.json).toHaveBeenCalledWith({
-        error: '"appName" length must be at least 3 characters long',
-      });
-    });
-  });
-
   describe('validateAppPatch', () => {
     beforeEach(() => {
       req = {
