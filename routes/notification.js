@@ -9,7 +9,7 @@ const {
   validateNotification,
   validateUpdatingNotification,
   validateDeleteNotification,
-  validateGetNotifications,
+  // validateGetNotifications,
 } = require('../middleware/validation');
 
 const {
@@ -19,7 +19,7 @@ const {
   listNotification,
 } = require(`../controllers/${dbName}/notificationController`);
 
-router.get('/', validateGetNotifications, listNotification);
+router.get('/', listNotification);
 
 router.post('/', validateNotification, addNotification);
 

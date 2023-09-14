@@ -10,6 +10,8 @@ async function listEvent(req, res) {
   const { applicationId } = req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
+  const sortBy = req.query.sortBy || 'dateCreated'; // Default to sorting by dateCreated
+  const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   // Check application validity using Mongoose
   const application = await Application.findById(applicationId);
@@ -23,7 +25,13 @@ async function listEvent(req, res) {
   // Query Filters for MongoDB
   const queryFilters = {};
   for (const [key, value] of Object.entries(req.query)) {
-    if (key !== 'page' && key !== 'pageSize' && key !== 'applicationId') {
+    if (
+      key !== 'page' &&
+      key !== 'pageSize' &&
+      key !== 'applicationId' &&
+      key !== 'sortBy' &&
+      key !== 'sortOrder'
+    ) {
       if (key === 'isDeleted') {
         queryFilters[key] = value === 'true';
       } else if (key === 'eventName' || key === 'eventDescription') {
@@ -40,11 +48,14 @@ async function listEvent(req, res) {
     ...queryFilters,
   });
 
+  const sortOption = {};
+  sortOption[sortBy] = sortOrder === 'asc' ? 1 : -1; // Create sort option dynamically
+
   const events = await Event.find({
     applicationId,
     ...queryFilters,
   })
-    .sort({ dateCreated: 1 })
+    .sort(sortOption) // Apply sorting based on sortBy and sortOrder
     .skip((page - 1) * pageSize)
     .limit(pageSize);
 

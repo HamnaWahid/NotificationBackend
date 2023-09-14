@@ -12,6 +12,8 @@ async function listNotification(req, res) {
   const { eventId, isDeleted } = req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
+  const sortBy = req.query.sortBy || 'dateCreated'; // Default to sorting by dateCreated
+  const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   const event = await Event.findById(eventId);
 
@@ -31,8 +33,11 @@ async function listNotification(req, res) {
 
   const totalPages = Math.ceil(totalNotifications / pageSize);
 
+  const sortOption = {};
+  sortOption[sortBy] = sortOrder === 'asc' ? 1 : -1; // Create sort option dynamically
+
   const notifications = await Notification.find(query)
-    .sort('dateCreated')
+    .sort(sortOption) // Apply sorting based on sortBy and sortOrder
     .skip((page - 1) * pageSize)
     .limit(pageSize);
 

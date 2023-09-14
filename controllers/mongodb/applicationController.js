@@ -34,11 +34,18 @@ async function addApplication(req, res) {
 async function listApplication(req, res) {
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
+  const sortBy = req.query.sortBy || 'appName'; // Default to sorting by appName
+  const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
-  // Construct queryFilters without pageSize and page parameters
+  // Construct queryFilters without pageSize, page, sortBy, and sortOrder parameters
   const queryFilters = {};
   for (const [key, value] of Object.entries(req.query)) {
-    if (key !== 'page' && key !== 'pageSize') {
+    if (
+      key !== 'page' &&
+      key !== 'pageSize' &&
+      key !== 'sortBy' &&
+      key !== 'sortOrder'
+    ) {
       if (key === 'isActive' || key === 'isDeleted') {
         queryFilters[key] = value === 'true';
       } else if (key === 'appName') {
@@ -57,13 +64,13 @@ async function listApplication(req, res) {
   if (Object.keys(queryFilters).length === 0) {
     totalApplications = await Application.countDocuments(queryFilters);
     applications = await Application.find({})
-      .sort({ appName: 1 })
+      .sort({ [sortBy]: sortOrder === 'asc' ? 1 : -1 }) // Apply sorting based on sortBy and sortOrder
       .skip((page - 1) * pageSize)
       .limit(pageSize);
   } else {
     totalApplications = await Application.countDocuments(queryFilters);
     applications = await Application.find(queryFilters)
-      .sort({ appName: 1 })
+      .sort({ [sortBy]: sortOrder === 'asc' ? 1 : -1 }) // Apply sorting based on sortBy and sortOrder
       .skip((page - 1) * pageSize)
       .limit(pageSize);
   }

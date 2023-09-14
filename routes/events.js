@@ -9,7 +9,7 @@ const {
   validateEvents,
   validateUpdatingEvents,
   validateDeleteEvent,
-  validateGetEvent,
+  // validateGetEvent,
 } = require('../middleware/validation');
 
 const {
@@ -19,7 +19,7 @@ const {
   deleteEvent,
 } = require(`../controllers/${dbName}/eventsController`);
 
-router.get('/', validateGetEvent, listEvent);
+router.get('/', listEvent);
 
 router.post('/', validateEvents, addEvent);
 

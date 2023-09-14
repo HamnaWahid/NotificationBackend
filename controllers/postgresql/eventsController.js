@@ -10,6 +10,8 @@ async function listEvent(req, res) {
   const { applicationId } = req.query;
   const page = parseInt(req.query.page, 10) || 1; // Current page number, default to 1
   const pageSize = parseInt(req.query.pageSize, 10) || 10; // Number of events per page, default to 10
+  const sortBy = req.query.sortBy || 'dateCreated'; // Default to sorting by dateCreated
+  const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   const application = await db('applications')
     .where('id', applicationId)
@@ -23,7 +25,13 @@ async function listEvent(req, res) {
 
   const queryFilters = {};
   for (const [key, value] of Object.entries(req.query)) {
-    if (key !== 'page' && key !== 'pageSize' && key !== 'applicationId') {
+    if (
+      key !== 'page' &&
+      key !== 'pageSize' &&
+      key !== 'applicationId' &&
+      key !== 'sortBy' &&
+      key !== 'sortOrder'
+    ) {
       if (key === 'isDeleted') {
         queryFilters[key] = value === 'true';
       } else if (key === 'eventName' || key === 'eventDescription') {
@@ -37,7 +45,7 @@ async function listEvent(req, res) {
   let query = db('events')
     .select('*')
     .where('applicationId', applicationId)
-    .orderBy('dateCreated')
+    .orderBy(sortBy, sortOrder) // Apply sorting based on sortBy and sortOrder
     .offset((page - 1) * pageSize)
     .limit(pageSize);
 

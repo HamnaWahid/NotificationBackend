@@ -32,14 +32,19 @@ async function addApplication(req, res) {
 async function listApplication(req, res) {
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
+  const sortBy = req.query.sortBy || 'appName'; // Default to sorting by appName
+  const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   const queryFilters = {};
   for (const [key, value] of Object.entries(req.query)) {
-    if (key !== 'page' && key !== 'pageSize') {
+    if (
+      key !== 'page' &&
+      key !== 'pageSize' &&
+      key !== 'sortBy' &&
+      key !== 'sortOrder'
+    ) {
       if (key === 'isActive' || key === 'isDeleted') {
         queryFilters[key] = value === 'true';
-      } else if (key === 'appName') {
-        queryFilters[key] = value;
       } else {
         queryFilters[key] = value;
       }
@@ -51,7 +56,7 @@ async function listApplication(req, res) {
   let query = db('applications')
     .select('*')
     .where('isDeleted', false) // Add this line to filter out deleted applications
-    .orderBy('appName')
+    .orderBy(sortBy, sortOrder) // Apply sorting based on sortBy and sortOrder
     .offset((page - 1) * pageSize)
     .limit(pageSize);
 

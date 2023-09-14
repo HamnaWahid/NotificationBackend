@@ -2,25 +2,6 @@
 const Joi = require('joi');
 const status = require('http-status');
 
-// const validateGetApp = (req, res, next) => {
-//   const querySchema = Joi.object({
-//     appName: Joi.string().min(3).max(50),
-//     appDescription: Joi.string().min(3).max(50),
-//     isActive: Joi.boolean(),
-//     isDeleted: Joi.boolean(),
-//     page: Joi.number().integer().min(1), // Page number, minimum 1
-//     pageSize: Joi.number().integer().min(1),
-//   });
-
-//   const { error: queryError } = querySchema.validate(req.query);
-//   if (queryError) {
-//     return res
-//       .status(status.BAD_REQUEST)
-//       .json({ error: queryError.details[0].message });
-//   }
-//   next();
-// };
-
 const validateApp = (req, res, next) => {
   const schema = Joi.object({
     appName: Joi.string().min(3).max(50).required(),
@@ -120,24 +101,24 @@ const validateEvents = (req, res, next) => {
   next();
 };
 
-const validateGetEvent = (req, res, next) => {
-  const querySchema = Joi.object({
-    eventName: Joi.string().min(3).max(50),
-    eventDescription: Joi.string().min(3).max(50),
-    applicationId: Joi.string(), // You might want to add any specific validation rules here
-    isDeleted: Joi.boolean(),
-    page: Joi.number().integer().min(1), // Page number, minimum 1
-    pageSize: Joi.number().integer().min(1),
-  });
+// const validateGetEvent = (req, res, next) => {
+//   const querySchema = Joi.object({
+//     eventName: Joi.string().min(3).max(50),
+//     eventDescription: Joi.string().min(3).max(50),
+//     applicationId: Joi.string(), // You might want to add any specific validation rules here
+//     isDeleted: Joi.boolean(),
+//     page: Joi.number().integer().min(1), // Page number, minimum 1
+//     pageSize: Joi.number().integer().min(1),
+//   });
 
-  const { error: queryError } = querySchema.validate(req.query);
-  if (queryError) {
-    return res
-      .status(status.BAD_REQUEST)
-      .json({ error: queryError.details[0].message });
-  }
-  next();
-};
+//   const { error: queryError } = querySchema.validate(req.query);
+//   if (queryError) {
+//     return res
+//       .status(status.BAD_REQUEST)
+//       .json({ error: queryError.details[0].message });
+//   }
+//   next();
+// };
 
 const validateDeleteEvent = (req, res, next) => {
   const querySchema = Joi.object({
@@ -270,26 +251,26 @@ const validateNotification = (req, res, next) => {
   next();
 };
 
-const validateGetNotifications = (req, res, next) => {
-  const querySchema = Joi.object({
-    isDeleted: Joi.boolean(),
-    eventId: Joi.string(),
-    templateSubject: Joi.string().min(5).max(100),
-    templateBody: Joi.string().min(10).max(1000),
-    page: Joi.number().integer().min(1), // Page number, minimum 1
-    pageSize: Joi.number().integer().min(1),
-    notificationName: Joi.string(),
-    notificationDescription: Joi.string(),
-  });
+// const validateGetNotifications = (req, res, next) => {
+//   const querySchema = Joi.object({
+//     isDeleted: Joi.boolean(),
+//     eventId: Joi.string(),
+//     templateSubject: Joi.string().min(5).max(100),
+//     templateBody: Joi.string().min(10).max(1000),
+//     page: Joi.number().integer().min(1), // Page number, minimum 1
+//     pageSize: Joi.number().integer().min(1),
+//     notificationName: Joi.string(),
+//     notificationDescription: Joi.string(),
+//   });
 
-  const { error: queryError } = querySchema.validate(req.query);
-  if (queryError) {
-    return res
-      .status(status.BAD_REQUEST)
-      .json({ error: queryError.details[0].message });
-  }
-  next();
-};
+//   const { error: queryError } = querySchema.validate(req.query);
+//   if (queryError) {
+//     return res
+//       .status(status.BAD_REQUEST)
+//       .json({ error: queryError.details[0].message });
+//   }
+//   next();
+// };
 
 const validateDeleteNotification = (req, res, next) => {
   const querySchema = Joi.object({
@@ -371,7 +352,7 @@ module.exports = {
   validateDeleteEvent,
   validateDeleteNotification,
   // validateGetApp,
-  validateGetEvent,
-  validateGetNotifications,
+  // validateGetEvent,
+  // validateGetNotifications,
   validateGetMessages,
 };

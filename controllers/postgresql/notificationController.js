@@ -7,6 +7,8 @@ async function listNotification(req, res) {
   const { eventId } = req.query;
   const page = parseInt(req.query.page, 10) || 1; // Current page number, default to 1
   const pageSize = parseInt(req.query.pageSize, 10) || 10; // Number of notifications per page, default to 10
+  const sortBy = req.query.sortBy || 'notificationName'; // Default to sorting by notificationName
+  const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   const event = await db('events').where('id', eventId).first();
 
@@ -16,18 +18,18 @@ async function listNotification(req, res) {
 
   // Count total notifications for the given eventId
   const totalNotifications = await db('notifications')
-    .count('*')
+    .count('* as total')
     .where('eventId', eventId)
     .first();
 
   // Calculate total pages based on pageSize
-  const totalPages = Math.ceil(totalNotifications.count / pageSize);
+  const totalPages = Math.ceil(totalNotifications.total / pageSize);
 
-  // Find notifications for the given eventId with pagination
+  // Find notifications for the given eventId with pagination and sorting
   const notifications = await db('notifications')
     .select('*')
     .where('eventId', eventId)
-    .orderBy('dateCreated')
+    .orderBy(sortBy, sortOrder) // Apply sorting based on sortBy and sortOrder
     .offset((page - 1) * pageSize)
     .limit(pageSize);
 
@@ -36,7 +38,7 @@ async function listNotification(req, res) {
     currentPage: page,
     totalPages,
     pageSize,
-    totalNotifications: totalNotifications.count,
+    totalNotifications: totalNotifications.total,
   });
 }
 
