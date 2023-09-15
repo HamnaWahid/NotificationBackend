@@ -1,12 +1,11 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable no-underscore-dangle */
 const winston = require('winston/lib/winston/config');
-const { not } = require('joi');
 const status = require('http-status');
-const { Application } = require('../../models/application');
 const { Event } = require('../../models/events');
 const { Notification } = require('../../models/notification');
 const { extractPlaceholders } = require('../../src/extraction');
+const { Tag } = require('../../models/tags');
 
 async function listNotification(req, res) {
   const { eventId, isDeleted } = req.query;
@@ -70,7 +69,29 @@ async function addNotification(req, res) {
 
   const stringTemplateBody = req.body.templateBody;
   const placeholders = extractPlaceholders(stringTemplateBody);
-  const metadata = placeholders;
+
+  const existingPlaceholdersPromises = placeholders.map(async (placeholder) =>
+    Tag.findOne({ tags: placeholder.trim() }),
+  );
+
+  const existingPlaceholders = await Promise.all(existingPlaceholdersPromises);
+
+  const uniquePlaceholders = placeholders.filter((placeholder, index) => {
+    const existingPlaceholder = existingPlaceholders[index];
+    return !existingPlaceholder;
+  });
+
+  const savePlaceholderPromises = uniquePlaceholders.map(
+    async (placeholder) => {
+      const newTag = new Tag({ tags: placeholder.trim() });
+      return newTag.save();
+    },
+  );
+
+  await Promise.all(savePlaceholderPromises);
+
+  const metadata = uniquePlaceholders.join(',');
+
   const notification = new Notification({
     notificationName: req.body.notificationName,
     notificationDescription: req.body.notificationDescription,
@@ -81,7 +102,6 @@ async function addNotification(req, res) {
     createdBy: 'hamna', // Replace with actual username or user ID
   });
 
-  // Save the notification to the database
   const savedNotification = await notification.save();
   return res.send(savedNotification);
 }
@@ -120,7 +140,29 @@ async function updateNotification(req, res) {
 
   const stringTemplateBody = req.body.templateBody;
   const placeholders = extractPlaceholders(stringTemplateBody);
-  const metadata = placeholders;
+
+  const existingPlaceholdersPromises = placeholders.map(async (placeholder) =>
+    Tag.findOne({ tags: placeholder.trim() }),
+  );
+
+  const existingPlaceholders = await Promise.all(existingPlaceholdersPromises);
+
+  const uniquePlaceholders = placeholders.filter((placeholder, index) => {
+    const existingPlaceholder = existingPlaceholders[index];
+    return !existingPlaceholder;
+  });
+
+  const savePlaceholderPromises = uniquePlaceholders.map(
+    async (placeholder) => {
+      const newTag = new Tag({ tags: placeholder.trim() });
+      return newTag.save();
+    },
+  );
+
+  await Promise.all(savePlaceholderPromises);
+
+  const metadata = uniquePlaceholders.join(',');
+
   const updatedNotification = await Notification.findByIdAndUpdate(
     req.params.notification_id,
     {
@@ -134,6 +176,7 @@ async function updateNotification(req, res) {
     },
     { new: true },
   );
+
   return res.send(updatedNotification);
 }
 
