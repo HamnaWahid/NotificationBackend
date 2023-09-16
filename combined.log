@@ -237,3 +237,24 @@
 [2023-09-16 18:25:46] [INFO][ eca6e947-7ad2-4cb7-8be6-6c60b62c2c49]POST /api/notifications {"notificationName":"ayrkka","notificationDescription":"this is party","templateSubject":"subject: lets go to party","templateBody":"thie email is sent to {nsme} it is at {age}","eventId":"65062a61bf7bd1eb47445efc"}
 [2023-09-16 18:26:20] [INFO][ b74fafcd-1c0f-4091-8272-4883207b54e0]PATCH /api/notifications/65062a61bf7bd1eb47445efc/deactivate {}
 [2023-09-16 18:26:25] [INFO][ 3ae3feac-ab91-47e7-8f99-c1a01697063f]PATCH /api/notifications/65062a61bf7bd1eb47445efc/deactivate {}
+[2023-09-16 18:30:18] [DEBUG][]Listening on port 3000...
+[2023-09-16 18:30:19] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-16 18:30:22] [INFO][ a2a977f6-61d6-444c-b146-48e48004acf3]GET /api/events?eventName=cms {}
+[2023-09-16 18:30:30] [INFO][ 78dc40ba-ffd8-47a2-aabb-d01407ca1dc8]GET /api/events?eventName=cms&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:31:32] [INFO][ ecd36a5f-0009-403d-aafd-c7368042a1db]GET /api/events?eventName=cms&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:31:54] [INFO][ 506c1929-ac06-4710-91ac-a1a53228c0d3]GET /api/events?eventName=cms&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:32:16] [INFO][ 34a1f40f-ba04-4a11-b6d9-8bf0883185e1]GET /api/events?eventName=man&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:37:19] [INFO][ 1e1b692e-4d78-48bc-b70e-fd17ebcf072f]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-16 18:37:19] [INFO][ a0efa7c0-8294-47ce-b5a4-b01645f48750]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833 {}
+[2023-09-16 18:37:19] [INFO][ dcae00e4-5357-4dda-a6a9-e8af65455eff]GET /api/notifications?page=3&pageSize=6&eventId=6506242de3ca58d40e4d6126 {}
+[2023-09-16 18:38:14] [DEBUG][]Listening on port 3000...
+[2023-09-16 18:38:14] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-16 18:38:23] [INFO][ 243ce45d-5017-481d-9632-34fc5428431b]GET /api/events?eventName=man&sortOrder=descending&sortBy=appName&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:38:30] [INFO][ 8201c9c2-4332-487d-9e2c-26632ddd4440]GET /api/events?sortOrder=descending&sortBy=appName&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:39:04] [INFO][ 62c5a54d-4980-4b07-a98d-967510e5c7d2]GET /api/events?sortOrder=descending&sortBy=appName&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:39:31] [INFO][ ffe18f4a-603f-4edc-8e66-8eab24c6a6f1]GET /api/events?sortOrder=descending&sortBy=eventName&applicationId=65014de421b2b24b3872a830 {}
+[2023-09-16 18:41:49] [DEBUG][]Listening on port 3000...
+[2023-09-16 18:41:49] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-16 18:42:03] [INFO][ 58fba6e4-0bd5-4335-89ce-d8edbcdeb29f]GET /api/notifications?eventId=64ddc2464693376f1ce67c14&notificationName=party {}
+[2023-09-16 18:42:13] [INFO][ dd331557-fda7-497d-87e5-ea7cf8c36098]GET /api/notifications?eventId=64ddc2464693376f1ce67c14&notificationName=party&sortBy=notificationName&sortOrder=des {}
+[2023-09-16 18:42:21] [INFO][ fb6535ff-c2b1-4d65-b809-097fadfb9bff]GET /api/notifications?eventId=64ddc2464693376f1ce67c14&notificationName=party&sortBy=notificationName&sortOrder=asc {}

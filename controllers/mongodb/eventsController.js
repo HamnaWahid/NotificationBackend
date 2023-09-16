@@ -10,7 +10,7 @@ async function listEvent(req, res) {
   const { applicationId } = req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
-  const sortBy = req.query.sortBy || 'dateCreated'; // Default to sorting by dateCreated
+  const sortBy = req.query.sortBy || 'eventName'; // Default to sorting by dateCreated
   const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   // Check application validity using Mongoose

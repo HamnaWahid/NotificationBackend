@@ -11,7 +11,7 @@ async function listNotification(req, res) {
   const { eventId, isDeleted } = req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
-  const sortBy = req.query.sortBy || 'dateCreated'; // Default to sorting by dateCreated
+  const sortBy = req.query.sortBy || 'notificationName'; // Default to sorting by dateCreated
   const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   const event = await Event.findById(eventId);
@@ -22,7 +22,7 @@ async function listNotification(req, res) {
 
   const query = { eventId };
 
-  query.isDeleted = false; // Convert string to boolean
+  query.isDeleted = isDeleted === 'true'; // Convert string to boolean
 
   const totalNotifications = await Notification.countDocuments(query);
 
