@@ -164,11 +164,21 @@ async function deleteEvent(req, res) {
   return res.send(deletedEvent);
 }
 
-// async function deactivateEvent(req, res) {}
+async function deactivateEvent(req, res) {
+  const event = await Event.findById(req.params.event_id);
+  if (!event) {
+    return res.status(status.BAD_REQUEST).send('Event does not exist');
+  }
+  event.isActive = !event.isActive;
+  event.dateUpdated = Date.now();
+  await event.save();
+
+  return res.send(event);
+}
 
 module.exports = {
   addEvent,
-  // deactivateEvent,
+  deactivateEvent,
   updateEvent,
   deleteEvent,
   listEvent,

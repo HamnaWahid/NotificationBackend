@@ -17,7 +17,7 @@ const {
   updateNotification,
   deleteNotification,
   listNotification,
-  // deactivateNotification,
+  deactivateNotification,
 } = require(`../controllers/${dbName}/notificationController`);
 
 router.get('/', listNotification);
@@ -35,5 +35,6 @@ router.patch(
   validateDeleteNotification,
   deleteNotification,
 );
+router.patch('/:notification_id/deactivate', deactivateNotification);
 
 module.exports = router;

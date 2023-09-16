@@ -185,11 +185,21 @@ async function deleteNotification(req, res) {
   );
   return res.send(deletedNotification);
 }
-// async function deactivateNotification(req, res) {}
+async function deactivateNotification(req, res) {
+  const notification = await Event.findById(req.params.notification_id);
+  if (!notification) {
+    return res.status(status.BAD_REQUEST).send('Event does not exist');
+  }
+  notification.isActive = !notification.isActive;
+  notification.dateUpdated = Date.now();
+  await notification.save();
+
+  return res.send(notification);
+}
 
 module.exports = {
   addNotification,
-  // deactivateNotification,
+  deactivateNotification,
   updateNotification,
   deleteNotification,
   listNotification,
