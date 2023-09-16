@@ -84,7 +84,7 @@ async function addEvent(req, res) {
     eventName: req.body.eventName,
     applicationId,
   });
-  if (existingEvent) {
+  if (existingEvent && !existingEvent.isDeleted) {
     return res
       .status(status.CONFLICT)
       .send('An event with the same name already exists');
@@ -120,7 +120,11 @@ async function updateEvent(req, res) {
     isDeleted: false, // Using the applicationId from the current event
   });
 
-  if (existingEvent && existingEvent._id.toString() !== event._id.toString()) {
+  if (
+    existingEvent &&
+    !existingEvent.isDeleted &&
+    existingEvent._id.toString() !== event._id.toString()
+  ) {
     return res.status(status.CONFLICT).send('Event name already exists');
   }
 

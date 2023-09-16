@@ -59,7 +59,7 @@ async function addNotification(req, res) {
     eventId,
   });
 
-  if (existingNotification) {
+  if (existingNotification && !existingNotification.isDeleted) {
     return res.status(status.CONFLICT).send('Notification name already exists');
   }
 
@@ -117,6 +117,7 @@ async function updateNotification(req, res) {
 
   if (
     existingNotification &&
+    !existingNotification.isDeleted &&
     existingNotification._id.toString() !== req.params.notification_id
   ) {
     return res.status(status.CONFLICT).send('Notification name already exists');

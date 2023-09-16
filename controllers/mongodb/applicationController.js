@@ -14,7 +14,7 @@ async function addApplication(req, res) {
   // Check if an application with the same name exists
   const existingApplication = await Application.findOne({ appName });
 
-  if (existingApplication) {
+  if (existingApplication && !existingApplication.isDeleted) {
     return res
       .status(status.CONFLICT)
       .send('An application with the same name already exists');
@@ -96,7 +96,7 @@ async function updateApplication(req, res) {
     appName,
   });
 
-  if (existingApplication) {
+  if (existingApplication && !existingApplication.isDeleted) {
     return res
       .status(status.CONFLICT)
       .send('An application with the same name already exists');
