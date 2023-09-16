@@ -22,11 +22,7 @@ async function listNotification(req, res) {
 
   const query = { eventId };
 
-  if (isDeleted) {
-    query.isDeleted = isDeleted === 'true'; // Convert string to boolean
-  } else {
-    query.isDeleted = false; // Only retrieve non-deleted notifications by default
-  }
+  query.isDeleted = false; // Convert string to boolean
 
   const totalNotifications = await Notification.countDocuments(query);
 
@@ -107,23 +103,11 @@ async function addNotification(req, res) {
 }
 
 async function updateNotification(req, res) {
-  const { eventId } = req.query;
-
-  const event = await Event.findById(eventId);
-  if (!event || event.isDeleted) {
-    return res.status(status.BAD_REQUEST).send('Invalid or deleted event');
-  }
-
   const notification = await Notification.findById(req.params.notification_id);
   if (!notification) {
     return res.status(status.BAD_REQUEST).send('Notification does not exist');
   }
-
-  if (notification.eventId.toString() !== event._id.toString()) {
-    return res
-      .status(status.NOT_FOUND)
-      .send('Notification not associated with this event id');
-  }
+  const { eventId } = notification;
 
   // Check if a notification with the same name already exists
   const existingNotification = await Notification.findOne({
@@ -182,24 +166,12 @@ async function updateNotification(req, res) {
 
 async function deleteNotification(req, res) {
   // Check if eventId is valid
-  const { eventId } = req.query;
-  const event = await Event.findById(eventId);
-  if (!event || event.isDeleted) {
-    return res.status(status.BAD_REQUEST).send('Invalid or deleted event');
-  }
 
   // validating notifications
   const notification = await Notification.findById(req.params.notification_id);
 
   if (!notification) {
     return res.status(status.BAD_REQUEST).send('notification does not exist');
-  }
-
-  // check if notification has the same event
-  if (notification.eventId.toString() !== event._id.toString()) {
-    return res
-      .status(status.NOT_FOUND)
-      .send('Event not associated with this application id');
   }
 
   const deletedNotification = await Notification.findByIdAndUpdate(
@@ -212,9 +184,11 @@ async function deleteNotification(req, res) {
   );
   return res.send(deletedNotification);
 }
+// async function deactivateNotification(req, res) {}
 
 module.exports = {
   addNotification,
+  // deactivateNotification,
   updateNotification,
   deleteNotification,
   listNotification,

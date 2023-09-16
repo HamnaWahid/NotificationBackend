@@ -14,6 +14,10 @@ const notificationSchema = new mongoose.Schema({
     minlength: 3,
     maxlength: 200,
   },
+  isActive: {
+    type: Boolean,
+    default: true,
+  },
   dateCreated: {
     type: Date,
     default: Date.now,

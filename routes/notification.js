@@ -17,6 +17,7 @@ const {
   updateNotification,
   deleteNotification,
   listNotification,
+  // deactivateNotification,
 } = require(`../controllers/${dbName}/notificationController`);
 
 router.get('/', listNotification);

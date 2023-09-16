@@ -6,11 +6,7 @@ const cors = require('cors');
 const errorHandling = require('./middleware/errorHandling');
 
 const app = express();
-app.use(
-  cors({
-    origin: 'http://localhost:5173',
-  }),
-);
+app.use(cors());
 require('./startup/db')();
 require('./startup/logging');
 require('./startup/routes')(app);

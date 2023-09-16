@@ -26,6 +26,10 @@ const eventSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  isActive: {
+    type: Boolean,
+    default: true,
+  },
   applicationId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Application',

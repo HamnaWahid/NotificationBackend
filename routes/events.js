@@ -17,6 +17,7 @@ const {
   updateEvent,
   listEvent,
   deleteEvent,
+  // deactivateEvent,
 } = require(`../controllers/${dbName}/eventsController`);
 
 router.get('/', listEvent);
@@ -26,5 +27,7 @@ router.post('/', validateEvents, addEvent);
 router.put('/:event_id/update', validateUpdatingEvents, updateEvent);
 
 router.patch('/:event_id/delete', validateDeleteEvent, deleteEvent);
+
+// router.patch('/:app_id/deactivate', deactivateEvent);
 
 module.exports = router;

@@ -87,6 +87,7 @@ const validateEvents = (req, res, next) => {
     dateUpdated: Joi.date(),
     isDeleted: Joi.boolean(),
     createdBy: Joi.string(),
+    isActive: Joi.boolean(),
     updatedBy: Joi.string(),
     applicationId: Joi.string(),
   });
@@ -121,9 +122,7 @@ const validateEvents = (req, res, next) => {
 // };
 
 const validateDeleteEvent = (req, res, next) => {
-  const querySchema = Joi.object({
-    applicationId: Joi.string().required(), // Only allow applicationId in query
-  });
+  const querySchema = Joi.object({});
 
   const bodySchema = Joi.object({}); // Empty body schema to disallow body parameters
 
@@ -159,6 +158,7 @@ const validateUpdatingEvents = (req, res, next) => {
     isDeleted: Joi.boolean(),
     createdBy: Joi.string(),
     updatedBy: Joi.string(),
+    isActive: Joi.boolean(),
   });
 
   const { error: bodyError } = schema.validate(req.body);
@@ -231,6 +231,7 @@ const validateNotification = (req, res, next) => {
     notificationName: Joi.string().min(3).max(100).required(),
     notificationDescription: Joi.string().min(3).max(200).required(),
     dateCreated: Joi.date(),
+    isActive: Joi.boolean(),
     dateUpdated: Joi.date(),
     isDeleted: Joi.boolean(),
     eventId: Joi.string(),

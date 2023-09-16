@@ -24,6 +24,8 @@ async function listEvent(req, res) {
 
   // Query Filters for MongoDB
   const queryFilters = {};
+  queryFilters.isDeleted = false; // Add this condition to your existing queryFilters
+
   for (const [key, value] of Object.entries(req.query)) {
     if (
       key !== 'page' &&
@@ -33,7 +35,7 @@ async function listEvent(req, res) {
       key !== 'sortOrder'
     ) {
       if (key === 'isDeleted') {
-        queryFilters[key] = value === 'true';
+        queryFilters[key] = value === 'false';
       } else if (key === 'eventName' || key === 'eventDescription') {
         queryFilters[key] = { $regex: value, $options: 'i' };
       } else {
@@ -142,23 +144,9 @@ async function updateEvent(req, res) {
 }
 
 async function deleteEvent(req, res) {
-  // validating app id
-  const { applicationId } = req.query;
-  const application = await Application.findById(applicationId);
-  if (!application || application.isDeleted || !application.isActive) {
-    return res
-      .status(status.BAD_REQUEST)
-      .send('Invalid or inactive application');
-  }
-  // validaing events
   const event = await Event.findById(req.params.event_id);
   if (!event) {
     return res.status(status.BAD_REQUEST).send('Event does not exist');
-  }
-  if (event.applicationId.toString() !== application._id.toString()) {
-    return res
-      .status(status.NOT_FOUND)
-      .send('Event not associated with this application id');
   }
 
   const deletedEvent = await Event.findByIdAndUpdate(
@@ -172,8 +160,11 @@ async function deleteEvent(req, res) {
   return res.send(deletedEvent);
 }
 
+// async function deactivateEvent(req, res) {}
+
 module.exports = {
   addEvent,
+  // deactivateEvent,
   updateEvent,
   deleteEvent,
   listEvent,
