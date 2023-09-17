@@ -109,44 +109,60 @@ async function updateNotification(req, res) {
   }
   const { eventId } = notification;
 
-  // Check if a notification with the same name already exists
-  const existingNotification = await Notification.findOne({
-    notificationName: req.body.notificationName,
-    eventId,
-  });
-
-  if (
-    existingNotification &&
-    !existingNotification.isDeleted &&
-    existingNotification._id.toString() !== req.params.notification_id
-  ) {
-    return res.status(status.CONFLICT).send('Notification name already exists');
+  let existingMetadata = [];
+  if (notification.metadata && typeof notification.metadata === 'string') {
+    existingMetadata = notification.metadata.split(',');
   }
 
   const stringTemplateBody = req.body.templateBody;
-  const placeholders = extractPlaceholders(stringTemplateBody);
+  const newPlaceholders = extractPlaceholders(stringTemplateBody);
 
-  const existingPlaceholdersPromises = placeholders.map(async (placeholder) =>
-    Tag.findOne({ tags: placeholder.trim() }),
+  const existingPlaceholdersPromises = existingMetadata.map(
+    async (placeholder) => Tag.findOne({ tags: placeholder.trim() }),
   );
 
   const existingPlaceholders = await Promise.all(existingPlaceholdersPromises);
 
-  const uniquePlaceholders = placeholders.filter((placeholder, index) => {
-    const existingPlaceholder = existingPlaceholders[index];
-    return !existingPlaceholder;
-  });
+  const uniqueNewPlaceholders = newPlaceholders.filter(
+    (placeholder) =>
+      !existingPlaceholders.some(
+        (existingPlaceholder) =>
+          existingPlaceholder.tags === placeholder.trim(),
+      ),
+  );
 
-  const savePlaceholderPromises = uniquePlaceholders.map(
+  const savePlaceholderPromises = uniqueNewPlaceholders.map(
     async (placeholder) => {
+      // Check if the placeholder already exists in the Tag table
+      const existingTag = await Tag.findOne({ tags: placeholder.trim() });
+
+      if (existingTag) {
+        // If it exists, return the existing tag
+        return existingTag;
+      }
+      // If it doesn't exist, create and save a new tag
       const newTag = new Tag({ tags: placeholder.trim() });
       return newTag.save();
     },
   );
 
-  await Promise.all(savePlaceholderPromises);
+  const savedPlaceholders = await Promise.all(savePlaceholderPromises);
+  const savedPlaceholderTags = savedPlaceholders.map((tag) => tag.tags);
 
-  const metadata = uniquePlaceholders.join(',');
+  // Update metadata based on changes in placeholders
+  const updatedMetadata = existingMetadata
+    .map((placeholder) => {
+      if (newPlaceholders.includes(placeholder.trim())) {
+        return placeholder.trim();
+      }
+      return null; // Placeholder no longer exists, will be removed
+    })
+    .concat(savedPlaceholderTags);
+
+  const filteredMetadata = updatedMetadata.filter(
+    (placeholder) => placeholder !== null,
+  );
+  const metadata = filteredMetadata.join(',');
 
   const updatedNotification = await Notification.findByIdAndUpdate(
     req.params.notification_id,
@@ -185,6 +201,7 @@ async function deleteNotification(req, res) {
   );
   return res.send(deletedNotification);
 }
+
 async function deactivateNotification(req, res) {
   const notification = await Event.findById(req.params.notification_id);
   if (!notification) {
