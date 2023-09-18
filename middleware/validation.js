@@ -2,6 +2,22 @@
 const Joi = require('joi');
 const status = require('http-status');
 
+const validateUser = (req, res, next) => {
+  const schema = Joi.object({
+    name: Joi.string().min(5).max(50).required(),
+    email: Joi.string().min(5).max(255).required().email(),
+    password: Joi.string().min(5).max(255).required(),
+  });
+  const { error } = schema.validate(req.body);
+
+  if (error) {
+    return res
+      .status(status.BAD_REQUEST)
+      .json({ error: error.details[0].message });
+  }
+  next();
+};
+
 const validateApp = (req, res, next) => {
   const schema = Joi.object({
     appName: Joi.string().min(3).max(50).required(),
@@ -342,6 +358,7 @@ const validateUpdatingNotification = (req, res, next) => {
 };
 
 module.exports = {
+  validateUser,
   validateApp,
   validateEvents,
   validateMessages,

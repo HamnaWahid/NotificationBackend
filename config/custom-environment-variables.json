@@ -1,4 +1,5 @@
 {
+  "jwtPrivateKey": "privateKey",
   "db": "DATABASE",
   "postgresql": {
     "username": "NM_USER",

@@ -2,6 +2,7 @@ const winston = require('winston');
 
 module.exports = function (err, req, res, next) {
   // Log the error
+  // console.log(err);
   winston.error(`[${req.headers.traceid}] ${err}`);
 
   // Respond with an error message

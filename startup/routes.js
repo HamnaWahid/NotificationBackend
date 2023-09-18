@@ -4,6 +4,7 @@ const tag = require('../routes/tag');
 const events = require('../routes/events');
 const message = require('../routes/message');
 const notifications = require('../routes/notification');
+const authentication = require('../routes/auth');
 
 module.exports = function (app) {
   app.use(express.json());
@@ -15,4 +16,5 @@ module.exports = function (app) {
   app.use('/api/events', events);
   app.use('/api/message', message);
   app.use('/api/notifications', notifications);
+  app.use('/api/login', authentication);
 };
