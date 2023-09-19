@@ -50,6 +50,7 @@ async function listNotification(req, res) {
     totalNotifications,
   });
 }
+
 async function addNotification(req, res) {
   const { eventId } = req.body;
 
@@ -61,6 +62,7 @@ async function addNotification(req, res) {
   // Check if a notification with the same name already exists
   const existingNotification = await Notification.findOne({
     notificationName: req.body.notificationName,
+    isDeleted: false, // Using the applicationId from the current event
     eventId,
   });
 
@@ -112,8 +114,22 @@ async function updateNotification(req, res) {
   if (!notification) {
     return res.status(status.BAD_REQUEST).send('Notification does not exist');
   }
-  const { eventId } = notification;
 
+  const { notificationName } = req.body;
+
+  const existingNotification = await Notification.findOne({
+    notificationName,
+    // eventId,
+  });
+
+  if (
+    existingNotification
+    // existingNotification._id.toString() !== notification._id.toString()
+  ) {
+    return res
+      .status(status.CONFLICT)
+      .send('Notification name already exists for this event');
+  }
   let existingMetadata = [];
   if (notification.metadata && typeof notification.metadata === 'string') {
     existingMetadata = notification.metadata.split(',');
@@ -174,7 +190,6 @@ async function updateNotification(req, res) {
     {
       notificationName: req.body.notificationName,
       notificationDescription: req.body.notificationDescription,
-      eventId,
       templateBody: req.body.templateBody,
       templateSubject: req.body.templateSubject,
       metadata,

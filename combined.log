@@ -1035,3 +1035,1035 @@
 [2023-09-19 00:58:11] [INFO][ cd87a8c5-9727-4635-80d0-78c7761666a0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
 [2023-09-19 00:58:15] [INFO][ c16c1a28-7be8-4e9c-8327-7df129233f98]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
 [2023-09-19 01:01:34] [INFO][ cac14c1f-d851-4454-90c6-4c7f7b292114]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:31:04] [DEBUG][]Listening on port 3000...
+[2023-09-19 03:31:04] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 03:31:41] [INFO][ 8f24032e-0a08-4acf-b5c5-20a5fc31952b]POST /api/login {"email":"hamnawahid5@gmail.com","password":"AHmanha1"}
+[2023-09-19 03:31:55] [INFO][ befccdd3-b3b0-4fff-b7c4-fb8963ed5451]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-19 03:31:55] [INFO][ ab3cc90b-5b35-4470-9c66-fdfc1473d17d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:32:00] [INFO][ ac0defd1-1cad-4084-bcf4-952802251e52]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:04] [INFO][ 03ac7b21-464b-4e3f-be31-3cb6b18eecac]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:06] [INFO][ eade5fbd-b42e-4714-b0f1-381d80774a2b]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:07] [INFO][ c995c500-29d0-4bb9-8769-ae85d90ab8b4]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:09] [INFO][ 6c536960-3f19-4ed7-ad01-1bd86cbb576a]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:09] [INFO][ d8922644-d85e-4e0b-96f3-7701fda24eac]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:26] [INFO][ a8a22ff0-e291-4984-9403-f7515710aa2b]POST /api/events/ {"eventName":"hamna","eventDescription":"kjkjkj","applicationId":"650891bb530d5ceb3649992a"}
+[2023-09-19 03:33:26] [INFO][ 5e9e7709-ca3f-40f9-a92a-cb556c62d247]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:38] [INFO][ 4ba4d0ad-0f34-4863-8cd8-7cc0be5ea7f0]GET /api/notifications/?page=1&pageSize=6&eventId=65094ec6e80f398eb343e421&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:33:41] [INFO][ 2e820e58-1b5d-466c-917e-ea2dee2b755c]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:33:41] [INFO][ a11fd881-8f5c-48ac-9d89-fe5dc4b5b698]GET /api/tags {}
+[2023-09-19 03:33:46] [INFO][ 4f7dd89e-afc9-4ad0-b2c7-c62e438bc523]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:50] [INFO][ 33c18c39-dba2-4d8b-9644-eea2016334d0]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:51] [INFO][ 7075babd-380c-4b9c-93ec-264bc4b4f7c5]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:52] [INFO][ d2f1c774-b17f-4d2a-b784-8406538a4e18]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:54] [INFO][ 70c0d167-8890-48c3-b819-2b651cbc9817]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:54] [INFO][ 75cb1bfe-50c9-4dd7-b66f-3de39849c876]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:55] [INFO][ 7599d93d-caa4-4057-8738-09a711a985f2]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:33:56] [INFO][ f0ac5748-37f9-458d-97e7-b61a2c704def]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:01] [INFO][ 3623dd97-1948-485f-a949-994c31022fda]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:02] [INFO][ 8ecf720c-0254-4276-8533-ab439c54c204]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:02] [INFO][ 8b557e41-8efb-4cd9-8098-773340d1483d]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:02] [INFO][ a4238679-a923-4446-93fb-5f19e040541c]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:06] [INFO][ 7a4c3a1c-0205-43c0-a92c-b24a89e7cd5f]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:06] [INFO][ b59bc259-30e8-4406-9de4-64e01222a678]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:06] [INFO][ 1c6ddddc-20a3-4540-8929-a2f84733be70]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:06] [INFO][ 07d5146d-5328-412a-96ba-ac855e7dba18]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:07] [INFO][ 38c379d1-e7df-4695-af86-7614ea015054]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:07] [INFO][ bcf736b0-d197-4561-be21-a31b4ff83c4d]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:07] [INFO][ 82bec5a7-ed38-4a46-9b3a-bf514c476542]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:07] [INFO][ 8c9c6a47-0af7-4101-87c9-40f9d0e4986a]POST /api/notifications/ {"notificationName":"hahah","templateSubject":"jhjhjh","notificationDescription":"jhjhjh","templateBody":"jhjhjh","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:34:26] [INFO][ 513e76c4-4f44-4ea3-88c4-c2ee4b299d23]GET /api/tags {}
+[2023-09-19 03:34:26] [INFO][ 3c3e9e05-2180-4486-8d0e-b3f3d61d0e5e]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:34:28] [INFO][ 28431a31-0c0d-4d7e-a603-2f81e9c9e8ec]GET /api/tags {}
+[2023-09-19 03:34:28] [INFO][ a0d6616c-1dc5-4dcc-82ce-13d0c88a4ac6]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:36:05] [INFO][ 83de4932-74b8-4336-a194-43cbb07e152f]GET /api/tags {}
+[2023-09-19 03:36:05] [INFO][ 548fc01c-aec9-4de8-b4c8-06491543b5c4]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:36:07] [INFO][ 3269c919-d80c-4793-ae62-211f25ba1c9e]GET /api/tags {}
+[2023-09-19 03:36:07] [INFO][ 1bf07cec-b803-4719-b425-8a164d8c891f]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:36:11] [INFO][ e8ff50a9-7baf-472c-a395-47b8e8e77cd4]POST /api/notifications/ {"notificationName":"LKLKL","templateSubject":"KLKLK","notificationDescription":"LKLKLKL","templateBody":"KLKLKLK","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:36:12] [INFO][ b94be198-0414-4734-84b5-ffb12b9ea365]POST /api/notifications/ {"notificationName":"LKLKL","templateSubject":"KLKLK","notificationDescription":"LKLKLKL","templateBody":"KLKLKLK","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:37:09] [INFO][ 520245a6-7840-4ccf-9367-2109f6670da8]GET /api/tags {}
+[2023-09-19 03:37:09] [INFO][ d0696af2-3e7b-4e27-92b7-0b1719d0ff97]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:37:10] [INFO][ 03acb8d3-cbeb-41bf-a592-8c2c347a165d]GET /api/tags {}
+[2023-09-19 03:37:10] [INFO][ 1aa6ca22-6418-4a52-bf59-769fa632ca96]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:37:20] [INFO][ 4cda0481-73ba-46aa-8268-1d8b9c1a6d7e]GET /api/tags {}
+[2023-09-19 03:37:20] [INFO][ 7e18ec96-961e-4a25-812c-30ba07a82864]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:37:22] [INFO][ 1df6263e-80c4-4183-a493-821d34ad4ebf]POST /api/notifications/ {"notificationName":"LKLK","templateSubject":"LKLK","notificationDescription":"LK","templateBody":"LKL","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:37:23] [INFO][ 622da732-30c9-44ee-836c-ddb898534db7]POST /api/notifications/ {"notificationName":"LKLK","templateSubject":"LKLK","notificationDescription":"LK","templateBody":"LKL","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:37:27] [INFO][ ef857ae6-346d-4abb-9090-22b7a8269dcb]POST /api/notifications/ {"notificationName":"LKLK","templateSubject":"LKLKLKL","notificationDescription":"LKLKLKLK","templateBody":"LKLLKLKLK","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:37:28] [INFO][ 9a1dd278-9519-4629-b537-8bfad5c5d038]POST /api/notifications/ {"notificationName":"LKLK","templateSubject":"LKLKLKL","notificationDescription":"LKLKLKLK","templateBody":"LKLLKLKLK","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:37:55] [INFO][ f01e0ad4-5bb6-4120-9fbb-3f352ca36932]GET /api/tags {}
+[2023-09-19 03:37:55] [INFO][ f4f425a7-c19b-48cc-b130-76e0b417d88b]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:38:02] [INFO][ 09c86dca-2fa9-4277-844f-d77b38715eef]GET /api/tags {}
+[2023-09-19 03:38:02] [INFO][ 84cbe3c8-43ae-4256-bd02-8fcefa4b4f88]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:38:03] [INFO][ fc3637e8-0499-4726-81ca-d0c72b919109]GET /api/tags {}
+[2023-09-19 03:38:03] [INFO][ d1a69344-9bb4-4810-8dda-7f54f237ea06]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:38:18] [INFO][ 00d2f173-7044-403d-ae07-557ee8b5a2b2]GET /api/tags {}
+[2023-09-19 03:38:18] [INFO][ b9367b26-9ddc-4057-8c49-1c3c9c7ff506]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:38:22] [INFO][ aef6f13d-b909-4249-bd38-b49109a3b1e5]GET /api/tags {}
+[2023-09-19 03:38:22] [INFO][ b55a9b3d-da8e-4f09-9f4b-b70fd9113508]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:38:39] [INFO][ 521535ec-8c0c-4715-8431-2db97b60505e]GET /api/tags {}
+[2023-09-19 03:38:39] [INFO][ 2f30d904-c1e2-4f05-ab9e-f855609ac92e]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:38:48] [INFO][ 038a9e95-7ee5-4cf1-b975-862e22a4bbb7]POST /api/notifications {"notificationName":"SSSS","templateSubject":"SSS","notificationDescription":"SSSS","templateBody":"SSSSS","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:38:48] [INFO][ bbee9deb-12c8-4372-a44e-bf5a6569d79d]POST /api/notifications {"notificationName":"SSSS","templateSubject":"SSS","notificationDescription":"SSSS","templateBody":"SSSSS","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:39:50] [INFO][ 3c8d6c8e-ed6e-457f-ac17-95d9fab542b7]GET /api/tags {}
+[2023-09-19 03:39:50] [INFO][ 44b34e54-1248-48c5-8371-3b72fd515f5e]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId= {}
+[2023-09-19 03:39:53] [INFO][ b89a5263-074f-49c9-b36b-ddeaf6d1ef68]POST /api/notifications {"notificationName":"SSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSS","templateBody":"SSSSS","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:39:54] [INFO][ bfb2b56f-fed0-4027-8f53-3a6af30d33a5]POST /api/notifications {"notificationName":"SSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSS","templateBody":"SSSSS","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:40:01] [INFO][ 7e4b3292-ce49-45c1-8afa-cb0800da44ad]POST /api/notifications {"notificationName":"SSSSSSSSSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSSSSSSSSSS","templateBody":"SSSSSSSSSSSSSSSSS","eventId":"65094ec6e80f398eb343e421"}
+[2023-09-19 03:40:01] [INFO][ 17dcfb10-5f86-4a8c-ae43-c5ecf5a9a51e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:07] [INFO][ 2b5beb55-3b82-44f5-9943-f11b12118a8e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:11] [INFO][ 2e41856a-e1d3-4eb3-8201-77092890de12]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:12] [INFO][ b5781b6f-3016-40bd-b67d-555fba73becc]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:14] [INFO][ 065c8c4a-e879-4c29-b9e0-590fe7dbf54d]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:18] [INFO][ 62aa4035-8b41-4909-a8f9-1640bf0adf2d]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:19] [INFO][ 16638ea7-eaae-4d2e-b777-aea0f281ab60]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:19] [INFO][ 1662de6d-97ee-42e2-a4eb-8849bfe3544d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:19] [INFO][ 288dc08d-9abb-4a3f-ac1e-cbeccea43399]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:20] [INFO][ 6c7b3ab5-c408-463c-aaab-189f3c8eca39]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:21] [INFO][ d57e9b2b-60c5-4fe3-aa8c-e94993974227]GET /api/notifications/?page=1&pageSize=6&eventId=65094ec6e80f398eb343e421&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:23] [INFO][ c0305eac-5c41-4314-bf50-c6b49f6e55f8]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:40:23] [INFO][ 682a34b8-568a-4c98-85c9-120d4035c3bf]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:40:23] [INFO][ c2c6f629-e22c-4163-8ebb-8a5171ceedc5]GET /api/tags {}
+[2023-09-19 03:40:28] [INFO][ c8cb967b-70b3-40a5-8064-6aa0fc8a1b75]PUT /api/notifications/65095051e80f398eb343e467/update {"notificationName":"SSSSSSSSSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSSSSSSSSSS","templateBody":"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"}
+[2023-09-19 03:40:28] [INFO][ bc5dddaa-f5b1-4992-a944-5d01dff43d71]PUT /api/notifications/65095051e80f398eb343e467/update {"notificationName":"SSSSSSSSSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSSSSSSSSSS","templateBody":"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"}
+[2023-09-19 03:40:28] [INFO][ be5c6441-66f1-4ad6-934d-5286d15f2a40]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:30] [INFO][ 4d6cdb79-f87c-4c76-9e77-3f224f054cfb]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:31] [INFO][ 4d207670-adc0-4327-a067-2994fd80a7ad]GET /api/notifications/?page=1&pageSize=6&eventId=65094ec6e80f398eb343e421&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:33] [INFO][ 9390d933-50ae-4cb2-8a49-d80087e6f34e]GET /api/tags {}
+[2023-09-19 03:40:33] [INFO][ 4fb3f15e-b193-43d2-ae51-97fe9b447cff]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:40:41] [INFO][ bcd3f23b-f9b2-435b-921b-6dce439de8b5]PUT /api/notifications/65095051e80f398eb343e467/update {"notificationName":"SSSSSSSSSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSSSSSSSSSS","templateBody":"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS {party}A"}
+[2023-09-19 03:40:43] [INFO][ 470e5d14-1a68-455f-9853-bf8736ab4256]PUT /api/notifications/65095051e80f398eb343e467/update {"notificationName":"SSSSSSSSSSS","templateSubject":"SSSSSSS","notificationDescription":"SSSSSSSSSSSS","templateBody":"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS {party}A"}
+[2023-09-19 03:40:43] [INFO][ 36648ddd-7e8e-4573-a1c2-3e2efd41a6f0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:44] [INFO][ 7abfdfc9-7abd-4d54-9fb2-8fd9b1f09edb]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:46] [INFO][ e2b6a2b2-7e56-4ac1-b058-2bc4d5ca2c27]GET /api/notifications/?page=1&pageSize=6&eventId=65094ec6e80f398eb343e421&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:40:48] [INFO][ 0991c2c3-f037-4207-837a-cf68f31b66a8]GET /api/tags {}
+[2023-09-19 03:40:48] [INFO][ 6b2b78e7-217e-4af0-b78a-37c099f8ac9e]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:41:16] [INFO][ a94c3657-f7ba-48f2-ba31-a5eda0c8f298]GET /api/tags {}
+[2023-09-19 03:41:16] [INFO][ c1c6096c-6ab4-472a-a46c-73e0e1e125dd]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:41:49] [INFO][ 116b9315-3e23-4685-8019-3b456fbd64d3]GET /api/tags {}
+[2023-09-19 03:41:49] [INFO][ 19565dcf-e4ad-4aa7-a6b4-094f831797cd]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:44:06] [INFO][ c9d75024-bdf8-4315-8a93-30d17a0eca4b]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:44:09] [INFO][ ef5861da-6edc-4f16-8e34-b7f4ff29e531]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:44:11] [INFO][ 8beffbdb-36be-4488-bd03-b24f9747716d]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:44:13] [INFO][ 25407ebf-297d-4fdf-8d04-f04a15222515]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:44:16] [INFO][ 77ac9606-b5be-4f25-912a-0b9cb42e2cee]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:45:33] [INFO][ 37ce54a2-9c8c-418f-9eb8-0d228e89ad55]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:45:33] [INFO][ 24cb95cd-b628-43bd-9d13-cd2b9cfd370f]GET /api/tags {}
+[2023-09-19 03:45:33] [INFO][ d0f0a0d0-1e42-4e55-a178-4fe45389fe32]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:45:35] [INFO][ a87ae4ec-9e1a-4e86-a47d-bcc46d61eb1f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:36] [INFO][ 1a1206b5-8955-4c0d-9bfe-efee6c15a989]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:40] [INFO][ 53b6296a-2820-43dd-8292-904b466dbde8]PATCH /api/applications/6507dc9c2b46f2614f91ecd4/deactivate {}
+[2023-09-19 03:45:40] [INFO][ e661b67f-ad3f-4c9f-a014-2e8826a0ed39]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:41] [INFO][ a8bbc3b3-a492-4f06-aa8f-5963254fd4c3]PATCH /api/applications/65014de921b2b24b3872a836/deactivate {}
+[2023-09-19 03:45:41] [INFO][ 12389a83-017c-4941-80e8-13d7f98168bc]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:43] [INFO][ ee034d31-905f-4721-8045-e938532e0f2d]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:50] [INFO][ 005501e3-dc65-492d-b2ea-3b103aa2ed15]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:52] [INFO][ bfe5e4f6-a9d5-4091-b61e-f907630b1c1d]GET /api/notifications/?page=1&pageSize=6&eventId=65062535b7651c5c0b4955fd&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:55] [INFO][ 0d96a12e-d97f-42c0-a6bc-06d425ac27bd]GET /api/notifications/?page=1&pageSize=6&eventId=6506253bb7651c5c0b495604&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:57] [INFO][ dc54b1c8-66f5-4417-ba1a-45ffb30bdec2]GET /api/notifications/?page=1&pageSize=6&eventId=65062524b7651c5c0b4955ed&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:58] [INFO][ 85f6d254-ce7a-46d4-b1f9-663fada1ea5a]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:45:59] [INFO][ 1d741084-a813-4b5c-8c91-2ca70877d033]GET /api/notifications/?page=1&pageSize=6&eventId=65062530b7651c5c0b4955f6&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:46:01] [INFO][ 96bfee79-e287-472f-b902-64c79eccad64]GET /api/notifications/?page=1&pageSize=6&eventId=6506242de3ca58d40e4d6126&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:46:04] [INFO][ 923fe4ba-cd21-49ef-b5c3-586310dfa876]GET /api/tags {}
+[2023-09-19 03:46:04] [INFO][ 29d6350e-8a35-4e18-9013-3c1a22118fb2]GET /api/notifications?eventId=6506242de3ca58d40e4d6126&notificationId= {}
+[2023-09-19 03:46:14] [INFO][ c3cf7074-72ea-4854-b876-b0afb80a130e]POST /api/notifications {"notificationName":"kijkjhi ","templateSubject":"kjkjkj","notificationDescription":"kjkjk","templateBody":"jkjkjkj {age}","eventId":"6506242de3ca58d40e4d6126"}
+[2023-09-19 03:46:14] [INFO][ b8c716bd-4d4c-4dc8-837a-c65343be1163]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:46:16] [INFO][ 3ff44755-8302-46ad-89a1-5762867526e9]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:46:18] [INFO][ c910f93c-7a9b-4e8f-a225-173fb40618be]GET /api/notifications/?page=1&pageSize=6&eventId=65094ec6e80f398eb343e421&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:46:19] [INFO][ a364a181-d6ce-4a5d-83cd-6e40552359a0]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:46:19] [INFO][ c88d49ca-92fa-4f67-9fc3-47b8f1161aca]GET /api/notifications?eventId=65094ec6e80f398eb343e421&notificationId=65095051e80f398eb343e467 {}
+[2023-09-19 03:46:19] [INFO][ 7ee402e1-511c-400d-850f-14d9401a5755]GET /api/tags {}
+[2023-09-19 03:46:25] [INFO][ f6b84240-840e-406c-97dd-4dba66ebac02]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:46:26] [INFO][ 6456b8e7-8a6d-4055-9180-e6d983f1cc39]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:47:07] [INFO][ 697185e5-5dc5-4b20-aed3-7a952e0f44ef]GET /api/applications/?isActive=true {}
+[2023-09-19 03:47:07] [ERROR][][697185e5-5dc5-4b20-aed3-7a952e0f44ef] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 03:47:19] [INFO][ 07aa0025-545a-4ddb-a6f3-ba8ec586ccdb]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-19 03:47:47] [INFO][ 84f55150-bd45-48e4-8cbb-6e1c2efa059f]GET /api/applications/?isActive=true {}
+[2023-09-19 03:54:19] [INFO][ d330b79a-e831-4fbe-a610-64301c2cfaf6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:55:17] [INFO][ c30284d3-ae11-4036-a8ab-a50e826f1d2d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:55:20] [INFO][ 9cb8cc55-bb22-4774-b839-0bb1d38ecf7f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:55:23] [INFO][ 422ab1dd-3201-4d04-b1d4-54115c784de4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:55:38] [INFO][ 11a570c7-42fa-4e22-bc1e-5d3890c45156]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:56:02] [INFO][ 13c09bde-cd99-4fe5-ba82-c351e8d09dfb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:56:26] [INFO][ a0610d33-0dcd-42d7-b6bd-28059c5ddbaa]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:56:57] [INFO][ f2df7028-131d-4260-bbd9-2109ae2c0abd]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:57:11] [INFO][ a4dcc122-9ad6-42e2-a8d5-c825837641bb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:58:29] [INFO][ 6d91709c-117f-4b5e-b9cc-567416b68556]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 03:58:35] [INFO][ 5725dd4a-f1da-4630-94d5-69576d221915]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:06:53] [INFO][ 10d32e13-e08f-4ce2-97ba-ed058ae08593]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:07:46] [INFO][ 1d995847-b39a-4e16-9834-aec97c2d9721]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:07:50] [INFO][ 3b2e56a2-4f0e-4e3d-822e-23e1acbfd5f3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:07:57] [INFO][ cd6c2abb-8d78-4d4b-8a5f-f7de39a5c727]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:09:40] [INFO][ a3b32bf7-948c-492e-b329-1d87aae1c4b3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:09:45] [INFO][ e2f30133-4074-44d3-9dc2-c52571a7747e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:16:04] [DEBUG][]Listening on port 3000...
+[2023-09-19 04:16:04] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 04:16:58] [INFO][ 37f85456-463d-457b-98b9-b903b03fb670]POST /api/applications/ {"appName":"cohort 10","appDescription":"employee training system - cohort"}
+[2023-09-19 04:17:20] [INFO][ 27412190-93b2-41bb-9845-b41c24785935]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:17:33] [INFO][ bfef319a-c159-465d-a639-99dc5b89e9e1]POST /api/applications/ {"appName":"cohort 1","appDescription":"this is cohort 1"}
+[2023-09-19 04:17:33] [INFO][ d8e92319-f95b-4b00-a45c-6ba2de1ad8a5]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:17:39] [INFO][ f61343ff-bbb6-46f8-9e0f-775a4311b044]PUT /api/applications/650958fac7e810a656f6901d/update {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 04:17:39] [INFO][ 93a7fbc6-6c3a-4a4c-83d6-7078dbe52ad3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:17:56] [INFO][ ef285083-e3b4-4c44-b49f-230aefc76f1b]POST /api/applications/ {"appName":"cohort 3 ","appDescription":"this is cohort"}
+[2023-09-19 04:17:56] [INFO][ 92f00fe7-ab23-42d9-94d9-64d0ee4123c0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:18:03] [INFO][ 8ca200e6-248f-4e45-9843-72c475c65153]POST /api/applications/ {"appName":"cohort 4","appDescription":"this is cohort"}
+[2023-09-19 04:18:03] [INFO][ 4164c793-14dd-4a6a-9203-62c94fbcae97]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:18:10] [INFO][ 4d307801-500f-4182-a67a-2e70e2b7b46e]PATCH /api/applications/6509591dc7e810a656f69022/delete {}
+[2023-09-19 04:18:10] [INFO][ f32ae8fc-ba33-406e-b67a-3411d5d6e36b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:18:18] [INFO][ ffc36af5-5288-496b-a23c-9d75775489de]POST /api/applications/ {"appName":"cohort 1","appDescription":"this is cohort"}
+[2023-09-19 04:18:18] [INFO][ ef4ed134-a171-465c-be86-d33fc72f14c2]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:18:32] [INFO][ 098e1835-f88b-4296-9d9a-546555888e2b]POST /api/applications/ {"appName":"cohort 1","appDescription":"this is cohort"}
+[2023-09-19 04:18:32] [INFO][ 523e30f0-ec4a-490b-a032-4951c236db1c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:18:56] [INFO][ 12a24b90-73c9-4917-9662-42f6aed2e886]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:21:22] [DEBUG][]Listening on port 3000...
+[2023-09-19 04:21:22] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 04:21:25] [INFO][ 34dca0de-c990-4241-bf9e-3a5a91a01e0f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:21:41] [INFO][ b70a57c2-d588-4cb4-b976-146859be8219]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:21:53] [INFO][ 41256c09-9f0f-4620-9430-8f6c9a646987]POST /api/applications/ {"appName":"cohort 1 ","appDescription":"this is cohort 1 "}
+[2023-09-19 04:21:53] [INFO][ dc5c865e-da41-4189-bdf6-5668e3f1a71b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:22:01] [INFO][ fe7173fc-168a-41c4-a38c-c7594d413bd6]POST /api/applications/ {"appName":"cohort 2 ","appDescription":"this is cohort"}
+[2023-09-19 04:22:01] [INFO][ bccf577a-33d3-4345-8353-8b66acd08a52]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:22:05] [INFO][ 18921c77-f62f-4962-b9d7-8038957ccf2a]PATCH /api/applications/65095a21591762d81f2b1066/delete {}
+[2023-09-19 04:22:05] [INFO][ 1c688f12-160b-4bd7-8d93-b826015dafd6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:22:15] [INFO][ 03136f23-0d29-4f30-af42-0363c36603b4]POST /api/applications/ {"appName":"cohort 1 ","appDescription":"THIS IS NEW COHORT "}
+[2023-09-19 04:22:15] [INFO][ ab3c9d41-acf5-4339-a260-01d166d189a6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:22:28] [INFO][ 096651cc-2bb1-40b5-97fc-7c74980f789b]POST /api/applications/ {"appName":"COHORT 1 ","appDescription":"THIS IS NEW ADDED "}
+[2023-09-19 04:22:28] [INFO][ 0434a15f-61aa-4111-8fbd-2d1bb50aa932]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:22:47] [INFO][ 8deb53f0-fc37-46aa-a520-aff614ee2fa4]POST /api/applications/ {"appName":"COHORT 1 ","appDescription":"THIS IS NEWWW"}
+[2023-09-19 04:23:06] [INFO][ 387c5d43-8c85-440e-82a3-0c32807f632b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:24:04] [INFO][ 8e1a370b-29ef-42cd-a64a-b379a0e59377]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:24:12] [DEBUG][]Listening on port 3000...
+[2023-09-19 04:24:12] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 04:24:15] [INFO][ bf608da6-f151-46b7-a18b-1fc290defd19]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:24:17] [INFO][ 9eef3891-e46d-4aee-abce-3a9275e7559a]PATCH /api/applications/65095a44591762d81f2b1077/delete {}
+[2023-09-19 04:24:17] [INFO][ c5820e84-17f3-4d1b-87e4-e39a9310b1c8]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:24:28] [INFO][ e9a8a67e-79b0-4e69-a0dd-bbaa1a26cdfb]POST /api/applications/ {"appName":"COHORT 1","appDescription":"THIS IS NEW NEW NEWW"}
+[2023-09-19 04:24:28] [INFO][ 39b218c6-b9e3-4e77-9b94-63f1a640c37e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:24:39] [INFO][ 11423288-58ff-4ff9-bb7b-2de1596eb4a4]POST /api/applications/ {"appName":"COHORT 1","appDescription":"TESTING "}
+[2023-09-19 04:24:53] [INFO][ 0980aaee-9e1b-46f4-a2b3-8aaa71fc9c24]POST /api/applications/ {"appName":"cohort1","appDescription":"hjhjh"}
+[2023-09-19 04:24:53] [INFO][ 268f2048-ed3d-4d26-9bf2-90d921f51805]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:00] [INFO][ 952d81f3-c674-4524-9583-f598f7379239]POST /api/applications/ {"appName":"cohort 1","appDescription":" tsjh s"}
+[2023-09-19 04:25:00] [INFO][ 942e8a5d-6cdb-4988-9a9a-603b5d9c6227]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:04] [INFO][ b179652d-01ae-43ff-984a-3906362bc4b2]GET /api/events/?page=1&pageSize=6&applicationId=65095a21591762d81f2b1066&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:05] [INFO][ 10e8d9a1-879b-437a-8813-5cd46aabdd04]GET /api/events/?page=1&pageSize=6&applicationId=65095adcbef7f5da735cde2b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:06] [INFO][ 3770fac8-e8fe-4b63-ad0b-6f19a84bed4d]GET /api/events/?page=1&pageSize=6&applicationId=65095a21591762d81f2b1066&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:07] [INFO][ 017ad63e-6dbc-424e-9545-b19ee06d91e5]GET /api/events/?page=1&pageSize=6&applicationId=65095a21591762d81f2b1066&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:09] [INFO][ e2b59ca1-5998-42b1-85f4-fd31ca449dec]GET /api/events/?page=1&pageSize=6&applicationId=65095a21591762d81f2b1066&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:09] [INFO][ 77ddb875-6b5d-4dd2-817d-5481c3fcac28]GET /api/events/?page=1&pageSize=6&applicationId=65095adcbef7f5da735cde2b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:20] [INFO][ ebaf615d-3f71-4d9b-8468-25b99a3d9460]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:20] [INFO][ 58c9a2ef-78a5-461a-a3dd-93cc22c5bd9d]GET /api/events/?page=1&pageSize=6&applicationId=65095adcbef7f5da735cde2b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:22] [INFO][ 590c3543-a572-4367-9f17-6b9e7177b1f2]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:30] [INFO][ e48710a7-1e4d-4b70-a445-b99215a36664]POST /api/applications/ {"appName":"COHORT 1 ","appDescription":"THIS "}
+[2023-09-19 04:25:30] [INFO][ 97e8d6e8-7d98-4360-b019-c92c052a7ae3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:25:43] [INFO][ 84b09d7f-3120-4a10-b9c5-dcc821483703]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:26:35] [INFO][ 0cfa4e34-8153-457e-9ec8-0abcef87f694]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:26:36] [INFO][ 8753134f-ff69-4c36-95cd-5d77d68642c9]PATCH /api/applications/65095abcbef7f5da735cde20/delete {}
+[2023-09-19 04:26:36] [INFO][ d7e8c0bb-45e8-41ec-9098-4d79f3ac291a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:26:37] [INFO][ 9c211368-5b63-4c46-bade-1bc53a877fb0]PATCH /api/applications/65095afabef7f5da735cde41/delete {}
+[2023-09-19 04:26:37] [INFO][ 8bf90ccb-1937-4111-a818-8a75b3ace746]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:26:47] [INFO][ f5ad862c-e3ba-4c53-8feb-00c888de8a66]POST /api/applications/ {"appName":"cohort 1","appDescription":"HJJH"}
+[2023-09-19 04:26:57] [INFO][ ddfe63fc-cdd1-4263-bc3d-172667e460a9]POST /api/applications/ {"appName":"COHORT 1","appDescription":"JHJ"}
+[2023-09-19 04:26:57] [INFO][ 88399062-e72b-4277-995f-90666ec9c50c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:28:38] [DEBUG][]Listening on port 3000...
+[2023-09-19 04:28:38] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 04:28:40] [INFO][ 5654cc89-c92a-4dda-b01d-6c82557c741a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:28:41] [INFO][ 3537d501-1205-4a3f-8c26-abdaa39e2e28]PATCH /api/applications/65095b51bef7f5da735cde51/delete {}
+[2023-09-19 04:28:41] [INFO][ 6995adff-b02d-437d-9c42-7582752050f5]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:28:43] [INFO][ 286772ce-b03b-4d6f-86ec-ecf7ddbcdae1]PATCH /api/applications/65095adcbef7f5da735cde2b/delete {}
+[2023-09-19 04:28:43] [INFO][ f05a5ee5-4905-4deb-aab1-366d33235357]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:28:44] [INFO][ cbe8b09b-5b8a-4c7d-a6c0-53f94dcb4b50]PATCH /api/applications/65095a21591762d81f2b1066/delete {}
+[2023-09-19 04:28:44] [INFO][ 04391354-2c7a-4f34-919c-1ff63f640464]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:28:46] [INFO][ f84654e4-29ed-4ae5-a09a-9d7811e7d4d6]PATCH /api/applications/65095ad5bef7f5da735cde26/delete {}
+[2023-09-19 04:28:46] [INFO][ 0c694c9c-040f-481a-b5b8-3cba521e790d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:28:51] [INFO][ 226e00df-36e7-4026-9ae0-04cc43cc1f67]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:29:04] [INFO][ a4c57533-4df1-4b89-8e00-dba91333b8a2]POST /api/applications/ {"appName":"cohort 1 ","appDescription":"jhjh s"}
+[2023-09-19 04:29:04] [INFO][ fc287ad4-01e7-483e-84f0-516f413bffd9]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:29:12] [INFO][ af5c22b1-52c6-41a3-aae5-b0a312ba7984]POST /api/applications/ {"appName":"cohort 2","appDescription":"jhj"}
+[2023-09-19 04:29:12] [INFO][ 08a1ea5c-a899-49ea-8f77-29d7e8d20044]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:29:51] [INFO][ 1413283b-4fcd-4a63-b656-5a8b6f4bf302]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 04:30:42] [INFO][ dcc74671-34cb-409e-965c-b4524af52f2c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:22:44] [INFO][ 69bbc5b9-297a-4d27-b5d2-d12648cc7813]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:25:07] [INFO][ 6c854a43-bb0b-4935-a323-220394311dbc]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:28:25] [DEBUG][]Listening on port 3000...
+[2023-09-19 05:28:25] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 05:28:26] [INFO][ d5ba0198-1f32-46ff-827a-72987d05cbcb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:28:52] [INFO][ 30b71731-3068-43c6-8435-a7b29c78bac3]POST /api/applications/ {"appName":"cohort 1","appDescription":"employee training system - cohort"}
+[2023-09-19 05:29:01] [INFO][ 521f0c63-fb36-43f9-81c3-341a1810bdfc]POST /api/applications/ {"appName":"cohort 1","appDescription":"employee training system - cohort"}
+[2023-09-19 05:29:26] [INFO][ 71ef80bb-f2f1-4741-8baa-31b120a405aa]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:29:30] [INFO][ f023ce73-6961-4eee-85d9-507df338e4b6]PATCH /api/applications/650969d4d95bcdad9e19fd16/delete {}
+[2023-09-19 05:29:30] [INFO][ 429801d5-1689-4faa-83e9-cc81e6d7c287]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:29:34] [INFO][ e49a7565-7ce0-4484-9078-556b55a65aba]POST /api/applications/ {"appName":"cohort 1","appDescription":"employee training system - cohort"}
+[2023-09-19 05:29:36] [INFO][ c5115be9-fbca-4c02-8de0-7f5fe2c00500]POST /api/applications/ {"appName":"cohort 1","appDescription":"employee training system - cohort"}
+[2023-09-19 05:29:39] [INFO][ 4869b7d2-4e43-4b78-9d49-c9f89f293f33]POST /api/applications/ {"appName":"cohort 1","appDescription":"employee training system - cohort"}
+[2023-09-19 05:30:05] [INFO][ 3a09ad66-17b1-4158-b13c-b0c8a91d80fb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:31:14] [INFO][ 434b22fb-8163-4d55-affd-8291983cf4f3]POST /api/applications/ {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 05:31:16] [INFO][ 5d27e10c-89bd-4fe5-adf8-89900f196fa3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:31:18] [INFO][ 083bc67b-42c4-4518-b737-d21550f1cebd]PATCH /api/applications/65096a62d95bcdad9e19fd2a/delete {}
+[2023-09-19 05:31:18] [INFO][ 3eb55433-b01d-43de-b5bf-7c47592174fa]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:31:36] [INFO][ 4b74cc68-9224-44b3-91b3-91f835b55efd]POST /api/applications/ {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 05:31:52] [INFO][ 75fd7461-21ea-4991-9498-7247b3a0bd5e]POST /api/applications/ {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 05:32:09] [INFO][ 443bc074-2c7b-4e8b-9ed1-9daf6429ebd9]POST /api/applications/ {"appName":"cohort 3","appDescription":"employee training system - cohort"}
+[2023-09-19 05:32:13] [INFO][ 853fbbfa-b3a2-46f8-8ead-a15f79bd5fd1]POST /api/applications/ {"appName":"cohort 3","appDescription":"employee training system - cohort"}
+[2023-09-19 05:33:16] [INFO][ 433fa637-579d-4a0d-8dd8-cd25d7d47497]POST /api/applications/ {"appName":"cohort 101","appDescription":"employee training system - cohort"}
+[2023-09-19 05:33:19] [INFO][ f409333b-ff21-40ad-92ed-af13ac045360]POST /api/applications/ {"appName":"cohort 101","appDescription":"employee training system - cohort"}
+[2023-09-19 05:33:22] [INFO][ 52cb5c89-c3f0-4ef3-b822-503aecb249a4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:33:24] [INFO][ fb513a88-ea73-4a27-9739-8912d03eb249]PATCH /api/applications/65096adcd95bcdad9e19fd3c/delete {}
+[2023-09-19 05:33:24] [INFO][ a6a35764-206e-41c4-90e6-907efbdb1b98]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:33:28] [INFO][ f670c8e0-ccbd-411c-88b0-ed12dc6fcfef]POST /api/applications/ {"appName":"cohort 101","appDescription":"employee training system - cohort"}
+[2023-09-19 05:33:30] [INFO][ 37ccd0c6-e4d8-44d7-969f-4915dcea5f2b]POST /api/applications/ {"appName":"cohort 101","appDescription":"employee training system - cohort"}
+[2023-09-19 05:33:40] [INFO][ 9b531545-39ca-447b-9c69-9415206f6837]POST /api/applications/ {"appName":"cohort 101","appDescription":"employee training system - cohort"}
+[2023-09-19 05:34:46] [DEBUG][]Listening on port 3000...
+[2023-09-19 05:34:46] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 05:34:57] [INFO][ 0049a9c0-332f-412e-a13d-0ef2cbbb38ab]POST /api/applications/ {"appName":"cohort 10111","appDescription":"employee training system - cohort"}
+[2023-09-19 05:34:58] [INFO][ cb56733a-230d-4222-aa1a-9480e7e1b55a]POST /api/applications/ {"appName":"cohort 10111","appDescription":"employee training system - cohort"}
+[2023-09-19 05:35:00] [INFO][ a1a020ab-e4f3-4b26-a5fb-c5df33c2a738]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:35:02] [INFO][ 56829ad6-b0e1-48c1-b5eb-b2d1a46ef56a]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:35:04] [INFO][ d322ab1f-93b4-409d-ad78-452f59ce9761]GET /api/applications/?page=3&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:35:05] [INFO][ 5590b5bf-3584-45a1-bea0-c884e002266a]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:35:06] [INFO][ a9ce5df0-6a15-4022-a078-add28412490f]PATCH /api/applications/65096b41ae89440627ab8116/delete {}
+[2023-09-19 05:35:06] [INFO][ 0cbf3ab1-8767-4021-8354-ce920e96d4f4]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:35:13] [INFO][ e4349d76-7ca1-4620-b902-528bfb41bdfc]POST /api/applications/ {"appName":"cohort 10111","appDescription":"employee training system - cohort"}
+[2023-09-19 05:35:15] [INFO][ 469bf675-d09b-472b-858f-c0e6c011d87d]POST /api/applications/ {"appName":"cohort 10111","appDescription":"employee training system - cohort"}
+[2023-09-19 05:36:38] [INFO][ 88c37fbe-2e2a-422a-b17a-487e729b6df3]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:37:10] [INFO][ 6b742d8c-4328-4eaa-9552-8de7a931bbe3]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:38:05] [INFO][ 702d6d5e-5127-4279-8629-fb475bc95ed1]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:38:38] [INFO][ 96931ae1-0d39-4a0a-bd5e-b343e3d418ee]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:40:57] [INFO][ 866d8fdb-fcc2-4afe-a8a3-addd8b447827]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:41:02] [INFO][ 23f9b1e6-3075-406a-8ad7-f8bc2b5dcdf7]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:41:11] [INFO][ 1f14d268-6fd1-4684-b049-4f3fe5698a0c]POST /api/events/ {"eventName":"event 1 ","eventDescription":"this is evnet ","applicationId":"65096aead95bcdad9e19fd48"}
+[2023-09-19 05:41:11] [INFO][ 563a7730-4ad7-4633-84d0-735bf649e66f]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:41:22] [INFO][ 3cf5ec14-23e7-4a62-bc66-f9e3e2053a97]POST /api/events/ {"eventName":"event 1","eventDescription":"hsjshs ","applicationId":"65096aead95bcdad9e19fd48"}
+[2023-09-19 05:41:22] [INFO][ 75edc7cc-6842-40e2-95b0-b41d6ee1b891]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:41:55] [DEBUG][]Listening on port 3000...
+[2023-09-19 05:41:55] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 05:42:02] [INFO][ c97dadaf-f919-4dac-835a-44453db709fb]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:02] [INFO][ 6ca154b0-abf3-40a7-8512-727c0b764e36]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:10] [INFO][ 03e37fa2-59b0-476f-827c-1e8f001d850b]POST /api/events/ {"eventName":"event 1","eventDescription":"TJSH S","applicationId":"65096aead95bcdad9e19fd48"}
+[2023-09-19 05:42:13] [INFO][ 1ab71c22-10d5-48d0-a8a6-10cfb9666553]PATCH /api/events/65096cc2ae89440627ab813e/delete {}
+[2023-09-19 05:42:13] [INFO][ 1b15ca95-bb27-4217-bfc2-39097df7125b]GET /api/notifications/?page=1&pageSize=6&eventId=65096cc2ae89440627ab813e&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:13] [INFO][ 933bdd38-b29d-473b-82a9-df9551c45eaa]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:14] [INFO][ 53d67880-8c52-4099-a2ab-7227d8bfac34]PATCH /api/events/65096cb7ae89440627ab8137/delete {}
+[2023-09-19 05:42:14] [INFO][ aae401c9-d5c8-4060-bff1-45c89f9d38e2]GET /api/notifications/?page=1&pageSize=6&eventId=65096cb7ae89440627ab8137&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:14] [INFO][ 574b6c06-19f0-47dd-818f-aa70816a822a]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:15] [INFO][ fd4a1327-6708-4faa-864b-9f981c3be498]GET /api/notifications/?page=1&pageSize=6&eventId=65096cb7ae89440627ab8137&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:17] [INFO][ a307cb09-c3f9-4587-9ad7-4aa14da51af7]GET /api/notifications/?page=1&pageSize=6&eventId=65096cb7ae89440627ab8137&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:21] [INFO][ dd9f30cb-c67b-4654-ac7a-32b8b3499dec]GET /api/notifications/?page=1&pageSize=6&eventId=65096cb7ae89440627ab8137&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:23] [INFO][ 4021c417-5071-4509-b2b3-5f67741bfe24]POST /api/events/ {"eventName":"event 1","eventDescription":"kj","applicationId":"65096aead95bcdad9e19fd48"}
+[2023-09-19 05:42:30] [INFO][ a93b1b40-0aa8-49b1-8c14-fe5591f275e1]POST /api/events/ {"eventName":"event 1 ","eventDescription":"kjkjkj","applicationId":"65096aead95bcdad9e19fd48"}
+[2023-09-19 05:42:30] [INFO][ 0630a0bb-56ce-4ffc-8947-712ff8d0a435]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:42:37] [INFO][ b971ca79-be48-4616-b49d-021ff65960a8]POST /api/events/ {"eventName":"event 1","eventDescription":"kjk","applicationId":"65096aead95bcdad9e19fd48"}
+[2023-09-19 05:42:37] [INFO][ ae741a5d-ec55-4027-85c7-42f3001e7577]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:44:27] [DEBUG][]Listening on port 3000...
+[2023-09-19 05:44:27] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 05:44:35] [INFO][ ae7ea19e-68c5-437d-9f99-59d88458556b]GET /api/notifications/?page=1&pageSize=6&eventId=65096cb7ae89440627ab8137&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:44:35] [INFO][ 1c12f3ea-89b2-4629-b7d1-563869d42abe]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:44:35] [INFO][ 476e9016-c328-4e63-a857-f441a880a45a]GET /api/events/?page=1&pageSize=6&applicationId=65096aead95bcdad9e19fd48&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:44:36] [INFO][ d416f5d3-4e52-4577-9c87-1b11b1c9a836]GET /api/notifications/?page=1&pageSize=6&eventId=65096cb7ae89440627ab8137&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:44:39] [INFO][ 504a6bb5-e757-441e-93ca-63b9f47fe4a3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:45:02] [INFO][ 0486266b-277b-436e-8741-1116b930e5c8]GET /api/applications/?isActive=null {}
+[2023-09-19 05:46:09] [DEBUG][]Listening on port 3000...
+[2023-09-19 05:46:09] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 05:46:09] [INFO][ 39058140-f2f4-4183-927d-0b3e6c22ee63]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:13] [INFO][ 45fc9f8e-6670-45b4-aef4-ba241dab548d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:13] [INFO][ 5652f467-f8c6-4112-bfdb-26f8a4db6414]GET /api/events/?page=1&pageSize=6&applicationId=65096a00d95bcdad9e19fd22&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:21] [INFO][ 4e3be5ee-dd8e-42bc-b61e-f57100d8cc4f]POST /api/applications/ {"appName":"event 1","appDescription":"jhjhjhhj"}
+[2023-09-19 05:46:21] [INFO][ 047d370c-83e8-46d3-b419-3cd9d02b8972]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:28] [INFO][ 981a23fa-0b18-4f8c-81df-7f1448a9e7e5]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:31] [INFO][ aeb2910d-cfe0-4d33-a881-a5e9e708afc7]PATCH /api/applications/65096a00d95bcdad9e19fd22/delete {}
+[2023-09-19 05:46:31] [INFO][ 0195dd50-8aa0-4641-9436-835a882d6416]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:32] [INFO][ d483ff3e-4eb0-4fea-8afc-a1e4352a6d67]PATCH /api/applications/650969fed95bcdad9e19fd1f/delete {}
+[2023-09-19 05:46:32] [INFO][ 4bc6dc41-bfeb-451d-8e21-580a72ef2710]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:32] [INFO][ cc686017-e80e-4de6-9420-a685036d0bcf]PATCH /api/applications/65096a03d95bcdad9e19fd25/delete {}
+[2023-09-19 05:46:32] [INFO][ cf226baa-4d40-45ef-9e3a-5b22d4391444]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:33] [INFO][ cf24a517-cba2-4418-9e62-0b1d10a5c724]PATCH /api/applications/65096aead95bcdad9e19fd48/delete {}
+[2023-09-19 05:46:33] [INFO][ fbfa4ca8-db25-4d84-8063-7f69073b4366]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:34] [INFO][ 6b357127-7a35-4727-8e3a-fb96d85a5fc9]PATCH /api/applications/65096ae8d95bcdad9e19fd45/delete {}
+[2023-09-19 05:46:34] [INFO][ bc281976-2b78-4e84-8082-3e0c28af7b6d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:37] [INFO][ 4405829f-611f-4070-bc0b-5c43594d6164]PATCH /api/applications/65096a78d95bcdad9e19fd32/delete {}
+[2023-09-19 05:46:37] [INFO][ 42a8a7c5-fe97-4d6e-b054-0006d3622c3d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:38] [INFO][ 2eba929d-5653-40d4-86e7-d2b2d23cb6ae]PATCH /api/applications/65096a99d95bcdad9e19fd38/delete {}
+[2023-09-19 05:46:38] [INFO][ 1787ec44-d5a3-440a-8671-63062ee3f3a8]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:41] [INFO][ 58aedb63-e6bc-41a5-917a-5d2117098b34]PATCH /api/applications/65096dedc38b1fb94728b3bc/delete {}
+[2023-09-19 05:46:41] [INFO][ 0c30e082-3950-4f50-9a27-f7a07fbf0a39]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:42] [INFO][ 67c3fbda-a288-42ce-99b7-eeead9e64a88]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:46:48] [INFO][ bcacd316-87d3-43ea-af3b-db2039024c4d]POST /api/events/ {"eventName":"event 1 ","eventDescription":"kjkjkj","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:46:48] [INFO][ b2986eb6-ab3e-483f-becd-f4f253a1753a]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:01] [INFO][ 28486f47-08f1-489f-8239-edda52217d49]POST /api/events/ {"eventName":"event 1","eventDescription":"KJKJKJ","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:47:01] [INFO][ 1d5e7d85-3238-4494-9bef-0886ed8a6369]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:06] [INFO][ a4438a55-ef35-4070-8a1a-c1b136f9d8f3]GET /api/notifications/?page=1&pageSize=6&eventId=65096e08c38b1fb94728b3df&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:11] [INFO][ 29691f16-7b85-49ab-96d0-bfa83fce3559]PUT /api/events/65096e08c38b1fb94728b3df/update {"eventName":"event 1","eventDescription":"kjkjkj"}
+[2023-09-19 05:47:15] [INFO][ 146897b6-021a-4487-a567-df237dcbd0d6]GET /api/notifications/?page=1&pageSize=6&eventId=65096e15c38b1fb94728b3e6&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:18] [INFO][ 73d5ded9-4953-4804-afec-4691b8047844]PATCH /api/events/65096e15c38b1fb94728b3e6/delete {}
+[2023-09-19 05:47:18] [INFO][ 2293c154-9c74-4d24-bec5-14dc27dabfd8]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:29] [INFO][ a3530e76-f148-497b-a0b6-51861ac6da0e]POST /api/events/ {"eventName":"event 1","eventDescription":"llk","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:47:29] [INFO][ 6132aebc-e94c-4966-abf9-5def9d97c2b0]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:32] [INFO][ 0604e9e1-d5d6-4845-882f-a072ebdcbc40]GET /api/notifications/?page=1&pageSize=6&eventId=65096e08c38b1fb94728b3df&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:37] [INFO][ 2123b38c-22f4-44ea-9c6f-be724e2bcd39]PUT /api/events/65096e08c38b1fb94728b3df/update {"eventName":"event 1","eventDescription":"kjkjkj"}
+[2023-09-19 05:47:40] [INFO][ 303b4b3d-1f0f-4fab-bdf2-62c9c011d242]PATCH /api/events/65096e08c38b1fb94728b3df/delete {}
+[2023-09-19 05:47:40] [INFO][ ae4bc297-f7d9-473b-a68a-10a46f43d7fd]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:47:52] [INFO][ d948e0d2-a59d-4202-8d3d-7da68c046896]POST /api/events/ {"eventName":"event 1","eventDescription":"jkkj","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:48:01] [INFO][ 96a3ac7f-1235-4796-b5af-cb9d07e0ddae]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:48:30] [INFO][ c201cec5-549e-43d8-9a6c-c25461191ac2]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:48:37] [INFO][ 05f7a7cf-de76-462c-bacf-19fbe9745d53]GET /api/events/?page=1&pageSize=6&applicationId=65096b51ae89440627ab8125&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:48:46] [INFO][ ef3343dd-4de4-4150-8883-e69bc3c4ae0e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:48:50] [INFO][ ca27ea9e-cfa4-42ac-9a69-bbce4cc90ae2]GET /api/events/?page=1&pageSize=6&applicationId=65096b51ae89440627ab8125&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:49:05] [INFO][ 9e6793ea-d1c4-4537-a7ad-e0a237f26c2e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:49:21] [INFO][ d941d627-e955-4c1a-98f7-134f02970116]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:49:55] [INFO][ 35458084-e7f0-449d-a951-fa742069eb52]GET /api/events/?page=1&pageSize=6&applicationId=65096b51ae89440627ab8125&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:49:55] [INFO][ 658cafa8-5495-4b4a-9e2f-78f8570a8f17]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:49:57] [INFO][ d3cdde26-664a-4072-9a54-16785b2e08aa]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:50:05] [INFO][ 4673fc5d-7270-41b7-914f-df486301bfa1]POST /api/events/ {"eventName":"event 1","eventDescription":"jhkhjj","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:50:08] [INFO][ 1cf8e2b1-43c8-48f3-a768-67e0c8b38819]PATCH /api/events/65096e31c38b1fb94728b3fa/delete {}
+[2023-09-19 05:50:08] [INFO][ ac600afb-6830-4e05-a0d9-1a43e46c1b73]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:50:13] [INFO][ 98ec7426-8b4f-4c62-bd6c-95d30498e58e]POST /api/events/ {"eventName":"event 1","eventDescription":"kjkjkj","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:50:13] [INFO][ 5165830e-2305-4e76-8d81-bd153b3b2c92]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:50:21] [INFO][ 7b01711f-eba6-449c-8685-042cf800afaf]POST /api/events/ {"eventName":"event 1","eventDescription":"jkjkjkj","applicationId":"65096af4d95bcdad9e19fd4b"}
+[2023-09-19 05:55:17] [INFO][ 01fe7e3b-8889-4b5b-a578-78fb8575969f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:55:17] [INFO][ 0dabe12e-57f7-4174-a6f1-17102e4583ee]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:55:17] [INFO][ 97189060-31c7-4aa0-8933-9d2255ddd082]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:23] [INFO][ f7af47e8-143e-414c-8031-7234a27f7732]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:23] [INFO][ 993c403d-931a-4d7e-8957-64c97dba759f]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:23] [INFO][ 53a0c3fd-5485-4ffd-93d7-0235fdddb05c]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:26] [INFO][ d0764493-572b-43f7-a166-f24ed4193439]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:28] [INFO][ 17ef2be1-aa68-4844-88f1-f1be30971d29]PUT /api/applications/65096af4d95bcdad9e19fd4b/update {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 05:56:28] [INFO][ 907f0358-0599-4e6d-ba5d-d57b3e6c6e88]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:30] [INFO][ 57b4acef-e255-4059-b01d-e8ae2027b208]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:41] [DEBUG][]Listening on port 3000...
+[2023-09-19 05:56:41] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 05:56:43] [INFO][ b3b4e62f-cdc9-4a8d-ad77-4ae5cd49862f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:43] [INFO][ 1aae69bb-35ce-4abb-a77e-e66e96b11b95]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:43] [INFO][ 8ce606d5-2c64-4a1c-9833-13df5e25c2b1]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:44] [INFO][ ba404616-ee73-48f4-92e4-8ecbfbbe4e8f]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:46] [INFO][ 51d3d6c7-b14f-4cf3-91f9-3bdef75d750c]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:48] [INFO][ 1bb04923-9f99-4030-a85b-4f5d9c9979af]PUT /api/applications/65096b51ae89440627ab8125/update {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 05:56:50] [INFO][ cc066845-b297-4694-ad5f-a77b69beadb5]PUT /api/applications/65096b51ae89440627ab8125/update {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 05:56:50] [INFO][ 0c50ba22-bbd4-4e31-bd48-021917ae173a]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:57] [INFO][ f3da415b-05e9-4b2d-80bc-c124f4c53b78]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:57] [INFO][ 644c43a6-b039-4ee9-93cd-8a021470db7d]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:57] [INFO][ cecbd400-bb69-4c04-b377-cc7302085e8a]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:56:58] [INFO][ 27cdc9ab-6468-4d1d-abd2-35a833140886]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:00] [INFO][ 254fc33a-b468-407a-83a9-40ab55483719]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:03] [INFO][ 80ef5a29-ad77-4218-b52e-840de6b79bf1]PATCH /api/applications/65096b51ae89440627ab8125/delete {}
+[2023-09-19 05:57:03] [INFO][ 974a701f-f8d7-4dd5-8928-29893ed98141]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:03] [INFO][ e37cef09-7e4b-4f2f-a4e8-14d1a0efb072]PATCH /api/applications/65096af4d95bcdad9e19fd4b/delete {}
+[2023-09-19 05:57:03] [INFO][ 25d7a358-2668-4171-9dd3-163670a16459]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:04] [INFO][ 463680ad-2316-430d-ba44-e7fbd490230d]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:15] [INFO][ 842dd0c4-7ca0-452e-a7b9-1e0521927ee2]PUT /api/applications/65096a88d95bcdad9e19fd35/update {"appName":"cohort 10111","appDescription":"employee training system - cohort"}
+[2023-09-19 05:57:15] [INFO][ 0b1cf74e-53a8-4ef1-8e21-0e8fbf735b8a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:25] [INFO][ a8b5db10-f34e-46d1-89ed-0cb7f376fdf4]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:25] [INFO][ 0769ebff-d587-4696-bb38-7e1ce79fd0f4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:25] [INFO][ 6606b336-da01-4a83-96ab-209c5c88c9e3]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:26] [INFO][ 7be8c7f4-9083-45bc-87bb-11a250ed82a3]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:26] [INFO][ 70f43d31-15f9-40ff-aa61-139804864e6b]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:28] [INFO][ 2ef10992-5d8f-4c51-b093-05e1069dca93]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:28] [INFO][ f8ae778c-ed46-49af-b015-81c366089ee4]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:32] [INFO][ fb00b8ef-9ac9-444b-9d3d-52a514492c92]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:32] [INFO][ c4a6804a-6fdc-44b9-ba3d-f3ca9bbe4601]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:41] [INFO][ b786555d-1800-45e5-8995-704804dcb027]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:41] [INFO][ 1393360b-ccf1-4e24-bdd0-3e2d21454a73]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:41] [INFO][ c057b936-f416-4739-8752-fd15156addbb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:42] [INFO][ 3dabec27-da47-4e9f-8f3d-c5d0e6e69fdd]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:42] [INFO][ be2a3c6e-ca50-43ba-b29f-3b5a551a45eb]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:44] [INFO][ 4b6eee53-4c90-4993-b041-85e46dd5290f]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:44] [INFO][ 202b8ca4-b242-4832-b948-506df65609f6]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:48] [INFO][ 710e6bb9-477e-401a-965f-7167e3c4419c]GET /api/events/?page=1&pageSize=6&applicationId=65096af4d95bcdad9e19fd4b&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:48] [INFO][ 0953f901-6967-4672-8783-7a5cd7887a61]GET /api/notifications/?page=1&pageSize=6&eventId=65096e31c38b1fb94728b3fa&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:48] [INFO][ c4d4fcd4-b26c-4f23-9d00-67586c1dee10]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:52] [INFO][ a8e38b05-2dcc-43b3-b3cc-19083d6a41a3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:57:54] [INFO][ 04205d72-76f5-467d-a899-8bb6d6393a47]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:58:00] [INFO][ 35d51275-4db0-42c7-aa2c-c280f6e02aab]POST /api/events/ {"eventName":"dddddd","eventDescription":"dddd","applicationId":"65096a88d95bcdad9e19fd35"}
+[2023-09-19 05:58:00] [INFO][ 1e9c7324-3705-487b-8646-1836a03dcf8a]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:58:01] [INFO][ 6e41d12b-8def-48f5-ba28-edc81f6a7927]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 05:58:09] [INFO][ 77a75289-5942-4723-8882-daf076ec7310]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:00:40] [INFO][ c67ea490-704e-487b-b2e4-982c18f21d30]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:00:40] [INFO][ 529f512c-9c03-4b05-a1ff-f99fd8184da8]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:00:40] [INFO][ a408d1be-2fb5-48bd-b461-433a201a740f]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:00:43] [INFO][ 924f91f8-1593-4a17-9b06-76c2d3fd6014]GET /api/tags {}
+[2023-09-19 06:00:43] [INFO][ c4fa9c0e-8e86-4f46-91c5-7bfc36f2d684]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:00:51] [INFO][ ec65e406-9ae0-49de-bdbb-61cc4d68c17c]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjkjk","notificationDescription":"kjkjkj","templateBody":"kjkjkjkj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:00:52] [INFO][ 59c9e238-d8fe-40a4-b4b6-783f94896687]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjkjk","notificationDescription":"kjkjkj","templateBody":"kjkjkjkj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:01:16] [INFO][ be6e3de6-f3f8-4a1b-a5ce-0e184d78c9e7]GET /api/tags {}
+[2023-09-19 06:01:16] [INFO][ 87c2e4ab-ea31-489f-8d7b-7076b7418534]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:01:18] [INFO][ a9e38833-02fd-4400-abe6-a6a5461f4503]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjkjk","notificationDescription":"kjkjkjdffffffffffff","templateBody":"kjkjkjkj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:01:19] [INFO][ 0be6450b-19e1-449a-a23c-ec165429dce0]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjkjk","notificationDescription":"kjkjkjdffffffffffff","templateBody":"kjkjkjkj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:01:25] [INFO][ 7aeef8ea-9b06-4b05-b5c6-90af6ef9aed4]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjkjkddddddddd","notificationDescription":"kjkjkjdffffffffffff","templateBody":"kjkjkjkjdddddddddd","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:01:25] [INFO][ 77c7c953-ec58-4c1f-a3d3-a6049fa44438]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:01:28] [INFO][ fa04f6ee-16b6-4fbf-af4a-01f717e1e1a1]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:01:29] [INFO][ 622c89a2-5669-4dc1-a030-c79b09346c33]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:01:31] [INFO][ 33f8e32a-e769-4dfb-b19d-6f80756f229f]GET /api/tags {}
+[2023-09-19 06:01:31] [INFO][ d3aaa538-bfbd-4d71-b717-e5f8fed0d5c0]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:01:40] [INFO][ 2191add1-8459-4c4f-8803-f14d9725d62d]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjkjjjjjjjjjjjjjjj","notificationDescription":"jjjjjjjjjjjjjjjj","templateBody":"jjjjjjjjjjjjjjjjjjjjjjjjjj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:01:52] [INFO][ 52d062fb-abc5-410d-a0e8-eb14b8040dd5]GET /api/tags {}
+[2023-09-19 06:01:52] [INFO][ 58019168-1c88-4ff4-8ea0-671790e5ffe7]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:01:52] [INFO][ b1bea1fc-7be5-4cb3-84c7-cb237861b074]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:01:53] [INFO][ 166aba97-aea0-4ff5-b50c-589ed18b3047]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:01:54] [INFO][ 8e6de855-5368-4d7f-98bc-f32d1ca7a903]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:01:57] [INFO][ bcf7c872-8f92-42c3-ab5d-804319674094]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650971757ee8f7b688f72b00 {}
+[2023-09-19 06:01:57] [INFO][ 1ca5e941-3edd-4b7c-8b68-43a01fdefc77]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650971757ee8f7b688f72b00 {}
+[2023-09-19 06:01:57] [INFO][ e41892cb-e317-406e-bdb5-4d4aecfe636b]GET /api/tags {}
+[2023-09-19 06:01:58] [INFO][ f42c54c4-f4c5-4948-9ad7-7c72e1a5d401]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:00] [INFO][ a5e634e0-1bfd-4ae9-a98e-5c48a65c87a0]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:01] [INFO][ d7cba8cb-d022-4273-a4db-07cf00a9f9f6]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:07] [INFO][ 3a8cdb66-6bd6-4775-9ddd-acd0bf2469b4]PATCH /api/notifications/650971757ee8f7b688f72b00/delete {}
+[2023-09-19 06:02:07] [INFO][ c7eb2930-8190-44b6-b990-387c4045f5ed]GET /api/tags {}
+[2023-09-19 06:02:07] [INFO][ 4b734a8c-5cc1-4497-9e67-9e44fcc04208]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650971757ee8f7b688f72b00 {}
+[2023-09-19 06:02:09] [INFO][ c734bd7c-e4e0-44c6-b118-a3cdcd4ce219]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:10] [INFO][ 1d516c8d-0b05-4065-9d01-a97e25d6e9f5]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:11] [INFO][ 0b292d79-09c8-4465-9d4a-9d27e7580b63]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:16] [INFO][ ef3c4989-ff01-4f59-863e-06fbc881007a]GET /api/tags {}
+[2023-09-19 06:02:16] [INFO][ f19a2cd0-cf8e-4f2a-a329-4862b4b71d54]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:02:24] [INFO][ 08668bca-ce65-4d2f-8c06-a6cbf2da9422]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjjjjjjjjjjjjjjjjj","notificationDescription":"jjjjjjjjjjjjjjjjjj","templateBody":"jjjjjjjjjjjjjjjjjjj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:02:24] [INFO][ e15f05e5-1d42-41e2-95fe-824988317cb6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:26] [INFO][ 941ebc7a-7beb-401a-adab-cb2aa4d64235]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:27] [INFO][ 0e658a86-03c6-4d4d-ae4b-c650147c16e2]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:02:30] [INFO][ 01f515e4-4f9e-491a-bbfa-7157e41d46c1]PATCH /api/notifications/650971b07ee8f7b688f72b3f/delete {}
+[2023-09-19 06:02:30] [INFO][ f654d91a-714d-4f41-8594-2b0fd31420e8]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650971b07ee8f7b688f72b3f {}
+[2023-09-19 06:02:30] [INFO][ f988c175-94ad-47bb-8780-e3affd22eb8d]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650971b07ee8f7b688f72b3f {}
+[2023-09-19 06:02:30] [INFO][ 5083632d-c790-46b5-a7ae-2eb1c932d4ad]GET /api/tags {}
+[2023-09-19 06:03:57] [INFO][ a3196663-5322-42f8-bd5e-6707eecf183a]GET /api/tags {}
+[2023-09-19 06:03:57] [INFO][ ef8b1f75-6c08-4b80-a8de-c477ebef5e52]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650971b07ee8f7b688f72b3f {}
+[2023-09-19 06:04:01] [INFO][ 7244ee5f-fa5c-4aba-8c69-b5f9030ed205]PUT /api/notifications/650971b07ee8f7b688f72b3f/update {"notificationName":"noti-1","templateSubject":"kjjjjjjjjjjjjjjjjj","notificationDescription":"jjjjjjjjjjjjjjjjjj","templateBody":"jjjjjjjjjjjjjjjjjjj"}
+[2023-09-19 06:04:01] [INFO][ 565d1c82-b5fb-4fc4-9682-72e273e9949d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:02] [INFO][ 8f13142a-30e6-4204-8db3-b496a3e5c1e5]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:03] [INFO][ 794e5ca9-445b-4345-a0f9-697a5738c0e6]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:06] [INFO][ 8cc02bf9-9843-489d-bea1-b34c51ab337d]GET /api/tags {}
+[2023-09-19 06:04:06] [INFO][ 28243ab4-a1af-4389-802f-a8529851de83]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:04:14] [INFO][ 52fe9e6a-15bc-4693-8892-91b9953dc87b]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kjjjjjjjjjj","notificationDescription":"jjjjjjjjjjjjjj","templateBody":"jjjjjjjjjjjjjjjjjj","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:04:14] [INFO][ ac92d299-36ae-4ada-b898-2ea0479c7902]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:15] [INFO][ 96d6852a-566d-4606-b1ce-b42e32488820]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:16] [INFO][ 339234c6-44d3-40f1-aa9c-fc3990a826c9]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:19] [INFO][ 6166ba2e-830b-44b9-b9cf-0cac6c4fc9a3]GET /api/tags {}
+[2023-09-19 06:04:19] [INFO][ 0c46dfea-231f-49e2-b73d-450abcdbc6b4]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:04:30] [INFO][ a17ff53b-279a-4359-acae-c9ecba8deb2d]GET /api/tags {}
+[2023-09-19 06:04:30] [INFO][ f82f43bf-515d-4cfd-abb6-adb7d8d11f32]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:04:34] [INFO][ 03d590a6-2d33-4d61-86b9-166e728b4c34]GET /api/tags {}
+[2023-09-19 06:04:34] [INFO][ e0fe21c9-8757-4073-814f-f8f837f4beee]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:04:38] [INFO][ 4fef58e1-5679-49c3-9cb8-a3578c0672e9]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kkkkkkkkkkkkkkkk","notificationDescription":"kllllllllllllllllll","templateBody":"kkkkkkkkkkkkkl","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:04:44] [INFO][ 711b8fa6-b91e-43df-b433-c66f7ca6d9b9]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:45] [INFO][ 90409848-6069-4297-a9b9-696513546634]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:46] [INFO][ 8d7c6210-a8d3-4ce4-94a1-06eae7741e26]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:48] [INFO][ 30197418-67f6-49a9-8569-3c31a8f79e67]GET /api/tags {}
+[2023-09-19 06:04:48] [INFO][ 338d009c-cd72-4c97-857b-1d71bb4e040b]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:04:57] [INFO][ 99d8398b-461c-4353-8c1f-a5af9e7aeb58]POST /api/notifications {"notificationName":"noti-2","templateSubject":"jhhhhhhhhhhh","notificationDescription":"hhhhhhhhhhhhhh","templateBody":"hhhhhhhhhhhhhhhhh","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:04:57] [INFO][ d8e304a7-6295-45ac-ae4f-8d482643c06c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:04:59] [INFO][ 1eded3fd-ea13-4ec4-9ab7-a9c61a1bb7c3]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:05:00] [INFO][ 6a1444a9-4152-49b7-852d-1d6e187a4188]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:05:02] [INFO][ 6cfd86f8-df71-4beb-ba43-bee30ccd1afb]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650972497ee8f7b688f72b8c {}
+[2023-09-19 06:05:02] [INFO][ 1017bdd8-c28c-4154-bbc7-d418b51574cf]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650972497ee8f7b688f72b8c {}
+[2023-09-19 06:05:02] [INFO][ 9aeca32d-c412-4485-9f0e-cc0ea6982913]GET /api/tags {}
+[2023-09-19 06:05:07] [INFO][ 940d794a-1f38-487f-b1e7-66d092251390]PUT /api/notifications/650972497ee8f7b688f72b8c/update {"notificationName":"noti-1","templateSubject":"jhhhhhhhhhhh","notificationDescription":"hhhhhhhhhhhhhh","templateBody":"hhhhhhhhhhhhhhhhh"}
+[2023-09-19 06:05:07] [INFO][ 69d787a6-4d8d-4c10-962c-928a09d2b237]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:05:09] [INFO][ 9be7c5e2-9ec3-4d34-a3fc-bc790e8dbe99]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:05:10] [INFO][ c351db8c-3d53-4e25-8961-2e853ed81015]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:05:13] [INFO][ 80b4198d-fe97-421f-a897-c2d69af2a050]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=6509721e7ee8f7b688f72b66 {}
+[2023-09-19 06:05:13] [INFO][ fc988546-9848-41de-a5b3-6facaec92d8e]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=6509721e7ee8f7b688f72b66 {}
+[2023-09-19 06:05:13] [INFO][ 5a3aeca8-6790-4660-8da8-aedc8e44e250]GET /api/tags {}
+[2023-09-19 06:07:43] [INFO][ ce22c076-cbdb-474d-a581-defeadeeca1a]GET /api/tags {}
+[2023-09-19 06:07:43] [INFO][ 3593d0ca-11b2-49af-80dd-f20fee5f3f5c]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=6509721e7ee8f7b688f72b66 {}
+[2023-09-19 06:08:04] [INFO][ adcef8e1-5ea3-434a-986e-d223a920ec72]GET /api/tags {}
+[2023-09-19 06:08:04] [INFO][ e35da5e6-03b8-4b46-9be4-33450cf34456]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=6509721e7ee8f7b688f72b66 {}
+[2023-09-19 06:10:52] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:10:52] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:13:23] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:13:23] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:13:34] [INFO][ 8200e80f-69da-48dc-9057-115f17c4bd7f]GET /api/tags {}
+[2023-09-19 06:13:34] [INFO][ cd245388-a044-40d0-9c5d-24ed8494179b]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=6509721e7ee8f7b688f72b66 {}
+[2023-09-19 06:13:36] [INFO][ 35f4da68-7cec-4ac6-bda9-5f6a547cb99f]PUT /api/notifications/6509721e7ee8f7b688f72b66/update {"notificationName":"noti-1","templateSubject":"kjjjjjjjjjj","notificationDescription":"jjjjjjjjjjjjjj","templateBody":"jjjjjjjjjjjjjjjjjj"}
+[2023-09-19 06:13:36] [INFO][ 6dbc2ade-2d9a-4512-b8f9-81cb5e7fb3cb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:37] [INFO][ 25d7a3fd-a61c-47c0-96f9-0afb2946a4f6]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:38] [INFO][ 39b1339c-b480-401f-8c4a-485cc8244545]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:40] [INFO][ 7afc66bb-ad59-4575-80c2-e010c2d161fa]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650972497ee8f7b688f72b8c {}
+[2023-09-19 06:13:41] [INFO][ 0d1ea36f-c795-407d-a868-fc8b9981341d]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650972497ee8f7b688f72b8c {}
+[2023-09-19 06:13:41] [INFO][ 03ca1556-3862-48a9-a25f-35c7daf2716d]GET /api/tags {}
+[2023-09-19 06:13:42] [INFO][ 5129043c-f601-48d5-9d6d-fe262705be6c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:44] [INFO][ 4c91ef94-a604-40e9-81f5-9548f8a1c070]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:45] [INFO][ 9f0d6640-00c1-4941-8f39-c4a5e48d4a03]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:48] [INFO][ 3721ec6e-5215-4d92-99e3-6eec3cbf6251]PATCH /api/notifications/650972497ee8f7b688f72b8c/delete {}
+[2023-09-19 06:13:48] [INFO][ 699e2f41-ccb8-4a15-8ef7-007e2ad653be]GET /api/tags {}
+[2023-09-19 06:13:48] [INFO][ 05c86956-c76b-4a9a-a61d-c87588715805]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650972497ee8f7b688f72b8c {}
+[2023-09-19 06:13:49] [INFO][ 069b99c6-7a8b-4587-bbe7-c37aae2196d3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:51] [INFO][ 85df1783-47b2-4b8c-9a95-82b15c852f8e]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:52] [INFO][ 9653ebeb-8109-4481-abb2-bb399e967884]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:53] [INFO][ 97c5256a-05c2-4f9b-81d7-699ed5ae717f]PATCH /api/notifications/6509721e7ee8f7b688f72b66/delete {}
+[2023-09-19 06:13:53] [INFO][ 33614c29-f9b9-4df9-9ba6-a324db42825e]GET /api/tags {}
+[2023-09-19 06:13:53] [INFO][ a9c6ca75-5e01-426e-8454-fe6cf6bc8643]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=6509721e7ee8f7b688f72b66 {}
+[2023-09-19 06:13:54] [INFO][ 517f0bb5-7135-4006-b7e8-674673821a48]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:54] [INFO][ 30c44807-13f4-4482-8deb-374bc35cbd26]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:13:55] [INFO][ 3a145eda-8876-47f8-8482-8425b8c4ed40]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:14:01] [INFO][ 7bb3c685-c4d6-47f5-9889-77794b070f94]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:14:03] [INFO][ 10975a98-9100-4763-a561-4d427c6d21e0]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:14:49] [INFO][ 22ee46e2-3ad6-4678-a875-f919eaabd34c]GET /api/tags {}
+[2023-09-19 06:14:49] [INFO][ ead6a7f1-870a-48f8-97b1-b76aeb854c12]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:15:00] [INFO][ 70740b7e-d291-479a-9874-f87d7acc76b7]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kkkkkkkkkkkkkkkk","notificationDescription":"kkkkkkkkkkkkkkkkkk","templateBody":"kkkkkkkkkkkkkkkkk","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:15:00] [INFO][ 536be8c6-affd-498f-8e68-ad013f1c9c2f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:02] [INFO][ 5244dc05-f0c5-4a22-a9ab-7e5c0937698b]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:03] [INFO][ 7a4edf0b-d4de-47d8-9b56-6c12380da914]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:05] [INFO][ 8070d885-38fe-4ca6-8e0e-790fc9ea88f1]GET /api/tags {}
+[2023-09-19 06:15:05] [INFO][ 82d12eaf-a216-4a59-8891-b67e3952551e]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:15:12] [INFO][ 06b804a4-e766-4a3b-ac8a-d5c23bda0a8f]POST /api/notifications {"notificationName":"noti-1","templateSubject":"kkkkkkkkk","notificationDescription":"kkkkkkkkkkkk","templateBody":"kkkkkkkkkkkkkkk","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:15:15] [INFO][ 7131ac06-316b-498c-bf93-11f94e72ccc1]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:17] [INFO][ eb3f9e06-b596-4fae-943d-074edf639bd5]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:18] [INFO][ 27afb305-b6a4-45f2-a4e8-13264c70b184]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:21] [INFO][ 764ef8a6-84f0-4b6f-a396-a9e2177bdadd]GET /api/tags {}
+[2023-09-19 06:15:22] [INFO][ 728302b5-4722-4b7e-acb2-d6fca01ff3ec]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:15:30] [INFO][ 362b05d9-d97f-4776-9e1f-9ce4f2cb4ba7]POST /api/notifications {"notificationName":"noti-2","templateSubject":"kkkkkkk","notificationDescription":"kkkkkkkkkkk","templateBody":"kkkkkkkkkkkkkkkkkk","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:15:30] [INFO][ 9043f2c7-1f73-4807-b187-024313eb8c92]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:32] [INFO][ dc977092-fbc5-4ad7-a5ad-c99d0fd886f0]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:33] [INFO][ a9be2f30-cb2f-480a-b5bd-2eb7a40221dd]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:36] [INFO][ 5ef89c99-cd02-4866-a0e8-c18acdf8cc17]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974c21d98574a4aa27792 {}
+[2023-09-19 06:15:36] [INFO][ b73fb0a2-a578-4221-929b-fa9f44e5c7b4]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974c21d98574a4aa27792 {}
+[2023-09-19 06:15:36] [INFO][ 3a91cdc8-e99a-4c82-a770-abd679b09927]GET /api/tags {}
+[2023-09-19 06:15:44] [INFO][ a8263a2e-4260-4cca-a081-33aa5110be45]PUT /api/notifications/650974c21d98574a4aa27792/update {"notificationName":"noti-1","templateSubject":"kkkkkkk","notificationDescription":"kkkkkkkkkkk","templateBody":"kkkkkkkkkkkkkkkkkk"}
+[2023-09-19 06:15:44] [INFO][ 6a5fed2c-eb2d-4040-a112-bc2f59a61b80]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:46] [INFO][ 9d4affeb-6105-473d-9ed8-693c3c63b3d1]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:15:47] [INFO][ dd51a197-643c-4bc7-907b-0d5f7ae5731d]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:16:30] [INFO][ b4e95cfa-9451-43e1-ade7-f51aee22a2a6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:16:30] [INFO][ 62e56ba0-71f6-4a5d-a97d-a7172b942d4f]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:16:30] [INFO][ 99881e93-4cb6-48a9-8b1c-eb2aa7412283]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:08] [INFO][ 6637e18a-50bd-40f9-9d07-03696776fc1b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:08] [INFO][ 3431affa-9fc1-4615-8181-4c09ef0b05e2]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:08] [INFO][ cfa4aaa5-56a4-4460-9f7d-25cc8b0a1684]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:08] [INFO][ 7f82e0dc-546d-4378-b829-8618c2c98881]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974a41d98574a4aa27774 {}
+[2023-09-19 06:17:08] [INFO][ 466fbd56-f521-467b-8b6d-7c7cf4ff265c]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974a41d98574a4aa27774 {}
+[2023-09-19 06:17:08] [INFO][ 855837db-7226-4068-be4f-c07d7dff1c29]GET /api/tags {}
+[2023-09-19 06:17:09] [INFO][ 13775c1b-6187-42f5-8705-0a062c33720d]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974a41d98574a4aa27774 {}
+[2023-09-19 06:17:15] [INFO][ 087468d8-f78d-4e8c-9750-ea9366452ed9]PUT /api/notifications/650974a41d98574a4aa27774/update {"notificationName":"noti-2","templateSubject":"kkkkkkkkkkkkkkkk","notificationDescription":"kkkkkkkkkkkkkkkkkk","templateBody":"kkkkkkkkkkkkkkkkk"}
+[2023-09-19 06:17:15] [INFO][ 6664c71c-ca30-478e-93fc-20b839963544]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:16] [INFO][ 81870dcf-5fbc-4f26-9073-50701b584267]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:18] [INFO][ 8c187e17-faa2-40e3-a996-3769eba35b6b]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:20] [INFO][ f40de7be-fc90-44d0-926b-927462090206]GET /api/tags {}
+[2023-09-19 06:17:20] [INFO][ 71a73331-7b64-408b-9a74-4cbb21169f4e]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974a41d98574a4aa27774 {}
+[2023-09-19 06:17:26] [INFO][ 48ec86e1-22fb-49fd-85d3-9b0ba90b3446]PUT /api/notifications/650974a41d98574a4aa27774/update {"notificationName":"noti-1","templateSubject":"kkkkkkkkkkkkkkkk","notificationDescription":"kkkkkkkkkkkkkkkkkk","templateBody":"kkkkkkkkkkkkkkkkk"}
+[2023-09-19 06:17:26] [INFO][ 3747cd05-8bc4-4a8a-9c6c-a4131fbb6e1c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:28] [INFO][ 05c77c7b-52f4-4020-85a0-00d49af5f36c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:17:29] [INFO][ 1a476b58-9e5f-410a-80c6-f9b4c1c0bea8]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:18:42] [INFO][ ad09c0b6-a1f8-4edc-a25a-b3612f4bb54e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:18:42] [INFO][ 9f24218f-a461-4a87-9bc9-3d7b86b3f4f6]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:18:42] [INFO][ 320e6b2b-2781-4a80-9c0b-486be5e352dc]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:18:59] [INFO][ f14b7b41-bcee-4e5b-84ea-c18614280f8c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:18:59] [INFO][ 91a20513-ebe0-49e1-9410-8785ca45d141]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:18:59] [INFO][ 3516ee81-b11c-4653-9ccb-96b2be7c0c3e]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:15] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:19:15] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:19:20] [INFO][ 21882e62-c71d-40c4-b369-bcbd349e7daf]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:20] [INFO][ 170bdabf-7ef7-4c7e-8f72-9ca8d6cad1e5]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:20] [INFO][ ff723823-ab74-49b5-a3e0-e4b1dd8d3085]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:20] [INFO][ 0691e2da-309b-4318-b1c3-6c785a15a420]GET /api/tags {}
+[2023-09-19 06:19:20] [INFO][ 30a12588-e7e8-45f3-a058-0ffff30f5271]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:19:28] [INFO][ 9f6c2007-3bf6-404a-83c0-1e046860c24d]POST /api/notifications {"notificationName":"noti-1","templateSubject":"llllllllllllllllllll","notificationDescription":"llllllllllllllllll","templateBody":"lllllllllllllllllllllllll","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:19:37] [INFO][ a37a2419-1b91-4aa3-83f3-98e3ab552765]POST /api/notifications {"notificationName":"noti-2","templateSubject":"llllllllllllllllllll","notificationDescription":"llllllllllllllllll","templateBody":"lllllllllllllllllllllllll","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:19:37] [INFO][ f848859e-e47a-4a3e-a523-0f4457595dcd]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:38] [INFO][ ea21d53f-c376-43c7-91eb-02daa9c315f8]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:39] [INFO][ 7239afe4-90e4-4bdc-bb10-953188dfee3f]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:43] [INFO][ 4649a158-69a4-4e59-ad5a-f574ea3aa5bf]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650975b94031228842803d99 {}
+[2023-09-19 06:19:43] [INFO][ 7288556b-fb40-4c63-b636-3eeca3e2a379]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650975b94031228842803d99 {}
+[2023-09-19 06:19:43] [INFO][ b9fdc341-dabd-4113-8078-71863c9b888b]GET /api/tags {}
+[2023-09-19 06:19:48] [INFO][ be01eb6e-c73e-4289-84b4-10616f9d956f]PUT /api/notifications/650975b94031228842803d99/update {"notificationName":"noti-1","templateSubject":"llllllllllllllllllll","notificationDescription":"llllllllllllllllll","templateBody":"lllllllllllllllllllllllll"}
+[2023-09-19 06:19:48] [INFO][ 10c61ead-4784-43c4-9e76-ea041673a2ae]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:50] [INFO][ f26c7c0a-d25d-42b4-9ff6-4f45c2350e8c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:19:51] [INFO][ a03bdbf3-6ccc-4b1e-a12b-fb2bbc1139b2]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:20:15] [INFO][ a3f62a87-2123-4079-b2e1-1d4f9c24ab48]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:20:15] [INFO][ 10fcbaec-5e32-4ce9-9a78-1e8dda7ba4da]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:20:15] [INFO][ 6646c085-1cc9-45a3-a75f-a9eadad473d9]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:20:28] [INFO][ 70676835-0351-475f-a73f-c84f1b737f34]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:20:28] [INFO][ 39d2ea03-d419-4bf8-829e-ac44a384436b]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:20:28] [INFO][ 88daa95b-7f7f-4111-8293-e99cd3c4db1b]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:21:54] [INFO][ f0104f62-9516-40ac-a0f3-3b4f198e3d38]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:21:54] [INFO][ 337fae52-8b1a-44c8-af89-4965ce8c6cc3]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:21:54] [INFO][ 2e285b9b-101d-48cb-b3eb-5361d21c6439]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:21:57] [INFO][ e058bebf-651f-4bea-a105-0e9a2a653dac]GET /api/tags {}
+[2023-09-19 06:21:57] [INFO][ 32c78c63-4e97-471e-bed3-3ab08ac22140]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId= {}
+[2023-09-19 06:22:07] [INFO][ 2e3e565a-47c3-40df-915e-1a68c904fb4a]POST /api/notifications {"notificationName":"noti-1","templateSubject":",m,,,mmmmmmmmmmm","notificationDescription":"mmmmmmmm","templateBody":"mmmmmmmmmm","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:22:12] [INFO][ 311a83c4-34ce-4708-aba3-3032c32b929b]POST /api/notifications {"notificationName":"noti-12","templateSubject":",m,,,mmmmmmmmmmm","notificationDescription":"mmmmmmmm","templateBody":"mmmmmmmmmm","eventId":"650970a87ee8f7b688f72ae3"}
+[2023-09-19 06:22:12] [INFO][ fc6f71a6-72c5-4683-b791-bb46888876cd]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:22:14] [INFO][ 461193f1-3408-4c9b-b7d0-31cd0dd1935c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:22:15] [INFO][ c608b285-e9da-4c54-bf2c-e6b9163b1f22]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:22:18] [INFO][ 873dd705-c9ed-454c-8400-4361a30eca74]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650976544031228842803dd5 {}
+[2023-09-19 06:22:18] [INFO][ 9a931174-deff-474c-9d33-d54b95a1e776]GET /api/tags {}
+[2023-09-19 06:22:18] [INFO][ 988fa680-1e2a-42e1-bf3c-2d9f905164e7]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650976544031228842803dd5 {}
+[2023-09-19 06:22:21] [INFO][ 3381029b-f83e-4124-abd7-93a577b30afa]PUT /api/notifications/650976544031228842803dd5/update {"notificationName":"noti-1","templateSubject":",m,,,mmmmmmmmmmm","notificationDescription":"mmmmmmmm","templateBody":"mmmmmmmmmm"}
+[2023-09-19 06:22:21] [INFO][ 8ac6094c-15bb-4f90-adec-a736cd3bca74]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:22:23] [INFO][ cc1fef94-270d-4cd1-804b-d5e3df728a2d]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:22:24] [INFO][ 7b167d0f-e9b2-4ade-9681-6d2ac8ae3e04]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:25] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:23:25] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:23:26] [INFO][ ae85ab8b-2171-473c-922c-9d2352593d76]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:26] [INFO][ a19e90c5-473f-45ac-836f-501d73bb0986]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:26] [INFO][ e7bede21-3fae-4002-8a41-fc57bf100b46]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:32] [INFO][ 2756accc-940a-4c8c-9b36-197e833af321]PATCH /api/notifications/650976544031228842803dd5/delete {}
+[2023-09-19 06:23:32] [INFO][ 1723980e-3eec-4094-8f1e-46ca55518fed]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650976544031228842803dd5 {}
+[2023-09-19 06:23:32] [INFO][ b29e682c-6947-47e6-8ec4-8a59635bd1d5]GET /api/tags {}
+[2023-09-19 06:23:35] [INFO][ 4fea55db-1efd-4ce2-80bb-9b8a939cda21]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:36] [INFO][ a5703e77-9285-4e06-880a-460310b2c8bf]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:38] [INFO][ 75650569-519b-4d5e-b93a-9cc1f811472c]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:44] [INFO][ 5eafb142-8fcf-4c2a-bab9-50c7faa0d70f]PATCH /api/notifications/650974a41d98574a4aa27774/delete {}
+[2023-09-19 06:23:44] [INFO][ cf7a3332-179d-4e74-b61f-4282b8bfbde4]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974a41d98574a4aa27774 {}
+[2023-09-19 06:23:44] [INFO][ 5a8cee49-a4f1-4146-a058-886153184241]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974a41d98574a4aa27774 {}
+[2023-09-19 06:23:44] [INFO][ 2b1ed74e-e498-4dbf-86b8-08f1617880fd]GET /api/tags {}
+[2023-09-19 06:23:46] [INFO][ 742ddae4-3e35-469d-8a27-c9a102be3109]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:48] [INFO][ 41b59368-b01d-4f1d-8efd-9ef8986d825d]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:49] [INFO][ 2fefea10-90f3-4e6b-98e1-cd961aaaba3f]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:51] [INFO][ 899eb71e-05c5-454c-92d3-4253b6ec6745]PATCH /api/notifications/650974c21d98574a4aa27792/delete {}
+[2023-09-19 06:23:51] [INFO][ 07125ae0-3cce-4834-abb0-c50c7e41dddf]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974c21d98574a4aa27792 {}
+[2023-09-19 06:23:51] [INFO][ 1523348c-de56-4f34-b0a8-b0e88b7ef38f]GET /api/notifications?eventId=650970a87ee8f7b688f72ae3&notificationId=650974c21d98574a4aa27792 {}
+[2023-09-19 06:23:51] [INFO][ bc8d638b-ee5a-48b7-8049-61b0d696a3f6]GET /api/tags {}
+[2023-09-19 06:23:53] [INFO][ 3f60245d-f2cd-4bf6-bc6a-e27051164219]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:54] [INFO][ d4f8c42e-b4a4-490e-b1e1-6f9639d8ee59]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:57] [INFO][ 1813dc88-7064-455c-b0f3-3ea4bef6ecb4]PATCH /api/events/650970a87ee8f7b688f72ae3/delete {}
+[2023-09-19 06:23:57] [INFO][ 81110b84-94e3-4890-b731-efbf9c6d8d2e]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:57] [INFO][ 9f45d807-1b3f-41d8-8cef-11947018e56c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:23:58] [INFO][ d326c82f-1602-4965-a8a0-9d4a7aab5c0c]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:00] [INFO][ c3e35847-5e64-49ae-b748-1d8e81a28001]GET /api/notifications/?page=1&pageSize=6&eventId=650970a87ee8f7b688f72ae3&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:17] [INFO][ 65402fc5-eea5-4283-97b4-fff41beccc12]POST /api/events/ {"eventName":"event-1","eventDescription":"event-1","applicationId":"65096a88d95bcdad9e19fd35"}
+[2023-09-19 06:24:17] [INFO][ 65bcc93c-ab1f-474c-8891-f6f2cfb52985]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:22] [INFO][ e72bfa7f-5ceb-4d58-bb46-c16a213b7e27]GET /api/notifications/?page=1&pageSize=6&eventId=650976d12ec03cfebbd3b623&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:31] [INFO][ 46d48299-c5dc-4cf9-bf6b-74b4715038b5]PATCH /api/events/650976d12ec03cfebbd3b623/delete {}
+[2023-09-19 06:24:31] [INFO][ 9c56a059-13cc-410a-93a3-2529209f9d8a]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:45] [INFO][ 3f067f19-bd7d-4468-9341-a54503b8b241]POST /api/events/ {"eventName":"eve11","eventDescription":"fvhgv","applicationId":"65096a88d95bcdad9e19fd35"}
+[2023-09-19 06:24:45] [INFO][ 7ff3b118-67b3-403f-a393-e466d088df38]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:46] [INFO][ 72cc570b-ea62-47e2-8086-df7ab164a0b8]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:24:49] [INFO][ 3d4f5c58-8b1d-40e6-8903-af9e6f5d3301]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:24:49] [INFO][ da319c8e-e28c-43c6-a733-bbd40dbc3449]GET /api/tags {}
+[2023-09-19 06:25:04] [INFO][ f93e0e79-e378-43f1-953e-df633db115cf]POST /api/notifications {"notificationName":"noti0","templateSubject":"jjihiiuyuhyu","notificationDescription":"hjyuyugyhuiuh","templateBody":"dfgtfdtrfdtrftc","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:25:05] [INFO][ adc78043-73cd-465c-9405-2c1e8150f8c6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:25:07] [INFO][ a5bb2170-2809-4b8b-b0ad-9b85e951921c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:25:08] [INFO][ fd20b637-e247-4725-9df5-e7b7e944e4c4]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:25:12] [INFO][ 88aa264c-3d6c-4f98-aee8-e4c59896d9ee]GET /api/tags {}
+[2023-09-19 06:25:12] [INFO][ 18f86ef4-7b98-4605-8fc1-b4d569bceaaf]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:25:23] [INFO][ 96b156e5-2229-40c9-ab17-77631d1bbe9e]POST /api/notifications {"notificationName":"noti0","templateSubject":"tftftf","notificationDescription":"ggtvvgv","templateBody":"gyygygyg","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:25:43] [INFO][ def0651d-ac33-432b-a934-de0295c3d441]POST /api/notifications {"notificationName":"noti0","templateSubject":"tftftfgvgtgt ","notificationDescription":"tgttvgfvfggtvvgv","templateBody":"gyygygyg","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:25:56] [INFO][ f70d34aa-4530-411a-8837-dd9903fe66a7]GET /api/tags {}
+[2023-09-19 06:25:56] [INFO][ d492ecb2-2f0a-40a5-a87c-d56d0caec7ad]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:26:00] [INFO][ 30ca726b-9f55-4a8f-bb7c-3dd166913fe3]POST /api/notifications {"notificationName":"noti0","templateSubject":"tftftfgvgtgt ","notificationDescription":"tgttvgfvfggtvvgv","templateBody":"gyygygyggvftgfttftvcgftvctvft","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:26:08] [INFO][ 8a423271-35a7-4e7a-9aa5-c0fc3acc978f]POST /api/notifications {"notificationName":"noti1","templateSubject":"tftftfgvgtgt ","notificationDescription":"tgttvgfvfggtvvgv","templateBody":"gyygygyggvftgfttftvcgftvctvft","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:26:08] [INFO][ 3027535f-45ae-44b8-ad15-018f01a1d1c5]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:10] [INFO][ ab1b3c23-5575-4041-81a0-fd3d240a20d2]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:11] [INFO][ 0dfe1c1a-4607-4931-a8e4-00d9e4dfc290]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:13] [INFO][ abc3f930-9301-4c0c-b5d8-694f7d1aa455]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:26:13] [INFO][ cdc1dc5c-82e2-458a-abf8-9ee60135adc7]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:26:13] [INFO][ bf9ae51d-7303-4c5c-86b5-41ff45885cc2]GET /api/tags {}
+[2023-09-19 06:26:18] [INFO][ 50e1cf13-881a-48da-810f-39cfc777450e]PUT /api/notifications/650977002ec03cfebbd3b640/update {"notificationName":"noti1","templateSubject":"jjihiiuyuhyu","notificationDescription":"hjyuyugyhuiuh","templateBody":"dfgtfdtrfdtrftc"}
+[2023-09-19 06:26:18] [INFO][ 123a3cfb-07c4-4950-b6b2-620c0c490301]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:20] [INFO][ 08caa40b-2692-4d34-ab6f-8d25ba5cc2c7]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:22] [INFO][ 783a9905-970d-4213-8b51-9021fdda213b]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:24] [INFO][ 34f14198-b913-423b-9ed1-ae5462ad049e]GET /api/tags {}
+[2023-09-19 06:26:24] [INFO][ 15104f69-db18-4a54-8461-5aba4ebd44d8]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:26:27] [INFO][ 96e05b28-d52f-4040-a7e1-b6d4d7239984]PUT /api/notifications/650977002ec03cfebbd3b640/update {"notificationName":"noti0","templateSubject":"jjihiiuyuhyu","notificationDescription":"hjyuyugyhuiuh","templateBody":"dfgtfdtrfdtrftc"}
+[2023-09-19 06:26:28] [INFO][ 1d98c2de-44ac-4c05-b2cb-474fe16fc980]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:29] [INFO][ 0bb11950-ff59-4a9f-85a9-bdfe801f0f5c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:26:30] [INFO][ ec526677-0ace-4bcf-b9eb-6b17acca42bb]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:27:50] [INFO][ 09c467bc-177e-4f44-bb7b-ad471fce3f6e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:27:50] [INFO][ f59dd6d4-1b2d-4075-b630-cc5d103d0aff]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:27:50] [INFO][ 43842446-92c4-41e8-a2fe-b02d849d8a96]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:27:52] [INFO][ 92435209-cb77-49cf-8375-93ce16e0e769]GET /api/tags {}
+[2023-09-19 06:27:52] [INFO][ d6dbec6c-772b-433f-bbfa-92f27ff24cfb]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:27:58] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:27:58] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:27:59] [INFO][ 13518435-1266-4ca0-89b5-0348a41055cd]GET /api/tags {}
+[2023-09-19 06:27:59] [INFO][ 1d157315-f544-47b7-993b-3685426902f6]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:28:02] [INFO][ d47c048f-2394-459c-bfe7-ec57ed8ed775]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:03] [INFO][ f4e88e4a-ffd0-44ed-bba6-74c5c9e7963c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:04] [INFO][ c5ee6313-252c-4263-b8fa-a2ae4d416021]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:06] [INFO][ e9441a3a-7e06-4a16-a468-f13323b95872]GET /api/tags {}
+[2023-09-19 06:28:06] [INFO][ 15ca84f4-75b1-4011-9d07-abbd20338f81]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:28:11] [INFO][ c84a9c0c-12b1-4bdd-949c-6886da7855a3]PUT /api/notifications/650977002ec03cfebbd3b640/update {"notificationName":"noti1","templateSubject":"jjihiiuyuhyu","notificationDescription":"hjyuyugyhuiuh","templateBody":"dfgtfdtrfdtrftc"}
+[2023-09-19 06:28:12] [INFO][ 903075e6-c6b7-4e8e-883d-0e1fc9a52b14]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:13] [INFO][ 5571e978-1e90-49d7-9806-2535acc87ce9]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:15] [INFO][ 509596f8-689a-4956-927a-e2689825de2f]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:25] [INFO][ deed35b8-0f95-4cb2-a0d5-8085e17f6a78]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:25] [INFO][ 7059c648-d19d-4762-9df1-fd8132d8c97f]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:28:25] [INFO][ ef7dd92d-a1a1-45a2-b89e-69c4b423c7e2]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:44] [INFO][ 9cdd7391-3148-413e-8de6-0833f16369b4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:44] [INFO][ 29ae9afe-0a73-49d1-b736-c12ce82f9cca]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:44] [INFO][ 465e3ed6-fa0c-42c9-8fe3-d516d749b39b]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:51] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:30:51] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:30:52] [INFO][ e8c63ac5-22d5-4f6e-a5ac-3fcc1b675ed0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:52] [INFO][ 5673b6f4-597e-48da-be39-9c703cb79b41]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:52] [INFO][ 81faea98-c330-4ba2-a1ec-7871bd51a7d5]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:54] [INFO][ de8d50ce-c956-43cf-ad7a-450eb5702580]GET /api/tags {}
+[2023-09-19 06:30:54] [INFO][ ac722fe7-e954-4187-be2e-06cebaec7251]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:30:56] [INFO][ f3549441-5197-4756-a0f2-6df88d15f82a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:58] [INFO][ 779f0760-9916-412f-a34b-ddfcc2aa4ada]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:30:59] [INFO][ 8cdb9dba-1a27-4e02-a82d-db218cf5e8b3]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:00] [INFO][ 4c2f5654-da66-4ada-94f9-b929cd75eefa]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:02] [INFO][ a29c184f-fa9b-415e-b2d6-9713329bcc89]PATCH /api/notifications/650977002ec03cfebbd3b640/delete {}
+[2023-09-19 06:31:02] [INFO][ 890acc3a-bba7-42b1-bb2b-558675faf2f1]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:31:02] [INFO][ adfa93e1-ee8b-45c3-af81-91fcdeeb3253]GET /api/tags {}
+[2023-09-19 06:31:02] [INFO][ fca1c033-7b00-4719-a813-89ef9bbd2de5]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650977002ec03cfebbd3b640 {}
+[2023-09-19 06:31:03] [INFO][ 91e21976-e06c-45e1-ba6d-8fd16cdd0a62]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:04] [INFO][ 6fa3a628-2098-4168-8786-9db545176082]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:05] [INFO][ a03e439e-5a46-4332-bf53-d85c4eb47bff]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:07] [INFO][ 6c24d7e6-258f-4075-9742-56876c586218]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:09] [INFO][ 556aa239-7cb4-48e3-afc1-33cffbca3de5]GET /api/tags {}
+[2023-09-19 06:31:09] [INFO][ c303bc7b-efc6-4775-8c41-cc5b83616f57]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:31:38] [INFO][ 527f99c6-e23e-485a-9902-df6a65ef441a]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-19 06:31:38] [INFO][ 534d5de5-b817-4b24-8f38-d25f125d0380]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:45] [INFO][ 9ba6b712-0a83-43ed-aaa4-3cb629797780]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:45] [INFO][ d5a43c5c-1ac1-45cc-a3fb-7ada2d60679b]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:46] [INFO][ dd9f9076-c4c7-4b15-86c9-4861ff13c71a]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:31:50] [INFO][ 878dac05-eb3c-4f75-8534-157a4ad35f2e]GET /api/tags {}
+[2023-09-19 06:31:50] [INFO][ a870818d-8430-48d5-81c7-89641da36e9e]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:32:12] [INFO][ e5e651d3-3604-4917-80c4-d21e3063fc6d]GET /api/tags {}
+[2023-09-19 06:32:12] [INFO][ 8ec7bbf7-bb59-4963-8176-9fd4b150caad]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:32:17] [INFO][ b7886aac-5cbb-4ba9-9338-973d009c49b0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:19] [INFO][ 27c1c22c-db95-4e04-b217-0a1cb9a27ce3]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:20] [INFO][ b9713901-5e9c-431b-8f23-39d35d9fed7e]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:22] [INFO][ 3f3eee6c-5da2-41ef-b092-2cf51cc328e6]GET /api/tags {}
+[2023-09-19 06:32:22] [INFO][ 69907dfd-64ab-4e3b-aecf-6b7ee6201934]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:32:37] [INFO][ 39a557b2-f840-45b2-86c7-aa78cebf3e4a]POST /api/notifications {"notificationName":"noti0","templateSubject":"jedkkjfeldk;ldsakldmlkmdlk","notificationDescription":"klksdijefjifelkdsmcckmmlkemdm","templateBody":"lkmdlksmlkdmslkmdlkmslmclomcl;mds;cmekdlsmclmcsamdklmlsak","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:32:37] [INFO][ 33806a3f-5377-438c-9a6b-ba155a01af3f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:38] [INFO][ 11c639ca-ec14-410b-bf15-bec9ad11da12]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:39] [INFO][ f73bbfd9-b80f-4c05-bca7-12ed1394a4ba]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:42] [INFO][ 0f189e04-0842-437b-a50c-c991c2c9bddc]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650978c5956c91f47ffb81c8 {}
+[2023-09-19 06:32:43] [INFO][ 5363b292-d928-4dc7-82ce-aa99f720a404]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650978c5956c91f47ffb81c8 {}
+[2023-09-19 06:32:43] [INFO][ 91a50715-b281-4713-a771-caade02e09f0]GET /api/tags {}
+[2023-09-19 06:32:44] [INFO][ 37233677-b00d-4246-9fba-0ef62ed6846d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:45] [INFO][ f747da28-6e3e-42ae-b9f1-80eb025aadb9]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:46] [INFO][ 7437e2e3-3733-4224-a2e0-566074bdd405]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:32:48] [INFO][ 378f7327-30e0-4140-b446-4000b2c8fd68]GET /api/tags {}
+[2023-09-19 06:32:48] [INFO][ 1b0edff0-83bc-4cfc-a061-6448caa0a218]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:32:59] [INFO][ 634dda80-d7ec-4f5f-803d-153f6a3910bb]POST /api/notifications {"notificationName":"noti1","templateSubject":"edlkjslkdalklskdmlmsw,malkm","notificationDescription":";lldks;lkzmdf;l,m;lfd,;le,mkmmkemdlkqmlkm","templateBody":"lkmdlkcedsmmclk mlkmdlkdslkmlkm","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:33:03] [INFO][ 4bfc9dc9-2bfa-4d7c-8d90-6d20359af852]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:04] [INFO][ 1a755a9e-92d1-4d12-a4bd-3ece78e28da8]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:05] [INFO][ 1411ffc6-b35c-43c0-ab33-649f8f403d5a]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:07] [INFO][ d89cc12f-d7b7-4b9c-9e3d-2427d3ddc3c3]GET /api/tags {}
+[2023-09-19 06:33:07] [INFO][ dbef4a12-2ae3-46db-9d5a-8337c351d156]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650978c5956c91f47ffb81c8 {}
+[2023-09-19 06:33:10] [INFO][ 0f5179e6-1b53-4805-9cf2-a5bc9f773784]PUT /api/notifications/650978c5956c91f47ffb81c8/update {"notificationName":"noti1","templateSubject":"jedkkjfeldk;ldsakldmlkmdlk","notificationDescription":"klksdijefjifelkdsmcckmmlkemdm","templateBody":"lkmdlksmlkdmslkmdlkmslmclomcl;mds;cmekdlsmclmcsamdklmlsak"}
+[2023-09-19 06:33:10] [INFO][ d59af703-bc26-4979-92d7-d6f0695f195c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:13] [INFO][ 629f4cdf-5d35-4069-add7-eaed52885546]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:14] [INFO][ a28cc702-d5d1-406d-9f53-05d39739bb6f]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:17] [INFO][ 345c61af-e908-46e5-b00e-f06f3327d1ac]GET /api/tags {}
+[2023-09-19 06:33:17] [INFO][ 3cec031e-8b6f-49fd-8fe0-8e0566c5bf9c]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650978c5956c91f47ffb81c8 {}
+[2023-09-19 06:33:20] [INFO][ 0cee0993-f74e-4aef-979e-6e98028bc83f]PUT /api/notifications/650978c5956c91f47ffb81c8/update {"notificationName":"noti0","templateSubject":"jedkkjfeldk;ldsakldmlkmdlk","notificationDescription":"klksdijefjifelkdsmcckmmlkemdm","templateBody":"lkmdlksmlkdmslkmdlkmslmclomcl;mds;cmekdlsmclmcsamdklmlsak"}
+[2023-09-19 06:33:20] [INFO][ e275cb60-9e4b-4c5c-a877-2dac6f94464c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:21] [INFO][ 2e5e82bb-c558-400c-bfee-feb263152718]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:22] [INFO][ 4b58eda4-bb8d-4a3e-9fa8-bdeb42f4c55a]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:47] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:33:47] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:33:47] [INFO][ e0918da8-8dd4-465a-94cb-39481303e063]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:47] [INFO][ ed2ca042-c69b-44f5-aa93-998fccb24940]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:47] [INFO][ 3307c416-123c-4c5b-8dde-b4547e8d67e0]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:33:49] [INFO][ 5cfc28c6-db28-4fad-bff3-65430afcf7db]GET /api/tags {}
+[2023-09-19 06:33:49] [INFO][ 71f9a73b-c7ec-4b4e-8b58-223c9f93c1f4]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650978c5956c91f47ffb81c8 {}
+[2023-09-19 06:33:52] [INFO][ a85102ad-bc4c-43a7-bf8c-04a271db355f]PUT /api/notifications/650978c5956c91f47ffb81c8/update {"notificationName":"noti1","templateSubject":"jedkkjfeldk;ldsakldmlkmdlk","notificationDescription":"klksdijefjifelkdsmcckmmlkemdm","templateBody":"lkmdlksmlkdmslkmdlkmslmclomcl;mds;cmekdlsmclmcsamdklmlsak"}
+[2023-09-19 06:33:52] [INFO][ 88f0bf0b-eec7-464b-93f5-30770bcc8308]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:14] [INFO][ 62f0d8f6-73e1-411a-8316-ab39ea60deb0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:15] [INFO][ eef278d3-9d07-406c-a397-be904addee39]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:16] [INFO][ aa9c9238-d2de-4ade-b093-607593dbbca1]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:18] [INFO][ 2f4ac172-65b8-4bc9-a31d-dc9257b33d50]GET /api/tags {}
+[2023-09-19 06:34:18] [INFO][ 402ef9db-8792-4104-8549-5b7d3c7d4dae]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=650978c5956c91f47ffb81c8 {}
+[2023-09-19 06:34:21] [INFO][ cc636781-a8d4-4724-94bf-bcd967bbf942]PUT /api/notifications/650978c5956c91f47ffb81c8/update {"notificationName":"noti0","templateSubject":"jedkkjfeldk;ldsakldmlkmdlk","notificationDescription":"klksdijefjifelkdsmcckmmlkemdm","templateBody":"lkmdlksmlkdmslkmdlkmslmclomcl;mds;cmekdlsmclmcsamdklmlsak"}
+[2023-09-19 06:34:21] [INFO][ 006eec3d-5c99-4c34-9208-0806630496e4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:23] [INFO][ 3b934634-a680-4223-821a-55292887834c]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:23] [INFO][ e12eb7f6-bc42-40a1-b06f-d9d2e63497bc]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:46] [INFO][ a54e212f-da2c-4429-8ed9-b3f667552143]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:46] [INFO][ 6ed1d4f7-5102-4955-9054-1f8f92465def]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:46] [INFO][ 77517532-4e48-455f-acbe-06d687ae5e8a]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:48] [INFO][ 0316782e-d184-4c8a-9f6e-33f343b471fe]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:34:51] [INFO][ 48fbd3d7-de52-44d4-bc84-ed264ad03371]GET /api/tags {}
+[2023-09-19 06:34:51] [INFO][ e27b76da-cfed-4cd6-abde-1a5e44f6f3ab]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:35:01] [INFO][ 061cb727-1a60-4288-b943-33b0547c721e]POST /api/notifications {"notificationName":"noti0","templateSubject":"kosasdklelkdslkmdlsamlkd","notificationDescription":"mlkmfdslkfmlkdsmlkmlk","templateBody":"dlkdkmslakmdlkmdsmflkmdlkfmlkmdsam","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:35:02] [INFO][ ceee693a-70b6-42de-a23e-6fbd1e520799]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:03] [INFO][ 7e4a184e-bffb-49cb-97d5-f0d157238b7d]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:04] [INFO][ 092b1d66-3cf2-47d4-9cd0-d69d7cda4c05]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:06] [INFO][ 8873866c-4f44-44c4-95df-77b9731c079d]GET /api/tags {}
+[2023-09-19 06:35:06] [INFO][ 8d3789be-eabe-480e-8773-661cc39f7153]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:35:18] [INFO][ c74c61d2-d7c5-4920-83e1-9595fc6cc6c2]POST /api/notifications {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML ","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:35:23] [INFO][ 121b4b8e-b4c7-4f66-b090-405e603b9ac6]POST /api/notifications {"notificationName":"noti1","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML ","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:35:23] [INFO][ 36ce881d-7977-4ea8-a665-843b6db71bac]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:25] [INFO][ fea46410-cd3f-4aa8-aab7-bb82c9d9befc]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:26] [INFO][ d427e398-37f7-4b9e-a07a-941eacfe5e52]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:57] [INFO][ caa6baab-e5fb-4023-ad70-0b4a38212af8]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:57] [INFO][ e39037d1-2021-4f77-bd28-37fc675060ae]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:57] [INFO][ 795a2d04-c553-4ade-8632-4848f95009af]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:35:59] [INFO][ 484fc2ad-b837-4f44-9635-35ad67d0f117]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:35:59] [INFO][ db7a065c-9ceb-4225-8bd6-e4eca70763ba]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:35:59] [INFO][ 4e9bae52-47da-4f90-a0b6-cde067e64609]GET /api/tags {}
+[2023-09-19 06:36:03] [INFO][ 7017939e-0595-4c2c-9d03-df0b86358632]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:36:03] [INFO][ ba00ebb9-b20c-4f4a-8842-2739ab2c8bb2]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:07] [INFO][ 7e6d1102-3a96-49c6-8148-2725e90cdb8e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:37] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:36:37] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:36:38] [INFO][ a82680a0-2b9a-4f2e-a3a6-cd2f9d11a661]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:39] [INFO][ 98ceda21-3b77-44f3-976a-d21cf52c2a0d]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:40] [INFO][ 9eeb5dea-3e59-48d4-a90d-577a09298ce5]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:42] [INFO][ 174fa730-986a-4a4c-a680-9de46adf2148]GET /api/tags {}
+[2023-09-19 06:36:42] [INFO][ be745c32-8fa0-41fb-ab5e-2a0a524e8e18]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:36:47] [INFO][ 15ba59c9-49d9-42f0-ac6a-5257866bec1b]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti1","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:36:47] [INFO][ 2a28455f-d8eb-4a17-bbc0-9bd8051b751d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:49] [INFO][ faf844b0-1da6-4901-9994-740dbbd6da9f]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:49] [INFO][ 36e19d60-ed48-471f-a401-6eefb368a1dc]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:58] [INFO][ 27b83b06-dd27-4451-bf84-cbd3e26f3930]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:58] [INFO][ 8163d3ea-eea7-4f9a-88f8-fb3033c74768]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:36:58] [INFO][ d3df5d1a-cc3b-4c3f-8c4c-a3600cb74b95]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:37:01] [INFO][ 73d7fabf-36b0-4fbc-a416-3dd9a36c5e10]GET /api/tags {}
+[2023-09-19 06:37:01] [INFO][ 6b3ca27e-bd9f-4d97-958b-61f683383ce3]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:37:06] [INFO][ 587a38d5-3d01-4064-bac3-73dec8510d77]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:37:06] [INFO][ 0965f60f-86c5-4806-9d18-1684ad1d6baf]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:37:24] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:37:24] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:37:25] [INFO][ e201cc1a-a58f-4399-be96-7d95d7bd401a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:37:26] [INFO][ 7d87f136-c82f-451c-8db5-77cb2b8bd28e]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:37:27] [INFO][ b0d97b27-659d-4cab-a349-91526b7b3aec]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:37:29] [INFO][ b411018d-a2cb-4b79-8712-8d1f6db84771]GET /api/tags {}
+[2023-09-19 06:37:29] [INFO][ 89dbb2cf-3026-4dbd-81c3-e4af1df2dff0]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:37:30] [INFO][ 6262e869-f467-4ebb-9edc-2aabb2a37045]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:37:52] [INFO][ ed2857a8-74cc-48e4-911e-0d2c1728f3e1]GET /api/tags {}
+[2023-09-19 06:37:52] [INFO][ 0f833ef5-4285-412c-80e1-076245fc7f7c]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:37:58] [INFO][ 8e500dff-1074-4d1a-922b-cde1bfabc26c]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti1","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:37:58] [INFO][ 9460a475-68a1-4699-925e-c7bf774f2c92]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:37:59] [INFO][ 041af797-4f9f-41ca-b3ce-6e592620f570]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:00] [INFO][ d8c28393-cf6a-43b3-886f-eed5b9907b4c]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:02] [INFO][ f4b68d5a-af67-4e8d-bc33-c50a8f7bf293]GET /api/tags {}
+[2023-09-19 06:38:02] [INFO][ 79d486a8-d56e-4882-a8b7-0cce37196296]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:38:08] [INFO][ 4885b62f-3746-48fe-ae02-f5c4b4edb18c]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:38:11] [INFO][ 35693931-bba0-48b3-921e-7befa98a4b5a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:12] [INFO][ c03345db-8123-4bb1-bd40-6a2fc18f64fc]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:13] [INFO][ e136ef51-c1ce-4e51-9610-aa9d56c380c3]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:31] [INFO][ 4772d296-0728-432f-8102-5dff85742900]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:31] [INFO][ f2e541f1-4c73-4d95-90f2-709620977c33]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:31] [INFO][ 04203000-64ef-4661-93a6-cfb71e386fb4]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:38:35] [INFO][ aa5ad195-7d1a-4362-bb4d-70f5f810bdad]GET /api/tags {}
+[2023-09-19 06:38:35] [INFO][ 631930ab-a5a4-4534-a7a4-38699066084a]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:38:39] [INFO][ 6851193a-e1fa-43ac-b41c-1083d4ceb2fd]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:38:49] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:38:49] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:38:53] [INFO][ 2ba56e21-1f6d-47d3-85f2-439f188fc221]GET /api/tags {}
+[2023-09-19 06:38:53] [INFO][ 0d1a10e6-87b7-45bf-afb0-ec4bc498235a]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:38:55] [INFO][ e260474a-ee32-4ba1-bb90-278a51e25a12]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:39:25] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:39:25] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:39:30] [INFO][ fa7ab0ac-cc8e-4c65-9f91-0211aff75c74]GET /api/tags {}
+[2023-09-19 06:39:30] [INFO][ 18bdda57-8983-4308-aab4-6a5e3712c360]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:39:33] [INFO][ 1d9c4a8c-177f-4803-ab8a-d2ffd4601ff1]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti0","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"ml.dd,mslkmmclkmlkdsmlkmdlkmlkdmlk","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:41:58] [INFO][ f62ebf28-c695-4da2-b9b9-bb361feca481]POST /api/notifications {"notificationName":"ayrkka","notificationDescription":"this is party","templateSubject":"subject: lets go to party","templateBody":"thie email is sent to {nsme} it is at {age}"}
+[2023-09-19 06:41:58] [ERROR][][f62ebf28-c695-4da2-b9b9-bb361feca481] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 06:48:16] [INFO][ 8915143b-7b76-4df4-adea-00272e4ead72]GET /api/tags {}
+[2023-09-19 06:48:16] [INFO][ 1717f446-c7d1-470d-b78e-535fe406b827]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:48:16] [INFO][ 116dc06d-5e24-45d0-8533-585f1627c3d7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:48:18] [INFO][ f173028e-4735-4306-a326-8c0539c6b11c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:48:20] [INFO][ aab97080-9ccf-4485-9d00-427d70262109]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:48:53] [INFO][ ab9782ff-74f3-4fee-ac7f-ffc2f0aa69ad]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:48:53] [INFO][ 41a23b36-c9c3-48d1-8e24-a9196afc0e73]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:25] [INFO][ eaaf6f7f-60d7-46fd-a58b-431f01c866f7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:25] [INFO][ cee8bc79-263e-4d96-9cdd-3c6641c36f96]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:25] [INFO][ 83b62226-74ae-4fa8-a8e5-54ee6bf5b7ce]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:47] [INFO][ 6828abef-b859-425b-82e3-1bc5628724a6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:47] [INFO][ 98989bed-2a15-40cd-8be3-f1d735d4e3b1]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:47] [INFO][ d5d04c72-27c8-47e7-98db-882586b75617]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:52] [INFO][ b73f133f-3de8-4e91-a04b-968e0c4c8c14]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:52] [INFO][ 63e1bd92-d959-4d6b-99b9-0c7fa8f91d1b]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:52] [INFO][ 2bd96058-8499-463a-afea-fe9491019a0a]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:49:58] [INFO][ ae13f726-1c65-4333-b36c-21d403183700]PUT /api/notifications/64de07dcd0f557e09d235d6a/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-19 06:49:58] [ERROR][][ae13f726-1c65-4333-b36c-21d403183700] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 06:50:07] [INFO][ 4cf2b22e-4440-477b-aba9-a479cba60882]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-19 06:50:33] [INFO][ 4781899d-0e2e-4649-951e-a1b1ce8558c2]PUT /api/notifications/64de07dcd0f557e09d235d6a/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-19 06:50:36] [INFO][ 0b6ae3bf-dea4-4a97-932c-7e4ddce302a6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:36] [INFO][ 1887791d-6b6e-478f-88bc-1371f6334a45]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:36] [INFO][ aff96153-0b70-47eb-ad9b-8b59fc507de0]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:49] [INFO][ 2d5e3319-6268-455d-879e-163a728d4a51]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:49] [INFO][ f2480169-75ad-4ba6-b0d3-36f695cfe5e9]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:49] [INFO][ c5be3237-acca-4b4e-aeb2-22ebe5f02024]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:52] [INFO][ 46d7ec9c-9c0c-4bcc-ada9-4ad663b84cf7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:52] [INFO][ 3f17e4e0-4ce4-4ab6-89ab-38b2c2f9b26f]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:50:52] [INFO][ 858a887b-46ab-4142-8c41-e25ecd0d25a4]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:07] [INFO][ c5edfe91-0879-4636-b82f-79d56b3697d2]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:07] [INFO][ 0bd4eebd-dc15-472d-864d-ea2e997dd45e]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:07] [INFO][ e026d470-ef4d-4215-b3ca-cea89b23c314]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:10] [INFO][ f5a93cbd-06f7-4842-b52e-866916730045]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:10] [INFO][ 97a8dfe5-5975-4699-b7e5-42d0448b3615]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:10] [INFO][ 0875a8e8-fef9-4d5a-bf60-0111cea6115d]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:17] [INFO][ f709010c-f236-4271-be4f-2d51d13146a7]PUT /api/notifications/650976ed2ec03cfebbd3b632/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-19 06:51:18] [INFO][ 1225e3e3-42d9-4b8a-b931-a3ae5746d511]PUT /api/notifications/650976ed2ec03cfebbd3b632/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-19 06:51:30] [INFO][ d687e0c4-03ae-497c-9d4c-39629dbff796]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:30] [INFO][ 6239264b-1197-4067-99be-fb8b040ab60f]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:51:30] [INFO][ fddabd05-eaa9-4d0d-93b5-34eef7ad7a72]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:04] [INFO][ a478e2ff-58e2-48ed-bde1-96cb3f11afd2]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:04] [INFO][ ee76fe0d-6569-49a2-93f5-7be602c83ab6]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:04] [INFO][ 7268f506-2356-4357-b3dd-760b0d1ba223]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:07] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:52:13] [INFO][ ea46c3ba-6e51-4931-a62d-df6eab487f90]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:13] [INFO][ bf29c832-4560-4fe4-89a0-8a26e99319c3]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:13] [INFO][ 9202de9e-0066-453e-b338-5c1ebd696ab9]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:23] [ERROR][][ea46c3ba-6e51-4931-a62d-df6eab487f90] MongooseError: Operation `applications.countDocuments()` buffering timed out after 10000ms
+[2023-09-19 06:52:23] [ERROR][][bf29c832-4560-4fe4-89a0-8a26e99319c3] MongooseError: Operation `applications.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:23] [ERROR][][9202de9e-0066-453e-b338-5c1ebd696ab9] MongooseError: Operation `events.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:24] [INFO][ df754ee6-2126-45fa-8964-027954f2c097]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:24] [INFO][ e181f7b9-24d5-4379-92f5-1df11574e40d]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:24] [INFO][ b1cb8d60-9b13-4caf-aaa0-e8fddaf9e2fc]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:34] [ERROR][][df754ee6-2126-45fa-8964-027954f2c097] MongooseError: Operation `applications.countDocuments()` buffering timed out after 10000ms
+[2023-09-19 06:52:34] [ERROR][][e181f7b9-24d5-4379-92f5-1df11574e40d] MongooseError: Operation `applications.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:34] [ERROR][][b1cb8d60-9b13-4caf-aaa0-e8fddaf9e2fc] MongooseError: Operation `events.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:36] [INFO][ de6d1d6b-2246-4e46-a72f-125e9faecd1a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:36] [INFO][ 75f945f1-09ed-48c6-94c1-6d91188c9021]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:52:36] [INFO][ 28d825a8-2994-465c-8a7e-6915572e9119]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:53:04] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:53:04] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:53:06] [INFO][ d3ecbea2-f0e2-4dd4-b021-0cebb74498cd]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-19 06:53:13] [INFO][ de98d574-13cb-4999-95e9-46c720f3ac4e]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-19 06:55:18] [INFO][ 1fbcb15c-7dcc-47eb-88fb-788a116fd340]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-19 06:55:18] [INFO][ 01096b2d-9b0f-4353-a067-1d38f676fa11]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:21] [INFO][ ece00a2b-be7e-4dd6-b9f8-abf6a55c84e2]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:30] [INFO][ 4d1a5f6d-f027-44b6-b43d-5c2919660a7b]POST /api/applications/ {"appName":"cohort2","appDescription":"njnnn"}
+[2023-09-19 06:55:31] [INFO][ 790ba7bb-c136-416d-8cc9-40db91dd8970]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:32] [INFO][ f4cc0b8e-986a-4328-aceb-efea07612910]GET /api/events/?page=1&pageSize=6&applicationId=65097e23f29e84dc750812c5&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:38] [INFO][ 4501dbeb-e49a-43c1-acf8-80980d155841]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:40] [INFO][ 76b2cca2-a64c-40cc-8baa-a7e52011792c]GET /api/events/?page=1&pageSize=6&applicationId=65097e23f29e84dc750812c5&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:47] [INFO][ 56502ff3-9425-40a8-881b-26cd8a50d1ac]POST /api/events/ {"eventName":"eve11","eventDescription":"iiiiiiiiii","applicationId":"65097e23f29e84dc750812c5"}
+[2023-09-19 06:55:47] [INFO][ e30cc4d1-86ae-4708-ac96-7510acf0fd99]GET /api/events/?page=1&pageSize=6&applicationId=65097e23f29e84dc750812c5&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:49] [INFO][ 8c180505-0e1e-4c2d-9eeb-32cb417129d2]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:50] [INFO][ 7fb04ced-8f4a-4b5f-9f51-a6640822c0fe]GET /api/events/?page=1&pageSize=6&applicationId=65097e23f29e84dc750812c5&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:51] [INFO][ 05546f64-37ce-4f1c-b0fe-7a90027539d0]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:55:56] [INFO][ c812cf41-33fb-4ff9-8276-b17f1f3c0194]POST /api/events/ {"eventName":"eve11","eventDescription":"pppppp","applicationId":"65096a88d95bcdad9e19fd35"}
+[2023-09-19 06:55:58] [INFO][ 86004ee9-eb90-4733-a3a0-dbfbd0c4d4b9]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:05] [INFO][ 42f2a692-6089-4843-8ec6-98ac27340693]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:56:05] [INFO][ 992bcede-e0e3-4aaa-a259-59d345097762]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=6509796b108993ea26c6e00b {}
+[2023-09-19 06:56:05] [INFO][ 825c139f-b132-4ae7-8a31-6a2b7da21c28]GET /api/tags {}
+[2023-09-19 06:56:10] [INFO][ 26477338-c48f-42b9-a5b7-48a691033a9e]PUT /api/notifications/6509796b108993ea26c6e00b/update {"notificationName":"noti1","templateSubject":"l;ls,malkmlkcmlkdsmclkmfdsl","notificationDescription":"this is party","templateBody":"LKML .MSMALKMDLKMSLDKMMDSALML "}
+[2023-09-19 06:56:11] [INFO][ d7aea909-ed03-4643-b267-4b03ae7ffc2b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:13] [INFO][ 9f2972e5-8924-4073-96b8-b7e2b1b5030a]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:14] [INFO][ e8dc1812-0dd8-4884-8596-9b17c6202e70]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:22] [INFO][ eb7ec7c5-f796-4a20-a8fe-279bc7efa41e]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=65097955108993ea26c6dff9 {}
+[2023-09-19 06:56:22] [INFO][ 306d2b9d-e8f6-4fcb-bb4c-2e6bce47a8aa]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId=65097955108993ea26c6dff9 {}
+[2023-09-19 06:56:22] [INFO][ d0388f6c-84cd-4156-91b3-cef4867f4f6c]GET /api/tags {}
+[2023-09-19 06:56:25] [INFO][ fdeea178-5dc5-49f1-9e2a-ba750ef9adf6]PUT /api/notifications/65097955108993ea26c6dff9/update {"notificationName":"noti1","templateSubject":"kosasdklelkdslkmdlsamlkd","notificationDescription":"mlkmfdslkfmlkdsmlkmlk","templateBody":"dlkdkmslakmdlkmdsmflkmdlkfmlkmdsam"}
+[2023-09-19 06:56:29] [INFO][ 609b9dbc-74ef-4fc3-9e8a-14219b781c62]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:31] [INFO][ 89e2d5ee-f6b9-4225-937b-8ae42524a2aa]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:32] [INFO][ 0cfe1cf4-2c46-4efe-b778-e1de5439c6be]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:35] [INFO][ 0186cc1e-f5c5-4df1-b8da-47d887f0f7d0]GET /api/tags {}
+[2023-09-19 06:56:35] [INFO][ 745aa21d-ee0b-4c5d-a3d7-4c26c8358b7d]GET /api/notifications?eventId=650976ed2ec03cfebbd3b632&notificationId= {}
+[2023-09-19 06:56:41] [INFO][ 603f2de8-6e24-4455-b038-abb26aa1595d]POST /api/notifications {"notificationName":"noti1","templateSubject":"kkkkkkkkkkk","notificationDescription":"kkkkkkkkkkkk","templateBody":"kkkkkkkkkkkkk","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:56:45] [INFO][ 8b408918-1065-4e6d-aaa7-ff1ad6dc3953]POST /api/notifications {"notificationName":"noti2","templateSubject":"kkkkkkkkkkk","notificationDescription":"kkkkkkkkkkkk","templateBody":"kkkkkkkkkkkkk","eventId":"650976ed2ec03cfebbd3b632"}
+[2023-09-19 06:56:45] [INFO][ d0236efe-7a2b-4c1d-a0bd-8b0eaa4376cc]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:47] [INFO][ 4903a545-6a86-4ed3-a151-16176a2fdb06]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:56:48] [INFO][ 5196ca2e-b17d-4963-9962-a556657e3e6a]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:57:00] [INFO][ 933f9aae-1b99-47d5-b754-3bb64a59478c]POST /api/events/ {"eventName":"event2","eventDescription":"iiiiiiiiiiii","applicationId":"65096a88d95bcdad9e19fd35"}
+[2023-09-19 06:57:00] [INFO][ 6d8a690c-2b45-490b-94e3-82dd825a75b4]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:57:02] [INFO][ 876e3903-9bf0-479b-b07b-ab821f1ed90a]GET /api/notifications/?page=1&pageSize=6&eventId=65097e7cf29e84dc7508131e&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:57:03] [INFO][ 256a3c2f-5acd-47bc-8575-1ca372d4f8a9]GET /api/tags {}
+[2023-09-19 06:57:03] [INFO][ 913873cf-2edb-47ac-9b67-1de81c4cf7e5]GET /api/notifications?eventId=65097e7cf29e84dc7508131e&notificationId= {}
+[2023-09-19 06:57:10] [INFO][ 4e95588a-7f2c-4f35-8aa5-070cf1b483b2]POST /api/notifications {"notificationName":"noti0","templateSubject":"kkkkkkkkkkkkk","notificationDescription":"kkkkkkkkkk","templateBody":"kkkkkkkkkkkkk","eventId":"65097e7cf29e84dc7508131e"}
+[2023-09-19 06:57:10] [INFO][ ec6a1a39-556d-41ab-8118-f0dcf98e1e6f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:57:12] [INFO][ c694a15b-ed9c-4700-8da4-fb80c61885f1]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:57:13] [INFO][ 09348bfa-ec18-4b5e-9683-8fcbd52c66ee]GET /api/notifications/?page=1&pageSize=6&eventId=650976ed2ec03cfebbd3b632&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:57:14] [INFO][ cb0dfee5-0d75-4d0e-b7ca-8feea1531a70]GET /api/notifications/?page=1&pageSize=6&eventId=65097e7cf29e84dc7508131e&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:58:18] [DEBUG][]Listening on port 3000...
+[2023-09-19 06:58:18] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-19 06:58:48] [INFO][ 4140a19a-e9fe-47f7-bc69-4a6ccccaf659]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:58:48] [INFO][ 5a810fb6-6453-4380-8add-6251556b1d55]GET /api/events/?page=1&pageSize=6&applicationId=65096a88d95bcdad9e19fd35&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:58:48] [INFO][ 36d9c674-ae71-4811-ae9e-111a73356934]GET /api/notifications/?page=1&pageSize=6&eventId=65097e7cf29e84dc7508131e&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:58:55] [INFO][ d9699d13-84e3-413f-9d06-cd399dcd13aa]PUT /api/applications/65096a88d95bcdad9e19fd35/update {"appName":"cohort2","appDescription":"employee training system - cohort"}
+[2023-09-19 06:59:00] [INFO][ 45c9deb3-b5ef-44b8-a576-2298022ca391]PATCH /api/applications/65097e23f29e84dc750812c5/delete {}
+[2023-09-19 06:59:00] [INFO][ 029a009f-18a4-4679-83e9-a003c35c815c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:59:04] [INFO][ c9bc3713-c505-4f90-9e40-5126189b7c7c]PUT /api/applications/65096a88d95bcdad9e19fd35/update {"appName":"cohort 2","appDescription":"employee training system - cohort"}
+[2023-09-19 06:59:04] [INFO][ 6368ac97-5365-4f33-8b58-02d0df29b44f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:59:11] [INFO][ cc1d2f40-e35d-481a-a21d-665cdcd5cbed]PUT /api/applications/65096a88d95bcdad9e19fd35/update {"appName":"cohort2","appDescription":"employee training system - cohort"}
+[2023-09-19 06:59:11] [INFO][ c321969b-8dc8-4f65-8485-33cba83efb1d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:59:23] [INFO][ 6641b5d4-3b95-4254-b703-948be7851f48]POST /api/applications/ {"appName":"cohort2","appDescription":"jjjjjjjjjjjjjj"}
+[2023-09-19 06:59:38] [INFO][ 26d01b7e-a61f-4613-8a6a-2e206ad37e6d]POST /api/applications/ {"appName":"cohort 222","appDescription":"''''"}
+[2023-09-19 06:59:38] [INFO][ 0ecb8b24-6164-43ca-95b1-d7f08009a9e6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 06:59:50] [INFO][ b1e0bc0f-e9ea-45cb-88b3-034b7a53a12b]PUT /api/applications/65097f1a15224fe572c8e59c/update {"appName":"cohort2","appDescription":"''''"}
+[2023-09-19 06:59:57] [INFO][ b214f0b6-6a91-428c-89bd-3b4e1719991f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 07:00:01] [INFO][ 8537eec3-fa06-4bac-a8d3-21eb31698c25]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 07:00:34] [INFO][ f1363479-4476-46a1-aa86-788d0540bbde]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}

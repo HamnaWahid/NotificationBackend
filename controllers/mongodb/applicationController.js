@@ -11,23 +11,39 @@ const specificDate = new Date('2022-01-01T00:00:00.000Z');
 async function addApplication(req, res) {
   const { appName, appDescription } = req.body;
 
-  // Check if an application with the same name exists
-  const existingApplication = await Application.findOne({ appName });
+  // Check if an application with the same name exists (including deleted applications)
+  const existingApplication = await Application.findOne({
+    appName,
+    isDeleted: false,
+  });
 
   if (existingApplication && !existingApplication.isDeleted) {
     return res
       .status(status.CONFLICT)
-      .send('An application with the same name already exists');
+      .send('An application with the same name already exists.');
+  }
+
+  // If an existing app is deleted, allow creating a new one with the same name
+  if (existingApplication && existingApplication.isDeleted) {
+    // Create and save the new application
+    const application = new Application({
+      appName,
+      appDescription,
+      createdBy: 'hamna', // Replace with actual username retrieval
+    });
+
+    await application.save();
+    return res.status(status.OK).send(application);
   }
 
   // Create and save the new application
-  let application = new Application({
+  const application = new Application({
     appName,
     appDescription,
     createdBy: 'hamna', // Replace with actual username retrieval
   });
 
-  application = await application.save();
+  await application.save();
   return res.status(status.OK).send(application);
 }
 
@@ -93,6 +109,7 @@ async function updateApplication(req, res) {
   // Check if an application with the same name exists (excluding the current application)
   const existingApplication = await Application.findOne({
     _id: { $ne: app_id },
+    isDeleted: false, // Using the applicationId from the current event
     appName,
   });
 

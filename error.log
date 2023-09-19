@@ -89,3 +89,12 @@
 [2023-09-18 09:25:30] [ERROR][][9f1eb3d3-aef0-4e46-ae25-30757df46f53] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
 [2023-09-18 09:28:01] [ERROR][][e817eaf4-b6f6-4c0c-ad0b-e65dd364d2ae] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
 [2023-09-18 13:49:54] [ERROR][][2d56ce8b-eba4-493f-bfb9-fe0befa7cc8f] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 03:47:07] [ERROR][][697185e5-5dc5-4b20-aed3-7a952e0f44ef] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 06:41:58] [ERROR][][f62ebf28-c695-4da2-b9b9-bb361feca481] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 06:49:58] [ERROR][][ae13f726-1c65-4333-b36c-21d403183700] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 06:52:23] [ERROR][][ea46c3ba-6e51-4931-a62d-df6eab487f90] MongooseError: Operation `applications.countDocuments()` buffering timed out after 10000ms
+[2023-09-19 06:52:23] [ERROR][][bf29c832-4560-4fe4-89a0-8a26e99319c3] MongooseError: Operation `applications.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:23] [ERROR][][9202de9e-0066-453e-b338-5c1ebd696ab9] MongooseError: Operation `events.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:34] [ERROR][][df754ee6-2126-45fa-8964-027954f2c097] MongooseError: Operation `applications.countDocuments()` buffering timed out after 10000ms
+[2023-09-19 06:52:34] [ERROR][][e181f7b9-24d5-4379-92f5-1df11574e40d] MongooseError: Operation `applications.findOne()` buffering timed out after 10000ms
+[2023-09-19 06:52:34] [ERROR][][b1cb8d60-9b13-4caf-aaa0-e8fddaf9e2fc] MongooseError: Operation `events.findOne()` buffering timed out after 10000ms

@@ -83,13 +83,24 @@ async function addEvent(req, res) {
   const existingEvent = await Event.findOne({
     eventName: req.body.eventName,
     applicationId,
+    isDeleted: false,
   });
   if (existingEvent && !existingEvent.isDeleted) {
     return res
       .status(status.CONFLICT)
       .send('An event with the same name already exists');
   }
+  // if (existingEvent && existingEvent.isDeleted) {
+  //   // Create and save the new application
+  //   const event = new Event({
+  //     eventName: req.body.eventName,
+  //     eventDescription: req.body.eventDescription,
+  //     createdBy: 'hamna', // Replace with actual username retrieval
+  //   });
 
+  //   await application.save();
+  //   return res.status(status.OK).send(application);
+  // }
   const event = new Event({
     eventName: req.body.eventName,
     eventDescription: req.body.eventDescription,
