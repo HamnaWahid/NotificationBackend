@@ -20,13 +20,11 @@ async function loginUser(req, res) {
   }
   const isPasswordValid = await bcrypt.compare(password, user.password);
   if (!isPasswordValid) {
-    return res.status(401).json({ message: 'Invalid credentials' });
+    return res.status(401).json({ message: 'Password invalid' });
   }
 
   // eslint-disable-next-line no-underscore-dangle
-  const token = jwt.sign({ userId: user._id }, config.get('jwtPrivateKey'), {
-    expiresIn: '1h',
-  });
+  const token = jwt.sign({ userId: user._id }, config.get('jwtPrivateKey'));
   return res.json({ token });
 }
 

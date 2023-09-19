@@ -8,10 +8,10 @@ const { extractPlaceholders } = require('../../src/extraction');
 const { Tag } = require('../../models/tags');
 
 async function listNotification(req, res) {
-  const { eventId, isDeleted } = req.query;
+  const { eventId, isDeleted, notificationId } = req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
-  const sortBy = req.query.sortBy || 'notificationName'; // Default to sorting by dateCreated
+  const sortBy = req.query.sortBy || 'notificationName'; // Default to sorting by notificationName
   const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
 
   const event = await Event.findById(eventId);
@@ -22,7 +22,13 @@ async function listNotification(req, res) {
 
   const query = { eventId };
 
-  query.isDeleted = isDeleted === 'true'; // Convert string to boolean
+  if (req.query.notificationId) {
+    // If notificationId is provided, retrieve only that notification
+    query._id = notificationId;
+  } else {
+    // If notificationId is not provided, retrieve notifications based on other parameters
+    query.isDeleted = isDeleted === 'true'; // Convert string to boolean
+  }
 
   const totalNotifications = await Notification.countDocuments(query);
 
@@ -44,7 +50,6 @@ async function listNotification(req, res) {
     totalNotifications,
   });
 }
-
 async function addNotification(req, res) {
   const { eventId } = req.body;
 

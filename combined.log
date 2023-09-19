@@ -476,3 +476,562 @@
 [2023-09-18 02:30:32] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
 [2023-09-18 02:30:33] [INFO][ 94156aeb-d5ae-49ad-903f-18c90c1b257c]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
 [2023-09-18 02:33:18] [INFO][ 5ee2eb87-e166-4102-a722-3eff0d797dec]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 02:37:03] [INFO][ a26edb96-628f-4edb-af30-12d8f0b10fa7]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:37:07] [INFO][ c5d8b8a7-4a14-4aa6-9444-1b7eff4f871f]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:37:08] [INFO][ aa8b3106-1766-47c2-9f31-bc427906e055]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:37:25] [INFO][ 5d6728bf-d29b-450e-af02-6d1eaf2e0be4]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:38:47] [INFO][ 5987cd6c-9179-4cb8-959d-aced7e7f2cf7]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:45:56] [INFO][ d3003197-ba85-4d47-a2c4-16bab2b3b279]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:45:58] [INFO][ 6e35a75e-df9a-4725-95d1-709a8db73dad]GET /api/applications?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:45:59] [INFO][ 3e3f2f55-f801-43ec-8cbb-b757a92177b1]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 02:56:54] [INFO][ b07ce1eb-7493-4828-9aec-7bc8c79fb634]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:07:23] [INFO][ ed014502-10e9-4a24-bcd5-8ba6ac5e1d6f]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:07:26] [INFO][ fe58e83d-b94b-47ad-acd0-5e09c3c7bf09]GET /api/events?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:07:27] [INFO][ d245054d-3fbf-4572-9358-c49260c0a776]GET /api/events?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:07:28] [INFO][ a0aa1fc0-400b-4e38-a18a-de1b36df7c94]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:13:10] [INFO][ 3cee8f4c-ac93-4680-8a0b-7b2314b9b7b8]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:13:10] [INFO][ 86beae32-4ee5-4760-858f-b346440b09ab]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:13:12] [INFO][ 1b636964-2528-4a73-8c6a-65e2eb047783]GET /api/applications?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:13:14] [INFO][ d6944302-79d9-427b-bc80-babe7a2efa4e]PATCH /api/applications/6506e085d562ba5e48fa4ab9/delete {}
+[2023-09-18 03:13:14] [INFO][ 1b375713-7853-43de-a49b-3f9d0215977f]GET /api/applications?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:13:16] [INFO][ f158507e-ea38-419b-b0f5-d9cfba26f0e1]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:22:10] [INFO][ 9570d6d7-b28c-442d-8bdf-ac1636b3ef92]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:22:10] [INFO][ d048ff1d-c331-4c67-b400-1bde444e0ba2]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:22:33] [INFO][ b1083181-b10a-4c60-9ad4-d399ff0b5c6a]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:22:33] [INFO][ d3ad9d0c-872c-4bab-905b-da1bfbef1d46]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:23:07] [INFO][ d0e3e0d6-ce0d-4c99-accd-fbc931551a1d]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:23:07] [INFO][ 224a248f-fb2f-4051-8af4-0e7e3d5e9eb6]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:23:10] [INFO][ 8b02efc5-0c1d-4f33-874d-f11c5b187406]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:23:10] [INFO][ c25f5a3d-fb7b-4c8e-a78f-2e18df1c88ef]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:23:12] [INFO][ 39e6d889-b7df-4760-814e-4e8caf6fb209]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:23:21] [INFO][ bb6d58c0-aec6-4d31-9565-4ef7f8b51c6f]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:24:11] [INFO][ a2639983-91f2-4bd7-96d7-0c03c16c5c68]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:24:16] [INFO][ bf70eb99-69ad-462f-b58a-8fd011672858]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:24:19] [INFO][ 91b43332-8746-49c3-8383-fab8d6f29f9a]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:25:17] [INFO][ 92bb8c39-fa74-49f5-8df2-6b0c1f73af58]PUT /api/notifications/64de07dcd0f557e09d235d6a/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-18 03:27:37] [INFO][ 6092a39f-07b6-432a-8701-0181fb3c89a6]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:27:37] [INFO][ 2cef85c8-2307-445d-9748-b530beb74c41]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:27:37] [INFO][ 7de09d5f-1292-4d2a-86f0-29b4ee508368]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:27:40] [INFO][ 5bb19c22-9e75-4992-9723-d5cbdb8b84b8]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:27:40] [INFO][ 3f0d0542-d6c2-4e8f-a1d1-9e4dba3f6e42]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:27:40] [INFO][ 37436d45-2dcb-4c10-b685-fdd92c030eed]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:32:42] [INFO][ 78d95162-f540-4217-a383-fb73d720730d]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:32:42] [INFO][ a53239d5-4030-4dd9-bbec-ebcc31db51b6]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:32:42] [INFO][ 02408298-90e0-41a8-95c7-f6eb27109f1f]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:32:54] [INFO][ d90e7386-7f71-4af4-a9c3-0e8acd542492]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:32:54] [INFO][ f762331b-790e-4924-a7d1-e79bdaf16f4a]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:32:54] [INFO][ 749bdf30-a7cb-41b1-8ff5-7e78997d8056]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:33:16] [INFO][ 9aefbe07-d374-49e7-8e20-8b7d0827beab]PUT /api/notifications/64de07dcd0f557e09d235d6a/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-18 03:33:58] [DEBUG][]Listening on port 3000...
+[2023-09-18 03:33:58] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 03:34:05] [INFO][ 36073f08-44f3-488e-ac21-bfbf9c7ad4b8]PUT /api/notifications/64de07dcd0f557e09d235d6a/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-18 03:34:05] [ERROR][][36073f08-44f3-488e-ac21-bfbf9c7ad4b8] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:34:29] [INFO][ 88af590d-9040-4d9a-8576-d316937f7984]GET /api/applications/?sortBy=isDeleted&sortOrder=descending {}
+[2023-09-18 03:34:29] [ERROR][][88af590d-9040-4d9a-8576-d316937f7984] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:34:41] [INFO][ e62077d0-3f62-4dc0-8199-0e1f18e3210e]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 03:35:13] [INFO][ 804410a3-74d0-4558-a9da-f25cb7747b76]PUT /api/notifications/64de07dcd0f557e09d235d6a/update {"notificationName":"211uu22","notificationDescription":"this is party"}
+[2023-09-18 03:38:17] [INFO][ c62570c0-5a4e-49bf-b478-7ee66b8781a9]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:17] [ERROR][][c62570c0-5a4e-49bf-b478-7ee66b8781a9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:17] [INFO][ 63a054cd-b61c-4390-baf5-4f2df5f226e4]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:17] [ERROR][][63a054cd-b61c-4390-baf5-4f2df5f226e4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:17] [INFO][ be7da688-fad5-480e-ba23-445a655120e1]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:17] [ERROR][][be7da688-fad5-480e-ba23-445a655120e1] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:18] [INFO][ 4c70cccd-7c2f-4d82-a151-df3a1d21e365]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:18] [ERROR][][4c70cccd-7c2f-4d82-a151-df3a1d21e365] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:18] [INFO][ 8d9c6622-f183-49f2-91ca-4b300e6aa1c2]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:18] [ERROR][][8d9c6622-f183-49f2-91ca-4b300e6aa1c2] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:18] [INFO][ 3e9ac4eb-f2d1-4176-850d-3b3381c543fc]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:18] [ERROR][][3e9ac4eb-f2d1-4176-850d-3b3381c543fc] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:20] [INFO][ f5ffdc84-a56f-489e-beca-92cb8cde7182]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:20] [ERROR][][f5ffdc84-a56f-489e-beca-92cb8cde7182] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:20] [INFO][ 2020679e-a055-42f7-9919-0e1fc57d5b71]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:20] [ERROR][][2020679e-a055-42f7-9919-0e1fc57d5b71] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:20] [INFO][ f984fdd9-390b-4529-ae73-9cd98ae9644a]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:20] [ERROR][][f984fdd9-390b-4529-ae73-9cd98ae9644a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:24] [INFO][ 4ad3cef7-fa38-4c05-9ff7-70e55faf7318]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:24] [ERROR][][4ad3cef7-fa38-4c05-9ff7-70e55faf7318] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:24] [INFO][ f958bf84-4c99-4bde-9b1f-475f01419cfb]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:24] [ERROR][][f958bf84-4c99-4bde-9b1f-475f01419cfb] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:24] [INFO][ 7020ef32-0218-46e7-bd6a-6115f102720b]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:24] [ERROR][][7020ef32-0218-46e7-bd6a-6115f102720b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:30] [INFO][ b1af8ac0-b106-4d55-8df7-29bf174fe838]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:30] [ERROR][][b1af8ac0-b106-4d55-8df7-29bf174fe838] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:30] [INFO][ 0c19a7e0-9aef-4614-9f89-c75183aefe7b]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:30] [ERROR][][0c19a7e0-9aef-4614-9f89-c75183aefe7b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:30] [INFO][ f057b31f-2a67-4f9d-8c61-4d29dac81b7a]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:30] [ERROR][][f057b31f-2a67-4f9d-8c61-4d29dac81b7a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:31] [INFO][ 64a00335-9c1a-4758-9a43-1449e5d719d4]GET /api/events?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:31] [ERROR][][64a00335-9c1a-4758-9a43-1449e5d719d4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:31] [INFO][ 5034f945-c4b2-4443-b9a6-551b4f415547]GET /api/notifications?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:31] [ERROR][][5034f945-c4b2-4443-b9a6-551b4f415547] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:31] [INFO][ 561f268f-39cc-4bde-b79b-b42870033d48]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:31] [ERROR][][561f268f-39cc-4bde-b79b-b42870033d48] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:32] [INFO][ ce4e5924-f578-41af-95fc-c2a4b3fae529]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:32] [ERROR][][ce4e5924-f578-41af-95fc-c2a4b3fae529] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:33] [INFO][ 63400b37-62ca-46ae-97d8-3ca96bccf4b6]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:33] [ERROR][][63400b37-62ca-46ae-97d8-3ca96bccf4b6] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:35] [INFO][ 185929db-2e4f-4a39-a2b0-4f6376a153ad]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:35] [ERROR][][185929db-2e4f-4a39-a2b0-4f6376a153ad] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:39] [INFO][ 91530eea-7ea9-4551-8ac2-e8c5300d7b8a]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:39] [ERROR][][91530eea-7ea9-4551-8ac2-e8c5300d7b8a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:53] [INFO][ d65731e3-9e26-44e5-90f9-41f4e97415c7]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:53] [ERROR][][d65731e3-9e26-44e5-90f9-41f4e97415c7] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:54] [INFO][ cc93ed85-c776-427a-aa6b-cb826342489a]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:54] [ERROR][][cc93ed85-c776-427a-aa6b-cb826342489a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:38:56] [INFO][ 93c5b300-658b-4684-81eb-32a2ccec3325]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 03:38:56] [ERROR][][93c5b300-658b-4684-81eb-32a2ccec3325] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 03:39:10] [DEBUG][]Listening on port 3000...
+[2023-09-18 03:39:10] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 05:01:47] [INFO][ eaa2b4cc-e444-4d08-b500-9580d6c70098]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:01:47] [ERROR][][eaa2b4cc-e444-4d08-b500-9580d6c70098] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:01:48] [INFO][ 3ed324ae-6d64-419c-83b4-2eb02ea28398]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:01:48] [ERROR][][3ed324ae-6d64-419c-83b4-2eb02ea28398] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:01:50] [INFO][ df54e985-c187-43bb-81b8-8e60c952683c]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:01:50] [ERROR][][df54e985-c187-43bb-81b8-8e60c952683c] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:01:54] [INFO][ 21bcae14-2fd3-46a7-a65a-4ff5285ffae6]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:01:54] [ERROR][][21bcae14-2fd3-46a7-a65a-4ff5285ffae6] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:02:07] [INFO][ 4d5984dc-dc0d-4025-95a5-b176d09d2408]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:02:07] [ERROR][][4d5984dc-dc0d-4025-95a5-b176d09d2408] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:02:08] [INFO][ 0e30de5b-4012-4d66-8cb9-5ba54afc746e]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:02:08] [ERROR][][0e30de5b-4012-4d66-8cb9-5ba54afc746e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:04:38] [DEBUG][]Listening on port 3000...
+[2023-09-18 05:04:38] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 05:05:01] [INFO][ 8b116c43-8094-4b7d-964b-b32c8ad46269]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:05:04] [INFO][ 513e1442-3cbe-404a-a2cc-a18195aef71e]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:05:05] [INFO][ 866d2f94-2a44-4ef7-89fa-1f5a06d90113]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:05:05] [INFO][ 12bc1bd8-4130-44c7-8f1d-948d6ca3962d]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:05:06] [INFO][ 3bb5f9bf-c3a7-44d8-a5e7-acc1fddca889]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:09:01] [INFO][ 0b5303f6-4cd1-4855-a8f4-fff25c390fa3]POST /api/login {"email":"hamnawahid5@gmail","password":"kj"}
+[2023-09-18 05:09:25] [INFO][ 277d7812-8a60-4e59-853c-f210ec066761]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:09:26] [INFO][ 1448163e-7819-421f-b79b-bb51b7946722]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:09:26] [ERROR][][1448163e-7819-421f-b79b-bb51b7946722] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:09:27] [INFO][ 8f401874-693d-4cc9-9f9e-596214906a8e]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:09:27] [ERROR][][8f401874-693d-4cc9-9f9e-596214906a8e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:09:29] [INFO][ d7b5b9af-f280-4f54-8c03-251951a40650]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:09:29] [ERROR][][d7b5b9af-f280-4f54-8c03-251951a40650] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:09:33] [INFO][ a657f97f-824c-4061-bdf0-b6022fd48d28]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:09:33] [ERROR][][a657f97f-824c-4061-bdf0-b6022fd48d28] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:10:26] [INFO][ a244f60b-f8bd-464c-a4da-b4181e362d06]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:10:26] [ERROR][][a244f60b-f8bd-464c-a4da-b4181e362d06] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:10:27] [INFO][ dffe41d8-9583-4f1b-98c1-6289e23e44d4]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:10:27] [ERROR][][dffe41d8-9583-4f1b-98c1-6289e23e44d4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:10:29] [INFO][ 2c1ab232-5617-4ec0-b5e5-f921941019b5]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:10:29] [ERROR][][2c1ab232-5617-4ec0-b5e5-f921941019b5] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:10:33] [INFO][ 5ad24e2b-294d-4c8b-b35a-7f14b8f1ea13]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:10:33] [ERROR][][5ad24e2b-294d-4c8b-b35a-7f14b8f1ea13] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:13:34] [INFO][ 4dcb08de-a4c2-44fc-8afd-00b85261f0f6]POST /api/login {"email":"hamnawahid","password":"jh"}
+[2023-09-18 05:13:44] [INFO][ f775c1f2-0137-49ae-a2d1-ec7848eea57c]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:13:44] [INFO][ 36a933a1-e07b-41c1-8503-3508261ed1eb]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:13:44] [ERROR][][36a933a1-e07b-41c1-8503-3508261ed1eb] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:13:45] [INFO][ 05785303-661d-4047-8368-d076fea42b6a]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:13:45] [ERROR][][05785303-661d-4047-8368-d076fea42b6a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:13:47] [INFO][ 9c3ac876-cb75-48a2-a355-d1f6863f5403]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 05:13:47] [ERROR][][9c3ac876-cb75-48a2-a355-d1f6863f5403] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:15:03] [INFO][ 55ce2d78-1737-436b-abd0-76ac4576aeb0]POST /api/login {"email":"hamnawahid5@gmail.com","password":"A"}
+[2023-09-18 05:15:40] [INFO][ 92deb0b9-f7bd-4107-a7ac-623ea17eca63]POST /api/login {"email":"hamnawahid5@gmail.com","password":"A"}
+[2023-09-18 05:15:52] [INFO][ 90a784d6-0c36-4f5b-8141-f5d2770ff908]POST /api/login {"email":"hamnawahid5@gmail.com","password":"A"}
+[2023-09-18 05:16:05] [INFO][ a5ec49ae-87d5-4025-a397-db4e5d09c866]POST /api/login {"email":"hamnawahid5@gmail.com","password":"A"}
+[2023-09-18 05:16:15] [INFO][ 7c130541-3d6f-4bb1-9a7f-dcf1353a3ca0]POST /api/login {"email":"hamnawahid5@gmail.com","password":"A"}
+[2023-09-18 05:16:45] [INFO][ b4c4991e-e60b-4427-9bcf-4eed06a7c81c]POST /api/login {"email":"hamnawahid5@gmail.com","password":"A"}
+[2023-09-18 05:18:18] [INFO][ aa22ec14-aa30-422b-917c-0344c37dcd2f]POST /api/login {"email":"hamna","password":"ajhjh"}
+[2023-09-18 05:18:44] [INFO][ e80ae846-a66e-42d9-a2b0-6200de31a102]POST /api/login {"email":"hamnawahid@gmail.com","password":"aHAMNAH1"}
+[2023-09-18 05:18:46] [INFO][ c4344946-cbe8-4e14-851c-a9444f8d31df]POST /api/login {"email":"hamnawahid@gmail.com","password":"aHAMNAH1"}
+[2023-09-18 05:33:07] [INFO][ b3c1f32d-dcb9-4ed8-96e7-d17d73a65400]POST /api/login {"email":"hamnawahid5@gmail,com","password":"JSSJ"}
+[2023-09-18 05:33:14] [INFO][ ae288999-db2c-4567-a543-b4bdaa4e3c78]POST /api/login {"email":"hamnawahid5@gmail.COM","password":"NJ"}
+[2023-09-18 05:33:20] [INFO][ 632a936c-feb5-4451-aa2f-e5883a1516f7]POST /api/login {"email":"hamnawahid5@gmail.com","password":"NJ"}
+[2023-09-18 05:33:20] [INFO][ 91a03850-f5c4-40fb-a95a-9eef0d7d9955]POST /api/login {"email":"hamnawahid5@gmail.com","password":"NJ"}
+[2023-09-18 05:33:27] [INFO][ ead7c9a5-03c1-4bb5-8aa3-ee2863c4d2d3]POST /api/login {"email":"hamnawahid5@gmail.com","password":""}
+[2023-09-18 05:33:40] [INFO][ 3c8de7c5-327b-46b8-8adb-1d1c47dc2ff7]POST /api/login {"email":"","password":""}
+[2023-09-18 05:34:49] [INFO][ f6c90e78-7b7b-4378-a74f-b9577e378811]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah"}
+[2023-09-18 05:35:06] [INFO][ 13f4b34e-a2a0-42d9-bc94-df4742140310]POST /api/login {"email":"hamnawahid5@gmail.com","password":""}
+[2023-09-18 05:48:50] [DEBUG][]Listening on port 3000...
+[2023-09-18 05:48:50] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 05:49:26] [INFO][ 8b06c5c1-24b4-4f8c-ad95-5186744833d0]POST /api/login {"email":"","password":""}
+[2023-09-18 05:49:56] [INFO][ 094ebc1f-6c40-4465-869d-cb2d41c791c1]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah"}
+[2023-09-18 05:49:59] [INFO][ 4d154a52-403e-4aeb-8b1e-1adc5cad8bb7]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah"}
+[2023-09-18 05:49:59] [INFO][ dc22b43d-1196-495a-a3e3-7f705bc2d304]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah"}
+[2023-09-18 05:51:08] [INFO][ af7d3526-688b-4528-806f-6194c55eec8b]POST /api/login {"email":"hamnawahid5@gmail.com","password":""}
+[2023-09-18 05:53:36] [INFO][ 6cce7271-bbe0-4f05-9ddf-baad579d8b76]GET /api/notifications?eventId=65062a61bf7bd1eb47445efc&notificationId=65062b6ab49d0c7e47a60e10 {}
+[2023-09-18 05:53:36] [ERROR][][6cce7271-bbe0-4f05-9ddf-baad579d8b76] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 05:53:50] [INFO][ 438ffa47-1ce8-40e8-9d23-2574fea89267]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 05:54:37] [INFO][ 7d4cce3f-529f-43f6-b47d-86128d4323bc]GET /api/notifications?eventId=65062a61bf7bd1eb47445efc&notificationId=65062b6ab49d0c7e47a60e10 {}
+[2023-09-18 06:03:19] [INFO][ 983cefda-c23d-42bf-b9a1-fd6aa12cf6c9]POST /api/login {"email":"","password":""}
+[2023-09-18 06:03:26] [DEBUG][]Listening on port 3000...
+[2023-09-18 06:03:26] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 06:03:35] [INFO][ d8f6f983-fbaf-45e8-afe7-1a2e93477a89]POST /api/login {"email":"","password":""}
+[2023-09-18 06:04:11] [INFO][ 634fbcab-af30-42ab-ad1b-7a52262f7ca6]POST /api/login/ {"email":"hamnawahid5@gmail.com"}
+[2023-09-18 06:07:46] [INFO][ f53863d0-e305-42f4-8aad-7d46c8dfb085]GET /api/tags {}
+[2023-09-18 06:07:46] [ERROR][][f53863d0-e305-42f4-8aad-7d46c8dfb085] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:07:47] [INFO][ a818e34c-4923-4ce7-bcab-fdfd4043e152]GET /api/tags {}
+[2023-09-18 06:07:47] [ERROR][][a818e34c-4923-4ce7-bcab-fdfd4043e152] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:07:49] [INFO][ 55046847-8326-4c4a-b4f4-83a9f81b3212]GET /api/tags {}
+[2023-09-18 06:07:49] [ERROR][][55046847-8326-4c4a-b4f4-83a9f81b3212] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:07:53] [INFO][ de4d1d4d-c01a-4872-aa6f-c4827f88043f]GET /api/tags {}
+[2023-09-18 06:07:53] [ERROR][][de4d1d4d-c01a-4872-aa6f-c4827f88043f] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:13:57] [INFO][ 334d0eeb-df94-415c-8a18-b8ec21f0953d]POST /api/login/ {"email":"hamnawahid5@gmail.com"}
+[2023-09-18 06:15:19] [INFO][ f9c848d8-ba19-4046-be79-994aa1fa5aa5]POST /api/login {"email":"","password":""}
+[2023-09-18 06:18:53] [DEBUG][]Listening on port 3000...
+[2023-09-18 06:18:53] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 06:19:01] [INFO][ 5bc524f6-1a5b-4a9a-8f42-ef65b5d90e49]POST /api/login {"email":"","password":""}
+[2023-09-18 06:19:10] [INFO][ 1c04254b-21a8-485b-abac-40264bf1d51a]POST /api/login/ {}
+[2023-09-18 06:20:00] [INFO][ 1a7e0aa2-10b7-43af-8dbd-f2a616e16698]POST /api/login {"email":"","password":""}
+[2023-09-18 06:20:36] [INFO][ b6b33ba5-3c0e-4796-9b73-b5cb0d773767]POST /api/login {"email":"","password":""}
+[2023-09-18 06:21:04] [INFO][ db31f171-de2a-485d-9adb-617ff3787c10]POST /api/login {"email":"","password":""}
+[2023-09-18 06:21:30] [INFO][ 39cb2e3f-6a01-40b3-a26f-1c197f94cff4]POST /api/login {"email":"hamnwahid6@gmail.com","password":"h"}
+[2023-09-18 06:21:36] [INFO][ 971a7a14-a43b-4e54-94a0-78f4b1af469f]POST /api/login {"email":"hamnwahid6@gmail.com","password":"h"}
+[2023-09-18 06:23:35] [INFO][ 631b96d6-9f75-4360-8e15-737ba4d7cfcd]POST /api/login {"email":"hamnwahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 06:23:59] [INFO][ cd32e4e9-1a09-4931-afd9-bfec4cbf37f6]POST /api/login {"email":"hamnwahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 06:24:10] [INFO][ 156bea75-9a63-4534-bf7c-f3bec5ec7ae5]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 06:24:11] [INFO][ 5c2b548a-8db6-4e14-8d97-3fe29251f8a4]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 06:24:11] [ERROR][][5c2b548a-8db6-4e14-8d97-3fe29251f8a4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:24:12] [INFO][ efd3d852-9b16-4ff6-99c6-b2e5fc9a61ef]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 06:24:12] [ERROR][][efd3d852-9b16-4ff6-99c6-b2e5fc9a61ef] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:24:14] [INFO][ 81c8a594-04b6-4fbd-974e-c4226440ee9c]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 06:24:14] [ERROR][][81c8a594-04b6-4fbd-974e-c4226440ee9c] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:24:18] [INFO][ 54989522-3170-4885-8a04-33ebb887a681]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 06:24:18] [ERROR][][54989522-3170-4885-8a04-33ebb887a681] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:55:10] [INFO][ b1a958b5-8cb0-4ecc-900c-3cabe60d9129]GET /api/notifications?eventId=64ddc2464693376f1ce67c14&notificationId=64de07dcd0f557e09d235d6a {}
+[2023-09-18 06:55:22] [INFO][ 336378ac-30b8-43f5-a249-fccb578af65e]GET /api/applications/?sortBy=isDeleted&sortOrder=descending {}
+[2023-09-18 06:55:22] [ERROR][][336378ac-30b8-43f5-a249-fccb578af65e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 06:55:26] [INFO][ 520d9336-d44f-453a-a530-a83d5e2fe0be]POST /api/login/ {}
+[2023-09-18 06:55:59] [INFO][ c5e0c7e7-c3a7-4de9-8857-1d812fbe5a29]POST /api/login/ {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 06:56:18] [INFO][ 95f38042-875f-4f7a-aba0-b76257bdb95a]GET /api/notifications?eventId=64ddc2464693376f1ce67c14&notificationId=64de07dcd0f557e09d235d6a {}
+[2023-09-18 07:04:28] [INFO][ c67dbeee-99ae-47a0-8544-35395e8c8d26]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:04:28] [ERROR][][c67dbeee-99ae-47a0-8544-35395e8c8d26] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:04:29] [INFO][ 21cff640-46d8-4beb-8f92-dc04a7e61baf]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:04:29] [ERROR][][21cff640-46d8-4beb-8f92-dc04a7e61baf] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:07:58] [INFO][ f6d22ba4-c9be-4193-a6e7-ccf2d3895bd4]POST /api/login {"email":"","password":""}
+[2023-09-18 07:08:40] [INFO][ 5eae68b8-e20c-454c-beb5-06b6ca442232]POST /api/login {"email":"ddd@gmail.com","password":"ddd"}
+[2023-09-18 07:09:11] [INFO][ 0eb6e066-29e0-42f7-be90-2331e627c932]POST /api/login {"email":"ddd@gmail.com","password":"ddd"}
+[2023-09-18 07:09:23] [INFO][ dd8dd3af-255f-4f34-8721-49f082251927]POST /api/login {"email":"ddd@gmail.com","password":"ddd"}
+[2023-09-18 07:09:52] [INFO][ 5a23c87b-f881-4a2d-a9c0-155d443870c7]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:10:48] [INFO][ 4f898565-2ea6-4259-9cad-5116b73ddd9c]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:10:50] [INFO][ a8dd6b22-86ab-469a-b312-53b8b19ce2c3]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:16] [INFO][ fdcfed60-7072-48bb-8ed7-cd1073ddf7e2]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:21] [INFO][ e4495b07-c5b0-4282-bbac-ee3ed3b63cd6]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:30] [INFO][ 765e805c-83ae-433a-a1a5-aaff63f0fca6]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:33] [INFO][ c96f5b8d-e68b-47d1-aabc-d99f56cd51a6]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:39] [INFO][ 0f4c2db1-4d80-4ca5-83f8-4ae92ab78125]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:40] [INFO][ ec244d4e-8cc8-429a-ba39-0c2a2e804450]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:47] [INFO][ 7088a096-62aa-425f-9b19-ff8d1b030fb0]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:11:50] [INFO][ 9cad9504-9acc-4784-aaab-997d4451056d]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:12:11] [INFO][ e0975731-d30b-4cb1-8509-f70a0f365737]POST /api/login {"email":"ddd@gmail.com","password":"dddahjhajha"}
+[2023-09-18 07:35:11] [INFO][ b949b39f-8b82-4913-abd6-bc3e70bafae1]POST /api/login {"email":"","password":""}
+[2023-09-18 07:35:34] [INFO][ c750e6b2-cf71-49cd-bc9e-0815e6731978]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 07:35:34] [INFO][ 1adf4637-9926-49ef-9ad9-39fd96441ac3]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:35:34] [ERROR][][1adf4637-9926-49ef-9ad9-39fd96441ac3] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:35:35] [INFO][ 09f0fdd4-a08e-4189-a3b2-b70245923f7a]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:35:35] [ERROR][][09f0fdd4-a08e-4189-a3b2-b70245923f7a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:35:37] [INFO][ 51fec041-3e3a-4437-9ba9-c919228c6e10]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:35:37] [ERROR][][51fec041-3e3a-4437-9ba9-c919228c6e10] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:35:51] [INFO][ b97bb62f-468a-463a-b14f-d60c9583b8ea]POST /api/login {"email":"hamnawahid5@gmail.com","password":"aHAMNAH1"}
+[2023-09-18 07:36:01] [INFO][ b7252e47-8e72-4c44-ba7f-cb7c1a15fbdc]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 07:36:02] [INFO][ f66e7931-6d0e-47d5-ac17-41619b4738aa]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:36:02] [ERROR][][f66e7931-6d0e-47d5-ac17-41619b4738aa] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:36:03] [INFO][ 3bbdff3d-4965-4544-90b4-0864d3385cce]GET /api/applications?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:36:03] [ERROR][][3bbdff3d-4965-4544-90b4-0864d3385cce] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 07:42:59] [INFO][ 62098b21-41ed-46c2-8525-3ea09cbd0081]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 07:42:59] [INFO][ 82a81905-58eb-4742-883c-42ea41af0108]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:43:00] [INFO][ a7a5ab29-82cd-4846-bd1b-a2c9f00e6170]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:43:02] [INFO][ d45a5755-d8a1-47bd-bde7-d67927361a43]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:43:06] [INFO][ 1f83b6f6-ada8-4a9f-93cb-ed198fc61cf5]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:23] [INFO][ 74a0e11e-8345-4557-9ae2-fb7dec7d351c]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:34] [INFO][ 89e09f30-bc57-49c5-a856-4eade56449d5]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:37] [INFO][ 72386c39-9f38-48e9-961b-d4e39b255073]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:38] [INFO][ 5834ffd2-7a97-44d1-be6c-42d96a172d14]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:40] [INFO][ b48f7c8c-1d32-4181-80cb-0a1d58dc769f]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:51] [INFO][ 24680f20-95c5-4b02-bfe2-3ea692fa151f]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 07:44:52] [INFO][ f7217408-b9c5-45fd-a9bb-f7a41482ca8c]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:53] [INFO][ 8d5e37a2-b043-4337-8bbd-bc771b6766c1]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:55] [INFO][ 1ec6355d-08e2-46bf-8a58-cbfccc06d3f3]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:44:59] [INFO][ cae6b5ec-5f2c-4375-9329-64439ce9a3c5]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:45:10] [INFO][ 549f852f-9701-4677-b191-aa603fa5e62e]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:45:11] [INFO][ 0a3fd519-69b1-4863-a4f3-efc7dc52eeea]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:45:13] [INFO][ 62014732-8d66-4f4c-836e-7153ac5807a0]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:45:17] [INFO][ 7cd26ee2-5607-4b85-8dca-42118c4e60d4]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:50:23] [INFO][ 9035118f-1166-4e95-8b06-57e898fdd8da]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:50:24] [INFO][ ec605eb2-894b-4f75-9eab-65b122003f3a]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:50:39] [INFO][ 46a1f8ba-c988-4be6-9eec-e4dca1dbea99]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 07:50:40] [INFO][ feae5e72-7fce-48af-a5c5-f372b4fb328a]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:50:41] [INFO][ b9d38084-f614-4c2c-881a-cb6639d22eaa]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:50:43] [INFO][ ba5483dd-770c-41c1-884c-526868bc798a]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:50:47] [INFO][ e1567b27-4a26-4d0a-ba5d-bfa9090aaa7d]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:23] [INFO][ d546c349-c1a4-4dc7-a505-989d980941c0]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:24] [INFO][ d8e960b5-cbf4-4be0-9e5e-295946d92aee]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:26] [INFO][ 3eee7fa9-73e3-44e8-9722-16f73057f753]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:30] [INFO][ f37a1aa7-f19a-4765-bb63-d8e78e36c8f4]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:31] [INFO][ 40af9ae6-09e1-4e7f-b522-03857d29455a]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:32] [INFO][ 499cf607-2731-4b6c-8119-9ec71cacf4e2]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:34] [INFO][ b505ccc0-fbc1-4b4c-ad97-520dde5507cc]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:38] [INFO][ 21f74682-16c6-4ab4-ab65-46621a17b0ab]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:45] [INFO][ 366b7b2d-6d22-4795-a0e0-6d0540ed5557]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:46] [INFO][ 7d1c42f8-20c0-4804-b8f2-00ce274d278b]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:51:48] [INFO][ 64858f11-d66d-4716-abc7-2bc4f0c671f9]GET /api/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:52:09] [INFO][ 0f2ba008-cae3-4df1-b733-b5c00fe214da]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 07:52:09] [INFO][ 33f38dd0-1226-4de3-896d-240c63d4b7c4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 07:53:02] [INFO][ 25234057-343b-46d0-bc88-44e7466facb3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:00:43] [INFO][ ce58b464-32dc-4fd3-af36-333a185919e7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:04:22] [INFO][ 545d12c3-301b-48e3-9dbf-6218d4f7df0f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:04:24] [INFO][ b24454e4-4de5-4a36-affe-f02384c9b71b]POST /api/login {"email":"","password":""}
+[2023-09-18 08:35:31] [INFO][ 109c9698-5c0a-490b-87c3-24c9b6f30707]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 08:35:31] [INFO][ f6bef467-7aa7-4776-a974-2ccb5191b76a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:36:38] [INFO][ df02c3f8-dce1-46eb-beff-f119068cd022]POST /api/ {"appName":"uhyhHJ","appDescription":"jhjhjh"}
+[2023-09-18 08:36:58] [INFO][ e87f62c4-e228-43f6-9ec3-337b5acb33dd]POST /api/ {"appName":"kjkj","appDescription":"kjkj"}
+[2023-09-18 08:37:02] [INFO][ 184a4e9e-a8e1-4e6a-a49b-f5e2c23a6644]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:37:12] [INFO][ 4c8fe85e-d0b7-4fba-8d3f-ca759413957d]POST /api/ {"appName":"nnn","appDescription":"nnnn"}
+[2023-09-18 08:38:10] [INFO][ 40756083-8d2c-457b-bc3b-1eb43ff0104f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:38:11] [INFO][ 13cab099-ac9f-4dae-ab78-388ec2d175cf]GET /api/applications/?page=1&pageSize=4&appName=meta+charset%3D%5C%22utf-8%5C%22%3E%5Cn%3Ctitle%3EError%3C%2Ftitle%3E%5Cn%3C%2Fhead%3E%5Cn%3Cbody%3E%5Cn%3Cpre%3ECannot+POST+%2Fapi%2F%3C%2Fpre%3E%5Cn%3C%2Fbody%3E%5Cn%3C%2Fhtml%3E%5Cn%22&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:38:19] [INFO][ c68dc43f-8c41-40b1-896a-996fdb04ba03]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:38:42] [INFO][ f8bbcd51-fa0d-4d2b-b23b-a6b4ee67ccf7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:38:44] [INFO][ a5814044-1736-45a1-8544-e1e4ee87e1e8]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:38:46] [INFO][ c08556ab-3139-4c9e-b323-7a740fe3866f]POST /api/applications/ {"appName":"wss","appDescription":"sss"}
+[2023-09-18 08:38:46] [INFO][ c404e14a-5c28-4a11-b450-bab73eb3d94f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:38:48] [INFO][ fc37bc41-7125-4c21-9bb5-8fc90a754592]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:43:14] [INFO][ 8a7971f9-f8f2-4873-a786-0c3e79a69806]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:43:17] [INFO][ d85445b9-2f7f-4af3-81ea-4224e4617786]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:43:19] [INFO][ 1dadce8f-3101-4435-87ed-bcfbd8ed6d04]GET /api/applications/?page=2&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:43:21] [INFO][ 81d2fb32-18ba-4ed3-8d36-b65e035ffde6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:43:38] [INFO][ 152ef9ee-0003-45c2-8789-0bb6b289a35d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:43:48] [INFO][ 3293e5c7-f5ce-4f56-921e-a1575a67734c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:44:29] [INFO][ d5404403-843c-4955-973d-e13137e9e424]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:44:37] [INFO][ 40d79edf-7aaf-443c-ae57-88c83e38fd0f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:46:01] [INFO][ 21ebcd73-8bf8-4244-a19c-dff6fdf3729d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:24] [INFO][ c04aeea3-c456-4714-b336-0181db5b23d9]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:25] [INFO][ 9cf3f444-4f2a-4be4-87ab-dba1cd0363c0]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:26] [INFO][ 4c7f0600-0604-4199-9782-0d0d5d4ed16f]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:27] [INFO][ 3b2bd377-3b02-4bae-bdf4-fefcbf98d820]GET /api/events/?page=1&pageSize=6&applicationId=650623a377ebed7d0883481e&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:27] [INFO][ 4f3af8b1-8bda-444b-90ab-3a3e95025cd6]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:30] [INFO][ 0c1e6d84-eda2-4b09-a396-818d36bcafaf]GET /api/notifications/?page=1&pageSize=6&eventId=65062535b7651c5c0b4955fd&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:32] [INFO][ 62d838fc-e5ea-4ad5-8b9a-31c9378bc5ef]GET /api/notifications/?page=1&pageSize=6&eventId=6506253bb7651c5c0b495604&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:36] [INFO][ 837635cb-b15c-4e79-b78c-bb126f977775]PUT /api/events/6506253bb7651c5c0b495604/update {"eventName":"kkjkeee","eventDescription":"jkjkjkj"}
+[2023-09-18 08:50:36] [INFO][ 9bb5e8ea-4794-4a4e-863d-3920ac69c814]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:42] [INFO][ f230b579-790a-4bbe-b4c0-1e5bf08a3814]GET /api/notifications/?page=1&pageSize=6&eventId=65062524b7651c5c0b4955ed&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:50:43] [INFO][ 6b4554c2-7b08-4639-a9a6-da600e6cabd9]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:13] [INFO][ 1a57d96b-1014-48df-8cc2-4ad230641aff]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:42] [INFO][ de593249-2a82-475f-8890-3c874c0ecc3a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:42] [INFO][ dbae7edf-9a14-4221-b0c6-e6f541036e52]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:42] [INFO][ 32115d67-37f1-4af0-808a-f38a56f26c1d]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:49] [INFO][ 152c4c38-f551-4d0e-9014-d0413ced9952]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:49] [INFO][ 4afa2eee-98d5-46df-9c93-c9afb5090f0d]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:49] [INFO][ 7751fa2c-3fec-4df4-bcee-e78cc45d64cd]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:53] [INFO][ 51606285-51f7-45be-ae11-59cf8a8fee7a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:53] [INFO][ f56ffc38-568f-48d8-b4e9-d572ad6d09f1]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:51:53] [INFO][ 69d1ed1d-2f32-4f83-873a-0d6eab9dcb67]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:52:50] [INFO][ 3f946909-ac28-4e6d-98f9-08927150a075]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:52:50] [INFO][ 4a2930b2-7162-4cda-898b-0656bc06eaa4]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:52:50] [INFO][ bfe70822-d66f-468c-9799-29d9e508887e]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:53:20] [INFO][ 82aa5be3-a30b-4b6f-95bc-bf3f10a7ca66]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:53:20] [INFO][ 1d1e42be-8b92-4b71-9edf-edbfce6ca624]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:53:20] [INFO][ 5ae0a14f-bafc-48e2-ab4c-974123ef48d1]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:54:21] [INFO][ 259cf722-5477-4acc-8a3e-d73560265a7f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:54:21] [INFO][ b32fc0f5-cd85-4299-adb7-56bd1e27844f]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:54:21] [INFO][ 4c18324d-f420-49b2-956b-369cc27cadd3]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:54:23] [INFO][ 9322d348-51ae-4c34-ad1e-c95f152d7eb9]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:54:23] [INFO][ 55806002-3950-40b9-aefe-9f6e2300d6e8]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:54:23] [INFO][ dfe4b1bf-add0-4acc-a4be-f024a5079612]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:55:34] [INFO][ b5827ad9-357b-4577-b1bf-09b5c698deb5]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:55:34] [INFO][ a086d432-a98f-47e6-8e61-c053c7e96761]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:55:34] [INFO][ ec32c992-66f7-485a-abfe-8fd006c3a268]GET /api/notifications/?page=1&pageSize=6&eventId=65062541b7651c5c0b49560b&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:57:09] [INFO][ 99565e52-975b-4c23-b247-927481f72d39]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:58:10] [INFO][ 669aff49-f3b0-4650-ba38-f245d3dfbead]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:58:49] [DEBUG][]Listening on port 3000...
+[2023-09-18 08:58:49] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 08:58:51] [INFO][ 627312d7-3697-46d8-a9f2-0908e1eec9ff]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:58:58] [INFO][ 507d6116-e3d4-495c-a0e5-28e4af04b0b6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:59:18] [INFO][ 0f2b482e-1ba6-40ae-a55c-6a87ad5a4971]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:59:36] [INFO][ 207cc8e5-dc5a-48c9-8b2a-bf2b0bc296f4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 08:59:50] [INFO][ d63de645-6cac-484f-8b9e-e58bf16de85e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:00:02] [INFO][ b2351c28-a27d-43d1-8abe-d1dff1f84167]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:00:31] [INFO][ f0a9cb63-265c-4b20-9972-cd86e8aa5cd4]POST /api/login {"email":"hamnawahid5@gmail.com","password":"AHamnah1"}
+[2023-09-18 09:00:39] [INFO][ ccf33370-fe46-4c58-8528-6a44965ac306]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 09:01:08] [INFO][ 4b543fc7-5ccc-4951-93e2-609764db8d99]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:04:48] [INFO][ 4f7925bf-cadb-4f1d-9f42-9674ac7b05d7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:06:11] [INFO][ 4e229e28-1c1e-4583-9654-84a92c61c085]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:06:23] [INFO][ a806f632-7afb-458e-924e-dc36d73d4f6a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:07:13] [INFO][ 08b4c4fc-d521-426f-af66-bb643fd599fe]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:09:46] [INFO][ 1f834c1f-1162-4a50-8c2b-5e81e4487eed]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:10:27] [INFO][ aa67b259-8cb0-48cc-896a-d3a4c9aa603e]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:11:26] [INFO][ ac29fffc-c6cd-4448-9167-20cbe6f936b3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:12:20] [INFO][ 7e6295b2-91de-43cc-9d81-db9115ea81d9]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:12:30] [INFO][ 07d05951-f9af-4dcb-8e0a-d6c392f52b42]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:12:30] [ERROR][][07d05951-f9af-4dcb-8e0a-d6c392f52b42] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:12:31] [INFO][ f0f6ce53-49fc-4239-b327-6bd8eef31fe7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:12:31] [ERROR][][f0f6ce53-49fc-4239-b327-6bd8eef31fe7] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:12:33] [INFO][ da9ea012-4e08-4012-958c-6a12d95d7d03]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:12:33] [ERROR][][da9ea012-4e08-4012-958c-6a12d95d7d03] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:12] [INFO][ b0ae3db0-b020-488c-b6c8-fd2addb8049b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:12] [ERROR][][b0ae3db0-b020-488c-b6c8-fd2addb8049b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:13] [INFO][ 4b67af4f-89fc-4eac-9194-956c88b9cbcb]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:13] [ERROR][][4b67af4f-89fc-4eac-9194-956c88b9cbcb] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:15] [INFO][ 8af254af-6ee1-4326-bd2f-a99e757f8da6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:15] [ERROR][][8af254af-6ee1-4326-bd2f-a99e757f8da6] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:39] [INFO][ a3f1365c-c99f-44f2-99db-1a9f1de2da9c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:39] [ERROR][][a3f1365c-c99f-44f2-99db-1a9f1de2da9c] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:40] [INFO][ 316228d7-65b4-4276-a918-65cdb3328c2d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:41] [ERROR][][316228d7-65b4-4276-a918-65cdb3328c2d] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:43] [INFO][ 3045fde8-bcdf-410b-8535-bf21fb9b7a6f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:43] [ERROR][][3045fde8-bcdf-410b-8535-bf21fb9b7a6f] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:13:47] [INFO][ 2754d284-5f43-42f4-8e91-cc9fdaab577d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:13:47] [ERROR][][2754d284-5f43-42f4-8e91-cc9fdaab577d] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:14:19] [INFO][ 3761f372-ae07-4d3a-9c25-f73d4b959a8a]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:14:19] [ERROR][][3761f372-ae07-4d3a-9c25-f73d4b959a8a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:14:20] [INFO][ 4e024412-982f-479c-837c-5ec2062791ff]GET /api/tags {}
+[2023-09-18 09:14:20] [ERROR][][4e024412-982f-479c-837c-5ec2062791ff] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:14:21] [INFO][ 66b020ce-2161-4412-b14f-6af0ef40e233]GET /api/tags {}
+[2023-09-18 09:14:21] [ERROR][][66b020ce-2161-4412-b14f-6af0ef40e233] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:14:23] [INFO][ 504d423e-61df-46eb-b761-e2b87379baca]GET /api/tags {}
+[2023-09-18 09:14:23] [ERROR][][504d423e-61df-46eb-b761-e2b87379baca] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:14:27] [INFO][ 4538b4c9-b3c7-47d1-9bc7-c1169e81711b]GET /api/tags {}
+[2023-09-18 09:14:27] [ERROR][][4538b4c9-b3c7-47d1-9bc7-c1169e81711b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:15:56] [INFO][ 56cc7038-9d7b-425f-8b00-9b7676324908]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:15:56] [ERROR][][56cc7038-9d7b-425f-8b00-9b7676324908] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:15:58] [INFO][ 43aaf40f-c174-4291-9b26-c2f812fa3524]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:15:58] [ERROR][][43aaf40f-c174-4291-9b26-c2f812fa3524] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:16:00] [INFO][ 02197b83-1449-4b3c-bab8-324d922bc50c]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:16:00] [ERROR][][02197b83-1449-4b3c-bab8-324d922bc50c] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:16:01] [INFO][ 89ecbf12-e1c6-47ad-b2e8-e2ea81388ade]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:16:01] [ERROR][][89ecbf12-e1c6-47ad-b2e8-e2ea81388ade] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:16:03] [INFO][ 1df95bea-97a4-487a-a4b2-b2253c9e72ed]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:16:03] [ERROR][][1df95bea-97a4-487a-a4b2-b2253c9e72ed] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:16:07] [INFO][ 1fdf8f34-a216-4ed1-b144-10f04b348a27]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:16:07] [ERROR][][1fdf8f34-a216-4ed1-b144-10f04b348a27] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:19:18] [INFO][ 6809ce2b-aff8-4baa-aebd-e282c2a99706]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:19:18] [ERROR][][6809ce2b-aff8-4baa-aebd-e282c2a99706] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:19:52] [INFO][ cae8264f-8bb4-4ac6-8c52-e3a2a676e5a7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:19:52] [ERROR][][cae8264f-8bb4-4ac6-8c52-e3a2a676e5a7] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:25:30] [INFO][ 9f1eb3d3-aef0-4e46-ae25-30757df46f53]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:25:30] [ERROR][][9f1eb3d3-aef0-4e46-ae25-30757df46f53] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:28:01] [INFO][ e817eaf4-b6f6-4c0c-ad0b-e65dd364d2ae]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 09:28:01] [ERROR][][e817eaf4-b6f6-4c0c-ad0b-e65dd364d2ae] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 09:31:20] [INFO][ a8e79c69-0323-463a-be3a-8db22a42241b]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 09:31:20] [INFO][ 6a62c89a-fd6b-4671-b1fb-f0ab19896fdf]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 13:49:54] [INFO][ 2d56ce8b-eba4-493f-bfb9-fe0befa7cc8f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 13:49:54] [ERROR][][2d56ce8b-eba4-493f-bfb9-fe0befa7cc8f] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-18 13:50:10] [INFO][ 8955371f-5d18-4d38-baa7-30bc68a1fd4d]POST /api/login {"email":"hamnawahid5@gmail.com","password":"AHamnah1"}
+[2023-09-18 13:50:18] [INFO][ 8aabafe3-6048-4b49-9549-680a8e39c1eb]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 13:50:19] [INFO][ c46a0dab-a60b-477d-8929-099f35a72926]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 13:50:23] [INFO][ 56ad7300-b812-489d-89ec-4e655ef6c06b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 13:59:55] [INFO][ e2f955fe-0b06-4df2-94bc-af16a959bf2d]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 13:59:55] [INFO][ 6ce699b8-4e51-45bc-b91f-99550f693c06]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:10] [INFO][ 5bb9d2f2-fb0b-40c5-bd82-d53834ac5702]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:15] [INFO][ 8de607af-9482-48cc-82f9-b357ef4a280e]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:16] [INFO][ 88190707-3476-45a2-9feb-7302751cf0fa]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:17] [INFO][ f440ec62-60a4-479f-88d5-f79f27f9e136]GET /api/events/?page=1&pageSize=6&applicationId=650623a377ebed7d0883481e&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:19] [INFO][ 81ab2348-a68f-4c19-bd44-ff1e29c5bcb0]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:21] [INFO][ d2f94a41-7ff7-495b-87d6-fb02f1b72729]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:23] [INFO][ cd1b4d24-3bba-4a14-9ccb-344397358b3b]GET /api/notifications/?page=1&pageSize=6&eventId=65062a61bf7bd1eb47445efc&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:35] [INFO][ af04cb21-02c1-4893-9792-7094d42a878c]PATCH /api/6507dc9c2b46f2614f91ecd4/delete {}
+[2023-09-18 14:00:37] [INFO][ d7d26eca-921b-4200-92a0-2183b9d7ce85]PATCH /api/6507dc9c2b46f2614f91ecd4/delete {}
+[2023-09-18 14:00:38] [INFO][ a0a4f30c-c75f-4c41-9dfc-821154f4d597]PATCH /api/6507dc9c2b46f2614f91ecd4/delete {}
+[2023-09-18 14:00:42] [INFO][ 7c897d66-91a2-4ba1-874e-4ffd52a13c49]PATCH /api/65014de721b2b24b3872a833/delete {}
+[2023-09-18 14:00:45] [INFO][ 62895e3a-2af2-4f83-871a-ab59396976e9]PATCH /api/65014de721b2b24b3872a833/delete {}
+[2023-09-18 14:00:47] [INFO][ 49f9a3c8-bf07-45e9-8779-cd14113c27ff]PATCH /api/events/650629d0b7651c5c0b495680/delete {}
+[2023-09-18 14:00:47] [INFO][ 293b2549-2b46-45e2-8494-964f4f28c428]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:47] [INFO][ c83f1c19-6620-4074-9223-c5259a05aec2]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:48] [INFO][ 01e58656-1a0a-4f91-9c2b-10d5e3cb029f]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:50] [INFO][ f655e286-974b-4b46-9106-e5f725075dc3]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:00:50] [INFO][ 84460f4c-8b96-4356-a74c-d53d0f02dc67]PATCH /api/65014de721b2b24b3872a833/delete {}
+[2023-09-18 14:00:54] [INFO][ e354c2ec-6d32-4290-b03a-317219f5dc77]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:28] [INFO][ d5d31d93-522f-471a-9bef-53b9e2db07b4]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:28] [INFO][ 30145722-a590-4a63-b591-075631bebbfe]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:28] [INFO][ 3dea37b6-5a1d-4292-8ea4-40da99fef074]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:28] [INFO][ f60aec6c-9880-4a35-bccd-3785acbe51cf]PATCH /api/650623a377ebed7d0883481e/delete {}
+[2023-09-18 14:01:29] [INFO][ d2b1fb29-9c29-4c29-9a4c-8a34a646071c]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:29] [INFO][ df2fecd0-dbbc-4ccf-bea5-2eb99dd6af32]PATCH /api/650623a377ebed7d0883481e/delete {}
+[2023-09-18 14:01:31] [INFO][ a99757e3-a80e-4b36-852f-932099ee4eab]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:35] [INFO][ c8a4efb8-847c-4eb9-9482-d19006cb5760]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:44] [INFO][ 6183dec3-33aa-40fe-b6cb-1d685dfd25a1]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:44] [INFO][ bde5040f-dccc-42ba-a943-51508551e4cf]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:44] [INFO][ 8e0a4945-a41f-4343-ba29-8883a2863ce3]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:44] [INFO][ 13131b2b-3950-4a0b-8870-482404aaf18f]PATCH /api/65014de921b2b24b3872a836/deactivate {}
+[2023-09-18 14:01:45] [INFO][ 2f9eb912-baec-48d4-8c54-da6c51ec9025]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:47] [INFO][ 4ac9b7c3-6165-4581-bc33-977eb757fd2d]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:51] [INFO][ 2a71fd25-bd86-4d8f-b883-f992a2a34814]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:59] [INFO][ 96846b4f-f1b3-4c8f-962d-e7ec04755a56]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:59] [INFO][ e8e48627-5051-4bb2-aa47-080293df2c8a]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:01:59] [INFO][ 7a0e6d4a-c5ea-4db8-a495-798a52ea570d]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:02:00] [INFO][ 082b17c8-b0fe-4b67-8327-684066a36362]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:02:00] [INFO][ bdd1aac2-a262-49cd-805c-a83210ac59bf]PATCH /api/6507dc9c2b46f2614f91ecd4/delete {}
+[2023-09-18 14:02:02] [INFO][ ea677792-b9aa-4a1b-b640-268ab61f3ba2]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:02:06] [INFO][ 58b865f5-90e7-4cd1-bd64-1cf4a34ef0ce]GET /api/notifications/?page=1&pageSize=6&eventId=650629d0b7651c5c0b495680&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:02:51] [INFO][ afc24f35-ae1c-4eb6-833e-dfb8096faade]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:02:54] [INFO][ ea4dd4e1-e059-48bd-927e-92676ce837e4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:03:01] [INFO][ 3b17d746-16e4-40e1-83d7-b79bf4bcaa86]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:03:18] [INFO][ 1e0e9b75-41e2-4bd6-ae6a-f2a20ad85918]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:06:21] [INFO][ bceaf8d9-2ae6-4e13-b39f-58e1a9b0922f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:06:23] [INFO][ 65e00a7b-b410-4eca-9790-9724a8c313e5]PATCH /api/applications/650623a377ebed7d0883481e/delete {}
+[2023-09-18 14:06:23] [INFO][ 28e610b3-9302-4e93-895a-436b91442fec]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:06:34] [INFO][ 7ea99634-c282-496d-9732-a6440515eb60]PATCH /api/applications/650844d6a062541cee4710ca/delete {}
+[2023-09-18 14:06:34] [INFO][ 3218b73e-8eaf-4427-a150-8505093d8097]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:06:37] [INFO][ b98c8209-9ca1-4c99-b514-9b1a108c4f20]PATCH /api/applications/65014de921b2b24b3872a836/deactivate {}
+[2023-09-18 14:06:37] [INFO][ 9696527f-fa71-48eb-9a14-2172a81f3ef3]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:06:51] [INFO][ bac2211e-2b4e-4ff5-90e3-1cc8b3f761f8]POST /api/applications/ {"appName":"maryam","appDescription":"this is maryam "}
+[2023-09-18 14:06:51] [INFO][ e534fb8e-0043-4db1-8d5d-d2e3f2008200]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:07:44] [INFO][ b8d80a3f-fa12-441b-b2e0-cc8a0b8262be]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:08:29] [INFO][ 7a248f29-23a8-4de9-9b4b-64b9edb9ecf1]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:08:40] [INFO][ c38e37b2-8064-4e7d-aa24-5aa078639dde]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 14:19:55] [INFO][ 3ad8730a-ac93-4e86-8a4e-068cff18e491]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:02:11] [INFO][ b74aa977-7631-4f8f-bd1b-a7d85f2650b3]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Hashamnah1"}
+[2023-09-18 15:02:26] [INFO][ 27c727a0-df3d-4e90-bd3f-b48c4745d8ed]POST /api/login {"email":"hamnawahid5@gmail.com","password":"Ahamnah1"}
+[2023-09-18 15:03:22] [INFO][ ec2e1b74-b812-4fdd-98c2-43874b1e7dba]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:28] [INFO][ 3935c97a-a824-4ff4-8656-9d493c1049a6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:29] [INFO][ 00a4306f-575f-4976-a804-439479b17cba]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:31] [INFO][ 00aa9070-9e3e-4b03-9591-39625cf3bfe4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:35] [INFO][ 41d8d2bb-42f7-417a-bfa3-65f1d1326c72]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:38] [INFO][ 644dd382-3c88-4b87-a77a-a19e3e735152]GET /api/events/?page=1&pageSize=6&applicationId=65014de721b2b24b3872a833&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:40] [INFO][ e1f68142-7f1a-4f24-81cf-0f8d7491e55f]PATCH /api/applications/65014de721b2b24b3872a833/delete {}
+[2023-09-18 15:03:40] [INFO][ a63b14fc-69bf-42e3-b5a4-4776461193e1]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:41] [INFO][ 715f8811-66f1-4552-80a4-98f7f8871c02]PATCH /api/applications/6507dc9c2b46f2614f91ecd4/deactivate {}
+[2023-09-18 15:03:41] [INFO][ 915a0bf2-5afa-454a-9183-61701e31309d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:42] [INFO][ 850b81ef-dfeb-4cb8-ae7f-571d8bbe8f51]PATCH /api/applications/6507dc9c2b46f2614f91ecd4/deactivate {}
+[2023-09-18 15:03:42] [INFO][ 6bff2c72-e4d8-4b19-90aa-ec049f8a5990]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:03:49] [INFO][ 0729c0b0-25bd-4979-ae2a-712b5ed3b9ab]PUT /api/applications/65014de921b2b24b3872a836/update {"appName":"cohort 7","appDescription":"employee training system - cohort"}
+[2023-09-18 15:03:49] [INFO][ 303bf382-39e7-4cb8-89d4-1e76647c710f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:04:12] [INFO][ 08ca0cbd-341a-4d5f-8de6-5175988975d7]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:05:13] [DEBUG][]Listening on port 3000...
+[2023-09-18 15:05:13] [INFO][]Connected to mongodb://localhost:27017/notificationManagerDevdb...
+[2023-09-18 15:05:13] [INFO][ 1f2324c3-6901-4fd6-8d8d-4df00ad26cf1]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:05:17] [INFO][ 301aa570-c515-4b02-b82b-9e62f5c5795d]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:05:22] [INFO][ 02789e07-d718-4043-9349-a99bbc7e5247]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:08:23] [INFO][ d80682a8-1427-4ee3-b07e-8c368d76900f]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:08:25] [INFO][ 44ed0fc2-6cad-4430-9708-b6698fab1693]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:08:26] [INFO][ 6ed6b77c-332b-4bd4-84ef-559f934a28f0]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:08:28] [INFO][ 925959a4-9fe1-4284-b83e-56ae874ef832]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:08:32] [INFO][ 05a460ec-df2d-4afc-a2e3-c1c63a98e568]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:09:56] [INFO][ 2672bc21-b250-4488-a16c-922bdf82abb6]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:09:56] [INFO][ 9a75106f-135f-4092-8f27-f93a5020440d]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:09:57] [INFO][ c041c4e6-5833-4286-8a9b-e2f934229b86]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:09:59] [INFO][ e3ffcd26-0eb7-4d06-ac02-be93f3150319]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:10:03] [INFO][ 3e209e90-2ce2-40ea-938f-d6a46a77f737]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:10:10] [INFO][ 31b5f022-c7c4-448f-9215-80f02e1bff73]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:10:10] [INFO][ ce5f8ca7-7028-4cc3-ac99-0c14b0b0a056]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:10:11] [INFO][ 4dd86ca0-8a88-4c4f-aa13-54fb9cd3e213]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:10:13] [INFO][ 35e77bd0-c347-481c-aa14-8af11caf36ce]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:10:17] [INFO][ f850d224-a96a-41da-840a-c4f2e81f0be3]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:12:56] [INFO][ e9a2f268-4a70-4303-97ee-0acb68eff1a5]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:12:56] [INFO][ 8077ecda-58da-462c-b203-5b627ef06fa0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:12:57] [INFO][ 0310a14a-5459-40a1-a75d-da74e24e33e7]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:12:59] [INFO][ 9fadff30-518b-4e67-a64d-dd2fb8f1cbc4]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:13:03] [INFO][ cf8507ff-b19e-4e18-850f-328d25ba3a98]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:14:42] [INFO][ d5052f92-1633-4cd2-9546-d1908860ccb4]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:14:42] [INFO][ dc8a6304-c14a-46d7-a5e6-d96feb2de3d9]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:14:43] [INFO][ 8cd5af86-c285-4a3d-a865-4adf2264aba2]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:14:45] [INFO][ 510daef1-9707-4e29-a8de-a15adf98653d]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:18:01] [INFO][ 9ad7175d-e46e-4e22-b16b-a581b0cac9d0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:18:01] [INFO][ a357a3a0-8a9b-4858-9b4f-ef7772590efe]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:19:14] [INFO][ a3c2270c-f8bd-40d4-a6d7-766e3723180b]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:19:53] [INFO][ 97006603-b6e5-4def-b20b-c35eab40b598]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:09] [INFO][ e87f6f44-6094-4ba6-bebc-d2a6af7ea357]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:21] [INFO][ 377ade7f-e38a-4c6d-be65-bc4166d37eff]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:32] [INFO][ 9a5da2cd-0bdc-411a-b967-e7b134ba4845]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:37] [INFO][ 9adb1085-9238-444d-a674-d446fc3aa32e]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:41] [INFO][ 9f9afc27-3f3b-40d5-adcd-e0cea9940b58]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:42] [INFO][ c223f20d-3cdb-4858-8dc8-a7996daaaf04]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:43] [INFO][ 038f6fe2-492a-41b5-b09d-e71e6ada03f8]GET /api/events/?page=1&pageSize=6&applicationId=65014de921b2b24b3872a836&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:44] [INFO][ 6a575489-085f-4bd2-89ce-4bd24340d856]GET /api/events/?page=1&pageSize=6&applicationId=6507dc9c2b46f2614f91ecd4&sortBy=appName&sortOrder=asc {}
+[2023-09-18 15:21:45] [INFO][ 5fb257f8-de89-4760-9db4-c7e0681c6c27]GET /api/events/?page=1&pageSize=6&applicationId=650891bb530d5ceb3649992a&sortBy=appName&sortOrder=asc {}
+[2023-09-19 00:57:25] [INFO][ 36880433-9b89-4605-9024-00ece691ab23]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 00:58:05] [INFO][ 6e2029d7-6c3b-4817-aab6-09243d470247]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 00:58:11] [INFO][ cd87a8c5-9727-4635-80d0-78c7761666a0]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 00:58:15] [INFO][ c16c1a28-7be8-4e9c-8327-7df129233f98]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
+[2023-09-19 01:01:34] [INFO][ cac14c1f-d851-4454-90c6-4c7f7b292114]GET /api/applications/?page=1&pageSize=4&sortBy=appName&sortOrder=asc {}
