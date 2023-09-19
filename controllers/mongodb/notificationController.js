@@ -61,7 +61,7 @@ async function addNotification(req, res) {
 
   // Check if a notification with the same name already exists
   const existingNotification = await Notification.findOne({
-    notificationName: req.body.notificationName,
+    notificationName: req.body.notificationName.trim(),
     isDeleted: false, // Using the applicationId from the current event
     eventId,
   });
@@ -96,7 +96,7 @@ async function addNotification(req, res) {
   const metadata = uniquePlaceholders.join(',');
 
   const notification = new Notification({
-    notificationName: req.body.notificationName,
+    notificationName: req.body.notificationName.trim(),
     notificationDescription: req.body.notificationDescription,
     eventId,
     templateBody: req.body.templateBody,
@@ -118,7 +118,7 @@ async function updateNotification(req, res) {
   const { notificationName } = req.body;
 
   const existingNotification = await Notification.findOne({
-    notificationName,
+    notificationName: notification.notificationName.trim(),
     // eventId,
   });
 
@@ -188,7 +188,7 @@ async function updateNotification(req, res) {
   const updatedNotification = await Notification.findByIdAndUpdate(
     req.params.notification_id,
     {
-      notificationName: req.body.notificationName,
+      notificationName: req.body.notificationName.trim(),
       notificationDescription: req.body.notificationDescription,
       templateBody: req.body.templateBody,
       templateSubject: req.body.templateSubject,

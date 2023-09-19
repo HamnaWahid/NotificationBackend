@@ -81,7 +81,7 @@ async function addEvent(req, res) {
 
   // Check if an event with the same name exists for the given application
   const existingEvent = await Event.findOne({
-    eventName: req.body.eventName,
+    eventName: req.body.eventName.trim(),
     applicationId,
     isDeleted: false,
   });
@@ -102,7 +102,7 @@ async function addEvent(req, res) {
   //   return res.status(status.OK).send(application);
   // }
   const event = new Event({
-    eventName: req.body.eventName,
+    eventName: req.body.eventName.trim(),
     eventDescription: req.body.eventDescription,
     applicationId,
     createdBy: 'hamna', // Replace with actual username or user ID
@@ -126,7 +126,7 @@ async function updateEvent(req, res) {
 
   // Check if the updated event name already exists
   const existingEvent = await Event.findOne({
-    eventName,
+    eventName: eventName.trim(),
     applicationId: event.applicationId,
     isDeleted: false, // Using the applicationId from the current event
   });
@@ -140,7 +140,7 @@ async function updateEvent(req, res) {
   }
 
   const updatedEventData = {
-    eventName,
+    eventName: event.eventName.trim(),
     eventDescription,
     dateUpdated: Date.now(),
   };

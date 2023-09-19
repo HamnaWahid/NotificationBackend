@@ -9,7 +9,9 @@ const specificDate = new Date('2022-01-01T00:00:00.000Z');
 
 // Function to add an application to MongoDB
 async function addApplication(req, res) {
-  const { appName, appDescription } = req.body;
+  let { appName, appDescription } = req.body;
+  appName = appName.trim();
+  appDescription = appDescription.trim();
 
   // Check if an application with the same name exists (including deleted applications)
   const existingApplication = await Application.findOne({
@@ -104,7 +106,9 @@ async function listApplication(req, res) {
 
 async function updateApplication(req, res) {
   const { app_id } = req.params;
-  const { appName, appDescription } = req.body;
+  let { appName, appDescription } = req.body;
+  appName = appName.trim();
+  appDescription = appDescription.trim();
 
   // Check if an application with the same name exists (excluding the current application)
   const existingApplication = await Application.findOne({
