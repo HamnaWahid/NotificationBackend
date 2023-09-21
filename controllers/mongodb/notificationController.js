@@ -114,22 +114,22 @@ async function updateNotification(req, res) {
   if (!notification) {
     return res.status(status.BAD_REQUEST).send('Notification does not exist');
   }
-
-  const { notificationName } = req.body;
-
   const existingNotification = await Notification.findOne({
-    notificationName: notification.notificationName.trim(),
-    // eventId,
+    notificationName: req.body.notificationName.trim(),
+    eventId: notification.eventId,
+    isDeleted: false, // Using the applicationId from the current event
   });
 
   if (
-    existingNotification
-    // existingNotification._id.toString() !== notification._id.toString()
+    existingNotification &&
+    !existingNotification.isDeleted &&
+    existingNotification._id.toString() !== notification._id.toString()
   ) {
-    return res
-      .status(status.CONFLICT)
-      .send('Notification name already exists for this event');
+    return res.status(status.CONFLICT).send('Event name already exists');
   }
+
+  const { eventId } = notification;
+
   let existingMetadata = [];
   if (notification.metadata && typeof notification.metadata === 'string') {
     existingMetadata = notification.metadata.split(',');
@@ -188,8 +188,9 @@ async function updateNotification(req, res) {
   const updatedNotification = await Notification.findByIdAndUpdate(
     req.params.notification_id,
     {
-      notificationName: req.body.notificationName.trim(),
+      notificationName: req.body.notificationName,
       notificationDescription: req.body.notificationDescription,
+      eventId,
       templateBody: req.body.templateBody,
       templateSubject: req.body.templateSubject,
       metadata,
@@ -197,7 +198,9 @@ async function updateNotification(req, res) {
     },
     { new: true },
   );
-
+  if (!updateNotification) {
+    return res.status(status.CONFLICT).send('Event not found');
+  }
   return res.send(updatedNotification);
 }
 
@@ -223,9 +226,9 @@ async function deleteNotification(req, res) {
 }
 
 async function deactivateNotification(req, res) {
-  const notification = await Event.findById(req.params.notification_id);
+  const notification = await Notification.findById(req.params.notification_id);
   if (!notification) {
-    return res.status(status.BAD_REQUEST).send('Event does not exist');
+    return res.status(status.BAD_REQUEST).send('notification does not exist');
   }
   notification.isActive = !notification.isActive;
   notification.dateUpdated = Date.now();

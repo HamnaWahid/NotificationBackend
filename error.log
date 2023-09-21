@@ -98,3 +98,137 @@
 [2023-09-19 06:52:34] [ERROR][][df754ee6-2126-45fa-8964-027954f2c097] MongooseError: Operation `applications.countDocuments()` buffering timed out after 10000ms
 [2023-09-19 06:52:34] [ERROR][][e181f7b9-24d5-4379-92f5-1df11574e40d] MongooseError: Operation `applications.findOne()` buffering timed out after 10000ms
 [2023-09-19 06:52:34] [ERROR][][b1cb8d60-9b13-4caf-aaa0-e8fddaf9e2fc] MongooseError: Operation `events.findOne()` buffering timed out after 10000ms
+[2023-09-19 07:22:49] [ERROR][][92145c5a-3744-4130-8e4d-38d68900b20a] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:49] [ERROR][][9dba2f11-e2b9-4fb1-8efb-8ac9cf758059] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:49] [ERROR][][18ff65e9-e0f8-4c1d-a06e-64a266154166] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:50] [ERROR][][06030344-a01d-4cbd-bf83-4e07199f6dc5] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:51] [ERROR][][ef99acab-d095-4ad2-8f11-55e0cefc9b84] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:51] [ERROR][][f659ccf8-c8d9-4ee6-852d-0bcad8adbccb] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:51] [ERROR][][99e3b9dc-62d3-4f7f-9c83-64fd5a06d667] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:52] [ERROR][][9a560ed6-9238-4dad-8975-221bb5d79fa0] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:52] [ERROR][][0d09e5aa-fd3f-4c59-9ba9-c5aee8d4d2f8] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:52] [ERROR][][6544f8bb-f0bd-4260-aaf8-c91cf0b60ba2] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:53] [ERROR][][fca9c9a3-0d22-49cb-96eb-47a6ad7745de] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:54] [ERROR][][ee689703-0bb7-46b6-8b57-b6c7ccaab73d] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:54] [ERROR][][477cf635-cfad-4f11-83db-f6673c4a65f3] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:54] [ERROR][][8f2f19e0-2a7e-4f4c-89c0-1f64382b6573] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:56] [ERROR][][4dc38000-d458-4fc1-8148-0a070f005a8e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:56] [ERROR][][71c06925-6771-4d8e-aae9-143b8b8237d8] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:56] [ERROR][][8b36d8a6-b783-42c9-bbb1-f24144070292] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:57] [ERROR][][43e21571-28e4-483d-be38-7a12ba348b2b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:57] [ERROR][][d039ead7-1f80-40aa-9769-13dadb994ffa] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:58] [ERROR][][6fcf4d22-112c-4410-9a9e-2542a6f99d44] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:58] [ERROR][][2943a341-c13d-4575-a41f-01a596fd97b9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:58] [ERROR][][f3d3adc3-6ae8-4e12-b825-7d57058469a9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:22:59] [ERROR][][a46fcf2e-5687-4af5-9570-ee6da084c01e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:00] [ERROR][][7a8e434d-454a-453f-8129-ce86eb31fb6c] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:00] [ERROR][][eccde635-2f60-48c0-9c66-ef9efa85b832] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:01] [ERROR][][66805178-5b51-4d84-908e-7f90210e6819] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:01] [ERROR][][0fc3fd33-062b-40f3-95e7-a73de3187500] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:01] [ERROR][][91e0b25e-280a-4ccc-8557-3ef4edc330ff] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:01] [ERROR][][696c6d6e-1925-4f9b-9b0f-9ce39719b442] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:01] [ERROR][][1c38865e-b93d-4793-b02a-7017055aac43] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:01] [ERROR][][84963b67-f458-476c-ba3b-e4f15defb8df] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:02] [ERROR][][cebc35e1-d430-410b-b913-0c0ee024bb03] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:02] [ERROR][][3e1ed443-c152-419b-91cb-bf84db9389aa] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:02] [ERROR][][b99f3956-a219-45e3-accf-0d873e5d4d54] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:02] [ERROR][][01d1c7d3-59ca-4ec5-96f3-c7cf27d122f9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:02] [ERROR][][0775164d-2cbc-4d45-9dd5-2fea416f13f4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:03] [ERROR][][4abad872-bdd1-4caf-861f-90f9959f2f21] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:03] [ERROR][][565bf2ac-074a-4989-af89-4d2e5531d521] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:04] [ERROR][][910622bb-b03b-4496-ae99-8797cd975f14] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:04] [ERROR][][80195f59-4ce7-43cb-b56f-2a1fcb3ca2d2] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:05] [ERROR][][88d40296-add4-4562-b1d8-25a409e61a45] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:05] [ERROR][][4292967d-a699-4e39-b274-8fcb821ec723] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:05] [ERROR][][a7dec05d-a2dc-43ab-902d-97d8b8cfdb62] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:05] [ERROR][][11f16143-eff0-4108-8f2d-6e75fff727ca] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:05] [ERROR][][460b62fd-431e-4e6e-9e7d-a78cf4087471] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:06] [ERROR][][c49b43cd-d1f8-4441-b26f-3874699b29a9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:06] [ERROR][][34d4a65f-5a00-42d5-b1ce-227690dc7300] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:06] [ERROR][][a5247545-7878-4bce-afc2-4badcc24e6b4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:07] [ERROR][][e124ca2b-7715-4db3-a497-91f5d74c36c2] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:09] [ERROR][][10a1fb66-1483-4402-8cc5-48fc1a6b9ff2] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:13] [ERROR][][3c2e82a5-dfef-4661-8559-267101aa3284] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:13] [ERROR][][48ea0ce7-ee9b-4fae-85a3-a454ac491056] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:14] [ERROR][][3b73843f-26ef-4646-ab3d-b976c440d446] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:14] [ERROR][][be01f061-c310-4ba8-9671-84589422600e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:14] [ERROR][][873bb572-c233-4af3-a4aa-c15306d7013b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:14] [ERROR][][554c074a-879c-464e-8d85-1e8a8533bfc1] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:14] [ERROR][][b2c87730-cb3a-4e50-8733-e203d3126850] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:15] [ERROR][][5b62cb5b-0001-4df1-b084-db881956cb0d] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:15] [ERROR][][c20c8c37-0520-415d-9801-c453aa5263cc] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:15] [ERROR][][dc34b84c-bd17-490f-b0bd-7f148a36c91b] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:16] [ERROR][][2cebd519-a5db-402e-ac58-b56bb505c6cb] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:16] [ERROR][][c4758096-27eb-4493-95cf-1346de205f6e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:17] [ERROR][][fc3a6bf4-9ba5-4240-b0f5-d2a6e569f0b4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:17] [ERROR][][a2b60192-69b7-4b89-9a6a-5259661bfc57] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:17] [ERROR][][7b605588-bc9e-4ea3-9b17-bdb1a98f74b4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:18] [ERROR][][8144615f-35a3-421e-80cd-ad762e36d1db] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:18] [ERROR][][2e1e3d67-c1f0-4f50-be62-fcbfdd896cf9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:18] [ERROR][][dd6008c4-2193-4c22-8dce-a0fe62c8ca2e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:23:18] [ERROR][][16a93fdf-8296-4d96-8bd8-e6d5f9ca20c9] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:24:29] [ERROR][][c84a283a-48c4-4aba-aa58-ca4288f5ae03] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 07:26:36] [ERROR][][7b15b263-495b-476d-a63b-876333f9129e] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 08:00:02] [ERROR][][7aa31ebc-1d12-4e82-b3df-4b57767acc09] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 12:38:37] [ERROR][][21b10cba-0916-4eca-b0c4-cb63af5732c1] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-19 16:23:05] [ERROR][][7a108629-b5c6-4007-b1ee-5f5c897be3c0] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-20 00:43:39] [ERROR][][a58fcd6e-f88a-4738-8137-7b48786501c8] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-20 01:12:47] [ERROR][][cbf13605-14ae-429a-a46a-9ddf025bedd4] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-20 07:44:50] [ERROR][][f31b15f4-a519-4706-8095-08a054e46060] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-09-20 07:56:57] [ERROR][][a29d8103-1943-4881-bad9-3fa20c2b6d97] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:56:57] [ERROR][][bfcd7b05-59be-4f1a-96af-bc697a463d5a] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:56:58] [ERROR][][e7839469-126b-415b-adfc-1a7d2340cd8a] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:56:58] [ERROR][][45085b28-169a-42ec-ad8d-b827ad04cce3] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:00] [ERROR][][a19a3130-1eed-4e1b-8d0e-775054a46bcf] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:00] [ERROR][][c38ddf99-06a9-4418-ba69-02409238883e] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:07] [ERROR][][b3b30467-577b-457e-b3d4-a31750aba77c] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:07] [ERROR][][d9a554d9-713a-4ea3-8e28-ad24bb171b43] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:08] [ERROR][][c0f659de-c891-4c93-8cc2-0f853d7d03cc] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:08] [ERROR][][b382c82c-4f52-4aca-a7f6-68f75e8a9e90] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:09] [ERROR][][4bcfad6f-7a7b-4970-951b-25b913a2c295] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:09] [ERROR][][f42ecb01-ea56-4c2c-b70b-c8da16a61d2d] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:10] [ERROR][][9c35dfc3-48cf-4a6a-b97d-bb76995feaca] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:10] [ERROR][][2983c783-86b4-404d-bb05-955834877d34] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:19] [ERROR][][6fdb7538-ab8d-462c-a869-92f42d3c3647] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:19] [ERROR][][5086d62b-779f-497d-b332-e8120fd53175] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:20] [ERROR][][ba2354c4-6931-4253-ad30-e8c9c61680fe] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:20] [ERROR][][ef0fe68b-1121-404e-983c-9d35bf538904] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:22] [ERROR][][0a2c1a75-5a80-4eb0-a9c8-28229264704c] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:22] [ERROR][][a3e1bc0a-1ce3-400b-a570-86fab8a8c362] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:26] [ERROR][][6cafe07d-a26c-41fa-97b9-5e059814d0ce] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:57:26] [ERROR][][554a02f9-3061-455b-b3ff-47352ee4d71b] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:07] [ERROR][][06c476b8-5d14-415c-a883-a9e93a34e662] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:08] [ERROR][][557d3800-a108-40fd-8376-852360253fb5] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:08] [ERROR][][6d614cf3-5a56-4072-a4f1-f9fcc6795688] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:09] [ERROR][][80bfba59-174c-4546-866b-52b895b6d063] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:09] [ERROR][][85479662-aeae-46c9-950b-4edb14b4c30e] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:09] [ERROR][][c5015d57-949b-4e20-8993-85ad010d85ee] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:10] [ERROR][][46b96170-d604-4370-a6ee-17d7dce16745] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:12] [ERROR][][e7010746-cf95-410b-919f-84b7c81216af] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:46] [ERROR][][63a22f97-5055-4ce2-870f-96a34af62a1c] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:46] [ERROR][][f7a10904-da5b-4bdb-bf65-2fb654997a4a] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:46] [ERROR][][a3c869b4-335b-4492-b4bb-57f237193a9b] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:47] [ERROR][][75caa7e6-30fc-4e22-ab9d-ea1f25e073a0] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:48] [ERROR][][763f8fd9-cd9c-43f9-91ab-b4279bcccbb0] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:48] [ERROR][][77a8346b-8b5e-4114-98d4-210cdf25e498] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:48] [ERROR][][20ff692a-0f08-445f-90b0-435258368a0d] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:58:49] [ERROR][][ba173e4c-1ba2-4b85-a36a-f83dfa271366] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:08] [ERROR][][1aa58f34-ff75-4309-a90f-70804cf88f64] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:08] [ERROR][][8477e7ca-816c-4112-bda4-00acaba20a6f] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:08] [ERROR][][0023888a-c65e-4025-8533-3b8ff75e0365] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:08] [ERROR][][357f5561-7235-45e4-9a34-cdc59741397e] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:10] [ERROR][][41ba28eb-427b-48f7-a2ba-a765c781e54b] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:12] [ERROR][][fb71373b-bd3d-4705-9aec-88319303499b] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:12] [ERROR][][3dadcfa6-1e08-44ec-a1c3-0614a46dee03] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:13] [ERROR][][67ccec67-0aa2-490b-88fa-5ef9ddaba93d] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-20 07:59:13] [ERROR][][31119357-97ae-4793-86cd-91aeb3dc0990] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:32] [ERROR][][def59780-6794-45dc-a4eb-bdff24bbe136] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:32] [ERROR][][e6a97a99-9f79-4fc3-9db8-ce631f3e9064] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:33] [ERROR][][a125881e-b370-4c09-84d3-4b97fe31f5c5] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:33] [ERROR][][f1f86b23-59e9-474d-a01a-04ef309b8001] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:34] [ERROR][][d5c5fd89-daf9-4439-9943-6f1da607bfc5] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:36] [ERROR][][dd0a83d5-86a1-44e0-8606-4b69633bfb99] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:39] [ERROR][][079f09e7-e029-45d6-8b00-235a3902e57a] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:39] [ERROR][][30f80139-ee6e-4356-b4a2-b18f22a2159e] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 01:15:39] [ERROR][][8bd15119-0a80-4562-a7d9-62d41227870c] MongoServerError: Regular expression is invalid: nothing to repeat
+[2023-09-21 04:02:56] [ERROR][][93ea5f98-cfd2-48da-98d5-b27cfe89c4b5] MongoServerError: Regular expression is invalid: missing terminating ] for character class

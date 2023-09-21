@@ -126,7 +126,7 @@ async function updateApplication(req, res) {
   const updatedApplication = {
     appName,
     appDescription,
-    dateUpdated: specificDate,
+    dateUpdated: Date.now(),
     // dateUpdated: Date.now(),
   };
 
@@ -152,7 +152,7 @@ async function deleteApplication(req, res) {
     req.params.app_id,
     // { isDeleted: true, isActive: false, dateUpdated: Date.now() },
     // for testing
-    { isDeleted: true, isActive: false, dateUpdated: specificDate },
+    { isDeleted: true, isActive: false, dateUpdated: Date.now() },
     { new: true },
   );
 
