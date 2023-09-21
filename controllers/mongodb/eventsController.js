@@ -140,7 +140,7 @@ async function updateEvent(req, res) {
   }
 
   const updatedEventData = {
-    eventName: event.eventName.trim(),
+    eventName: eventName.trim(),
     eventDescription,
     dateUpdated: Date.now(),
   };
