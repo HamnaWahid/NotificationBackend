@@ -8,12 +8,11 @@ const { extractPlaceholders } = require('../../src/extraction');
 const { Tag } = require('../../models/tags');
 
 async function listNotification(req, res) {
-  const { eventId, isDeleted, notificationId } = req.query;
+  const { eventId, isDeleted, notificationId, isActive } = req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
   const sortBy = req.query.sortBy || 'notificationName'; // Default to sorting by notificationName
   const sortOrder = req.query.sortOrder || 'asc'; // Default to ascending order
-
   const event = await Event.findById(eventId);
 
   if (!event || event.isDeleted) {
@@ -28,6 +27,11 @@ async function listNotification(req, res) {
   } else {
     // If notificationId is not provided, retrieve notifications based on other parameters
     query.isDeleted = isDeleted === 'true'; // Convert string to boolean
+
+    // Include isActive conditionally if it's provided
+    if (isActive !== undefined) {
+      query.isActive = isActive === 'true'; // Convert string to boolean
+    }
   }
 
   const totalNotifications = await Notification.countDocuments(query);

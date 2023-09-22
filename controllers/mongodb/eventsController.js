@@ -16,7 +16,7 @@ async function listEvent(req, res) {
   // Check application validity using Mongoose
   const application = await Application.findById(applicationId);
 
-  if (!application || application.isDeleted || !application.isActive) {
+  if (!application || application.isDeleted) {
     return res
       .status(status.BAD_REQUEST)
       .send('Invalid or inactive application');
