@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "migrate": "npx knex migrate:latest --knexfile startup/knexfile.js",
-    "dev": "NODE_ENV=development DATABASE=mongodb NM_USER=postgres NM_PASSWORD=Ahamnah1 privateKey=mysecret nodemon index.js",
+    "dev": "NODE_ENV=development DATABASE=postgresql NM_USER=postgres NM_PASSWORD=Ahamnah1 privateKey=mysecret node index.js",
     "prod": "NODE_ENV=production nodemon index.js",
     "testing": "NODE_ENV=tests nodemon index.js",
     "lint": "eslint --fix main.js",

@@ -155,14 +155,6 @@ async function updateNotification(req, res) {
 async function deleteNotification(req, res) {
   const db = knex; // Get the shared database instance
 
-  const { eventId } = req.query;
-
-  const event = await db('events').where('id', eventId).first();
-
-  if (!event || event.isDeleted) {
-    return res.status(status.BAD_REQUEST).send('Invalid or deleted event');
-  }
-
   const notificationId = req.params.notification_id;
   const notification = await db('notifications')
     .where('id', notificationId)
@@ -172,16 +164,11 @@ async function deleteNotification(req, res) {
     return res.status(status.BAD_REQUEST).send('Notification does not exist');
   }
 
-  if (!notification || notification.eventId !== event.id) {
-    return res
-      .status(status.NOT_FOUND)
-      .send('Notification not associated with this event id');
-  }
-
   const deletedNotification = await db('notifications')
     .where('id', notificationId)
     .update({
       isDeleted: true,
+      isActive: false,
       dateUpdated: new Date(),
     })
     .returning('*');
@@ -189,7 +176,33 @@ async function deleteNotification(req, res) {
   return res.send(deletedNotification[0]);
 }
 
+async function deactivateNotification(req, res) {
+  const db = knex; // Get the shared database instance
+
+  const notificationId = req.params.notification_id;
+
+  // Check if notification exists
+  const notification = await db('notifications')
+    .where('id', notificationId)
+    .first();
+
+  if (!notification) {
+    return res.status(400).send('Notification does not exist');
+  }
+
+  const updatedNotification = await db('notifications')
+    .where('id', notificationId)
+    .update({
+      isActive: !notification.isActive,
+      dateUpdated: new Date(),
+    })
+    .returning('*');
+
+  return res.send(updatedNotification[0]);
+}
+
 module.exports = {
+  deactivateNotification,
   addNotification,
   updateNotification,
   listNotification,

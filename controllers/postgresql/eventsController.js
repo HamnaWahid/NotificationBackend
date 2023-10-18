@@ -170,35 +170,16 @@ async function updateEvent(req, res) {
 async function deleteEvent(req, res) {
   const db = knex; // Get the shared database instance
 
-  const { applicationId } = req.query;
-  const application = await db('applications')
-    .where('id', applicationId)
-    .where('isDeleted', false)
-    .where('isActive', true)
-    .first();
-
-  if (!application) {
-    return res
-      .status(status.BAD_REQUEST)
-      .send('Invalid or inactive application');
-  }
-
   const event = await db('events').where('id', req.params.event_id).first();
 
   if (!event) {
     return res.status(status.BAD_REQUEST).send('Event does not exist');
   }
-
-  if (event.applicationId !== application.id) {
-    return res
-      .status(status.NOT_FOUND)
-      .send('Event not associated with this application id');
-  }
-
   const deletedEvent = await db('events')
     .where('id', req.params.event_id)
     .update({
       isDeleted: true,
+      isActive: false,
       dateUpdated: new Date(),
     })
     .returning('*');
@@ -206,7 +187,31 @@ async function deleteEvent(req, res) {
   return res.send(deletedEvent[0]);
 }
 
+async function deactivateEvent(req, res) {
+  const db = knex; // Get the shared database instance
+
+  const eventId = req.params.event_id;
+
+  // Check if event exists
+  const event = await db('events').where('id', eventId).first();
+
+  if (!event) {
+    return res.status(400).send('Event does not exist');
+  }
+
+  const updatedEvent = await db('events')
+    .where('id', eventId)
+    .update({
+      isActive: !event.isActive,
+      dateUpdated: new Date(),
+    })
+    .returning('*');
+
+  return res.send(updatedEvent[0]);
+}
+
 module.exports = {
+  deactivateEvent,
   addEvent,
   listEvent,
   updateEvent,

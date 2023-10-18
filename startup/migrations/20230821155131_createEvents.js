@@ -11,6 +11,7 @@ exports.up = function (knex) {
     table.timestamp('dateCreated').defaultTo(knex.fn.now());
     table.timestamp('dateUpdated').defaultTo(knex.fn.now());
     table.boolean('isDeleted').defaultTo(false);
+    table.boolean('isActive').defaultTo(true);
     table
       .integer('applicationId')
       .unsigned()

@@ -8,7 +8,8 @@ const { extractPlaceholders } = require('../../src/extraction');
 const { Tag } = require('../../models/tags');
 
 async function listNotification(req, res) {
-  const { eventId, isDeleted, notificationId, isActive } = req.query;
+  const { eventId, isDeleted, notificationId, isActive, notificationName } =
+    req.query;
   const page = parseInt(req.query.page, 10) || 1;
   const pageSize = parseInt(req.query.pageSize, 10) || 10;
   const sortBy = req.query.sortBy || 'notificationName'; // Default to sorting by notificationName
@@ -28,9 +29,13 @@ async function listNotification(req, res) {
     // If notificationId is not provided, retrieve notifications based on other parameters
     query.isDeleted = isDeleted === 'true'; // Convert string to boolean
 
-    // Include isActive conditionally if it's provided
     if (isActive !== undefined) {
       query.isActive = isActive === 'true'; // Convert string to boolean
+    }
+    if (notificationName) {
+      query.notificationName = { $regex: notificationName, $options: 'i' };
+      // The $regex operator performs a case-insensitive search for the provided substring.
+      // The $options: 'i' flag makes the search case-insensitive.
     }
   }
 
@@ -222,6 +227,7 @@ async function deleteNotification(req, res) {
     req.params.notification_id,
     {
       isDeleted: true,
+      isActive: false,
       dateUpdated: Date.now(),
     },
     { new: true },

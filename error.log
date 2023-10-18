@@ -1,0 +1,6 @@
+[2023-10-18 12:00:05] [ERROR][][5e855ec0-eb80-4ed3-a692-835f8e932e76] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-10-18 12:00:28] [ERROR][][840512c0-2e1d-4022-baa3-669270a24f03] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-10-18 12:00:58] [ERROR][][8df1783c-0f7c-462d-a16c-1c32024c0536] MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+[2023-10-18 12:02:04] [ERROR][][4b9c19f3-629c-4147-93f1-9aaf9e69bcb5] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-10-18 12:02:51] [ERROR][][82471608-de00-472a-8391-8fb8efba0497] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2023-10-18 12:03:18] [ERROR][][80b7260f-f3a6-48cd-a88b-2ef4773f8c10] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client

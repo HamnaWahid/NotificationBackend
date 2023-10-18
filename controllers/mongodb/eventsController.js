@@ -168,6 +168,7 @@ async function deleteEvent(req, res) {
     req.params.event_id,
     {
       isDeleted: true,
+      isActive: false,
       dateUpdated: Date.now(),
     },
     { new: true },

@@ -20,7 +20,7 @@ async function loginUser(req, res) {
   }
   const isPasswordValid = await bcrypt.compare(password, user.password);
   if (!isPasswordValid) {
-    return res.status(401).json({ message: 'Password invalid' });
+    return res.status(401).json({ message: 'Invalid Credentials' });
   }
 
   // eslint-disable-next-line no-underscore-dangle
