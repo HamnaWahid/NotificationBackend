@@ -1,6 +1,11 @@
+/* eslint-disable import/no-dynamic-require */
 // routes/auth.js
+const config = require('config');
 const express = require('express');
-const { registerUser, loginUser } = require('../controllers/mongodb/auth');
+
+const dbName = config.get('db');
+
+const { registerUser, loginUser } = require(`../controllers/${dbName}/auth`);
 const { validateUser } = require('../middleware/validation');
 
 const router = express.Router();
