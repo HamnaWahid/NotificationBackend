@@ -6,7 +6,9 @@ const knex = require('../../startup/knex');
 async function addApplication(req, res) {
   const db = knex; // Get the shared database instance
 
-  const { appName } = req.body;
+  let { appName, appDescription } = req.body;
+  appName = appName.trim();
+  appDescription = appDescription.trim();
 
   // Check if an application with the same name already exists
   const existingApplication = await db('applications')
